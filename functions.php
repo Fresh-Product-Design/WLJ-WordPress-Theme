@@ -2,11 +2,6 @@
 // Enable Custom Logo Support
 add_theme_support( 'custom-logo' );
 
-// Enable Menu Support
-add_theme_support('menus');
-register_nav_menu('primary', 'Primary Menu' );
-register_nav_menu('footer', 'Footer Menu' );
-
 // Add Title Tag Support
 add_theme_support('title-tag');
 
