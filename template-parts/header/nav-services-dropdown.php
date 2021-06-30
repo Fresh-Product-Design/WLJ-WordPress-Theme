@@ -1,8 +1,9 @@
+<!-- md:top-[57px] = 45px (Half of the header, which splits the nav links in half) + 12px (Half the height of a nav link) = 57px (The very bottom of the nav links, matchs top-full of the resources dropdown) -->
 <div
   id="servicesSubMenu"
   class="
     hidden bg-white text-black
-    md:hidden md:hover:grid md:peer-hover:grid md:peer-focus:grid md:absolute md:left-2 md:right-2 md:top-[70%] md:grid-cols-3 md:grid-rows-2 md:gap-y-6 md:p-8 md:space-y-0 shadow-nav md:rounded md:backdrop-blur-3xl
+    md:hidden md:hover:grid md:peer-hover:grid md:peer-focus:grid md:absolute md:left-2 md:right-2 md:top-[57px] md:grid-cols-3 md:grid-rows-2 md:gap-y-6 md:p-8 md:space-y-0 shadow-nav md:rounded md:backdrop-blur-3xl
     lg:hover:flex lg:peer-hover:flex lg:peer-focus:flex lg:px-0 lg:justify-evenly lg:grid-cols-none lg:grid-rows-none lg:gap-y-0
   "
   style="margin-left: 0;"
