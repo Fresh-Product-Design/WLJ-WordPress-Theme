@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-a, button {
+/* This is required, because WP sets it to absolute on mobile sizes. This breaks because we set the body to relative. */
+#wpadminbar {
+  position: fixed!important;
+}
+
+a, button, #mobileMenu {
   transition-property: background-color, border-color, color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
 
-.shadow-nav {
-  box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
+@media (min-width: 768px) {
+  .shadow-nav {
+    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
+  }
 }

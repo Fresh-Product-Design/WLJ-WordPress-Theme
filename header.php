@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class("relative"); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="flex flex-col min-h-screen font-general">
   <?php get_template_part( 'template-parts/header/site-header' ); ?>

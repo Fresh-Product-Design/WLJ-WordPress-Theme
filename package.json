@@ -1,4 +1,8 @@
 {
+  "name": "Whitney Johnson 2.0",
+	"version": "2.0.0",
+	"description": "WP Theme for Whitney Johnson",
+	"author": "Fresh",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
