@@ -1,11 +1,11 @@
 <span id="mobileMenu" class="material-icons-round text-[#4D4D4D] hover:text-black md:hidden" role="button">menu</span>
 
-<div class="absolute md:static top-[90px] bottom-0 left-0 right-0 block border-t md:border-t-0 border-gray-300 overflow-auto md:overflow-visible">
+<div id="site-navigation-container" class="hidden md:block absolute md:static top-[90px] bottom-0 left-0 right-0 border-t md:border-t-0 border-gray-300 overflow-auto md:overflow-visible">
 	<div class="bg-white">
 		<nav
 			id="site-navigation"
 			class="
-				hidden container mx-auto flex-col p-4 space-y-7 text-base text-black
+				hidden mx-auto flex-col p-4 space-y-7 text-base text-black
 				md:flex md:flex-row md:items-center md:mx-0 md:p-0 md:space-y-0 md:space-x-5 lg:space-x-7"
 			role="navigation"
 			aria-label="navigation"

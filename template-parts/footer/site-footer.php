@@ -1,6 +1,6 @@
 <footer id="footer" class="w-full bg-white py-10 lg:pt-20" role="contentinfo">
   <div class="
-    container flex flex-col pb-10 md:pb-16 px-4 md:px-2 mx-auto space-y-10
+    content-container flex flex-col pb-10 md:pb-16 space-y-10
     lg:flex-row lg:justify-between lg:space-y-0
   ">
     <!-- Social Links -->
@@ -47,10 +47,7 @@
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Stay Connected</h4>
       <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0">Indispensable learnings, research, and articles help you climb the S Curve of Learning.</p>
-      <div class="flex items-center justify-center lg:justify-start">
-        <input class="text-[14px] px-4 py-3 mr-4 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="email" placeholder="Your Email Address" />
-        <button role="button" class="bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-3 rounded">Sign Up</button>
-      </div>
+      <?php get_template_part( 'template-parts/captures/emailAddress' ); ?>
     </div>
   </div>
   <p class="text-center space-y-2 md:space-y-0 md:space-x-1 text-sm">

@@ -9,6 +9,7 @@
 
 // Handle Mobile Menu
 var siteNavigation;
+var siteNavContainer;
 var mobileMenuIcon;
 var mobileMenuBackdrop;
 var isMobileMenuOpen = false;
@@ -24,7 +25,10 @@ function openMobileMenu() {
   siteNavigation.classList.remove('hidden'); // Change mobileMenuBackdrop to show
 
   mobileMenuBackdrop.classList.add('block');
-  mobileMenuBackdrop.classList.remove('hidden');
+  mobileMenuBackdrop.classList.remove('hidden'); // Show nav container
+
+  siteNavContainer.classList.add('block');
+  siteNavContainer.classList.remove('hidden');
 }
 
 function closeMobileMenu() {
@@ -38,11 +42,15 @@ function closeMobileMenu() {
   siteNavigation.classList.remove('flex'); // Change mobileMenuBackdrop to hide
 
   mobileMenuBackdrop.classList.add('hidden');
-  mobileMenuBackdrop.classList.remove('block');
+  mobileMenuBackdrop.classList.remove('block'); // Hide nav container
+
+  siteNavContainer.classList.add('hidden');
+  siteNavContainer.classList.remove('block');
 }
 
 function setMobileMenuHandler() {
   // Get navigation element references
+  siteNavContainer = document.getElementById('site-navigation-container');
   siteNavigation = document.getElementById('site-navigation');
   mobileMenuIcon = document.getElementById('mobileMenu');
   mobileMenuBackdrop = document.getElementById('mobileMenu_backdrop');

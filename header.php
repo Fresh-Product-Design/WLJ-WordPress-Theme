@@ -14,4 +14,4 @@
 <div id="page" class="flex flex-col min-h-screen font-general bg-[#E5E5E5]">
   <?php get_template_part( 'template-parts/header/site-header' ); ?>
 
-  <main id="main" class="flex-grow container px-4 md:px-2 mx-auto" role="main">
+  <main id="main" class="flex-grow" role="main">
