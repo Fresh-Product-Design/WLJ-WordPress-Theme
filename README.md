@@ -23,4 +23,10 @@ Note: Currently, it appears the JIT compiler for Tailwind isn't playing nice wit
 For the initial release of this theme, we are hard coding each indiviudal content page's design. This is in lue of trying to figure out have to make the content on these uniquely designed pages managable by the WP Admin tooling. With this in mind, while our custom page templates are specific to one page only if we use the `page-{slug}.php` way of implementing one-offs then our page names are strictly set - where if someone changes it in the WP Admin the template would no longer be applied. So, instead, we are using the `page-template` directory, with a comment to denote template information method of denoting reuseable templates we can set from the WP Admin page editor. This will allow them to make any changes to the page URL/name they want, and it won't effect the template being used. Also, when we start making these templates support dynamic content from WP Admin we can transition to actual page design templates for them to choose from.
 
 ## Page URL Slugs & Page Template Pairings
-* About Us - /about-us - aboutUs.php
+
+> URL Slugs can be found in the link-configs.php file, here I set up definitions for the slugs to each page. This file is referenced anywhere we need to link to an internal route, this way we only have to change one file and be sure every reference is updated along with it.
+
+* About Us - aboutUs.php
+* About Whitney Johnson - aboutWhitneyJohnson.php
+* Services | Coaching - servicesCoaching.php
+* Services | Certification - servicesCertification.php

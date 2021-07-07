@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <span id="mobileMenu" class="material-icons-round text-[#4D4D4D] hover:text-black md:hidden" role="button">menu</span>
 
 <div id="site-navigation-container" class="hidden md:block absolute md:static top-[90px] bottom-0 left-0 right-0 border-t md:border-t-0 border-gray-300 overflow-auto md:overflow-visible">
@@ -10,9 +12,9 @@
 			role="navigation"
 			aria-label="navigation"
 		>
-			<a href="/about-us" class="hover:text-[#017381]">About Us</a>
+			<a href="<?php esc_html_e($LINKS["about-us"]); ?>" class="hover:text-[#017381]">About Us</a>
 
-			<a href="#" class="hover:text-[#017381]">Whitney Johnson</a>
+			<a href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>" class="hover:text-[#017381]">Whitney Johnson</a>
 
 			<span id="servicesNav" class="flex items-center hover:text-[#017381] cursor-pointer peer">
 				<span class="flex-grow">Services</span>
@@ -22,7 +24,7 @@
 			</span>
 			<?php get_template_part( 'template-parts/header/nav-services-dropdown' ); ?>
 
-			<a href="#" class="hover:text-[#017381]">Podcast</a>
+			<a href="<?php esc_html_e($LINKS["podcast"]); ?>" class="hover:text-[#017381]">Podcast</a>
 
 			<span id="resourcesNav" class="relative hover:text-[#017381] cursor-pointer group focus:outline-none">
 				<span class="flex items-center">
@@ -34,7 +36,7 @@
 				<?php get_template_part( 'template-parts/header/nav-resources-dropdown' ); ?>
 			</span>
 
-			<a role="button" href="#" class="bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-2 rounded block md:hidden lg:block">Request a Demo</a>
+			<?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "addt-styles" => "block md:hidden lg:block")); ?>
 		</nav>
 	</div>
 </div>

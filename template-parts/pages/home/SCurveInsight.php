@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <div class="bg-[#C8E1DE] py-24">
   <div class="content-container text-center">
     <h3 class="font-subhead font-bold text-2xl tracking-[0.23em] uppercase mb-8">S Curve Insight&trade;</h3>
@@ -22,8 +24,8 @@
       </div>
     </div>
     <div class="inline-flex flex-col sm:flex-row">
-      <button role="button" class="bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-3 mb-3 sm:mb-0 sm:mr-3 rounded">Rqeuest a Demo</button>
-      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => '#')); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "addt-styles" => "mb-3 sm:mb-0 sm:mr-3")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => $LINKS["services"]["s-curve-insight"])); ?>
     </div>
   </div>
 </div>

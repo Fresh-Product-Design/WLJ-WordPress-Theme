@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <div id="leadership" class="bg-white py-24">
   <div class="content-container">
     <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Our Leadership")); ?>
@@ -7,7 +9,7 @@
         <h4 class="text-2xl font-bold mb-2">Whitney Johnson</h4>
         <p class="text-[#4d4d4d] text-lg mb-8">CEO</p>
         <p class="text-[#4d4d4d] mb-8">Whitney is an innovation and disruption theorist and former award-winning Wall Street stock analyst. She is the author of the bestselling Build and A Team, the highly regarded Disrupt Yourself, and is a frequent contributor to Harvard Business Review and MIT Sloan Management Review.</p>
-        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => '#')); ?>
+        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => $LINKS["whitney-johnson"])); ?>
       </div>
     </div>
     <div class="flex flex-col md:flex-row">

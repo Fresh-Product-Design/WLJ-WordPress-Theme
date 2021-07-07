@@ -5,7 +5,7 @@
     <div class="inline-flex flex-col sm:flex-row sm:items-center sm:justify-center lg:justify-start space-y-2 sm:space-y-0">
       <input class="text-[14px] px-4 py-3 sm:mr-4 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="firstName" placeholder="Your First Name" />  
       <input class="text-[14px] px-4 py-3 sm:mr-4 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="email" placeholder="Your Email Address" />
-      <button role="button" class="bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-3 rounded">Sign Up</button>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Sign Up", "js-hook" => "captureLeadWithName")); ?>
     </div>
   </div>
 </div>

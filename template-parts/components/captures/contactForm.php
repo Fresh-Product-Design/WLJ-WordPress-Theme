@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <form class="<?php if(array_key_exists("classes", $args) === true) { esc_html_e($args["classes"]); } ?>" action="#" method="post" onSubmit="(e) => { e.preventDefault(); }">
   <div class="grid grid-cols-2 grid-rows-6 gap-2 mb-4">
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="firstName" placeholder="First Name" required />
@@ -17,8 +19,8 @@
     <input class="w-5 h-5 border border-[#939E9E] rounded mr-2 cursor-pointer" type="checkbox" name="optIn" id="optIn" />
     <label for="optIn" class="text-xs cursor-pointer">
       <span class="text-[#4d4d4d]">I'd like to receive emails from Disruption Advisors.</span>
-      <a href="#" target="_blank" rel="noopener" class="font-semibold text-[#017381] hover:underline">Privacy Policy</a>
+      <a href="<?php esc_html_e($LINKS["privacy-policy"]); ?>" target="_blank" rel="noopener" class="font-semibold text-[#017381] hover:underline">Privacy Policy</a>
     </label>
   </div>
-  <button role="submit" class="w-full lg:w-auto bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-3 rounded">Submit</button>
+  <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Submit", "role" => "submit")); ?>
 </form>

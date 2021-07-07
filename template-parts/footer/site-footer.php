@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <footer id="footer" class="w-full bg-white py-10 lg:pt-20" role="contentinfo">
   <div class="
     content-container flex flex-col pb-10 md:pb-16 space-y-10
@@ -16,29 +18,29 @@
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Solutions</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="#">S Curve Insight</a>
-        <a class="hover:underline" href="#">Coaching</a>
-        <a class="hover:underline" href="#">Certification</a>
-        <a class="hover:underline" href="#">Speaking</a>
-        <a class="hover:underline" href="#">Workshops</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["s-curve-insight"]); ?>">S Curve Insight</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["coaching"]); ?>">Coaching</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["certification"]); ?>">Certification</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["speaking"]); ?>">Speaking</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["workshops"]); ?>">Workshops</a>
       </div>
     </div>
     <!-- Resource Links -->
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Resources</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="#">Podcast</a>
-        <a class="hover:underline" href="#">Books</a>
-        <a class="hover:underline" href="#">Newsletter</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["podcast"]); ?>">Podcast</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["books"]); ?>">Books</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["newsletter"]); ?>">Newsletter</a>
       </div>
     </div>
     <!-- About U Links -->
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">About Us</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="#">Whitney Johnson</a>
-        <a class="hover:underline" href="#">Our Team</a>
-        <a class="hover:underline" href="#">Our Coaches</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>">Whitney Johnson</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["about-us"]."#team"); ?>">Our Team</a>
+        <a class="hover:underline" href="<?php esc_html_e($LINKS["coaches"]); ?>">Our Coaches</a>
       </div>
     </div>
     <!-- Vertical Divider (So that justify-between gives even space on both sides) -->
@@ -53,8 +55,8 @@
   <p class="text-center space-y-2 md:space-y-0 md:space-x-1 text-sm">
     <span class="block md:inline">&copy; Disruption Advisors. All rights reserved</span>
     <span class="hidden md:inline">|</span>
-    <a href="#" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Terms of Use</a>
+    <a href="<?php esc_html_e($LINKS["terms-of-use"]); ?>" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Terms of Use</a>
     <span class="hidden md:inline">|</span>
-    <a href="#" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Privacy Policy</a>
+    <a href="<?php esc_html_e($LINKS["privacy-policy"]); ?>" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Privacy Policy</a>
   </p>
 </footer>
