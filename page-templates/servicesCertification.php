@@ -6,8 +6,7 @@
 
 $jumbotronOpts = array(
   "title" => "join a community of experts dedicated to disruption & growth",
-  "tagline" => "Certified Disruption Advisors support leaders, teams, and organizations 
-  travel the S Curve to achieve their goals.",
+  "tagline" => "Certified Disruption Advisors support leaders, teams, and organizations travel the S Curve to achieve their goals.",
   "corner-tag" => "Certification",
   "cta-label" => "Become a Disruption Advisor"
 );
