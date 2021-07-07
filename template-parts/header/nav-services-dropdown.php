@@ -9,7 +9,7 @@
   style="margin-left: 0;"
 >
   <div class="space-y-2">
-    <a href="#" class="inline-flex md:flex items-center font-headline font-bold uppercase hover:text-[#017381]">
+    <a href="#" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
       <span>S Curve Insight</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
@@ -17,7 +17,7 @@
     <p class="hidden md:block text-[#4D4D4D] text-sm w-[164px]">Find your team's place on the S Curve of Learning&trade;</p>
   </div>
   <div class="space-y-2 md:justify-self-center">
-    <a href="#" class="inline-flex md:flex items-center font-headline font-bold uppercase hover:text-[#017381]">
+    <a href="#" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
       <span>Coaching</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
@@ -25,7 +25,7 @@
     <p class="hidden md:block text-[#4D4D4D] text-sm w-[181px]">Get personalized &amp; focused guidance for growth</p>
   </div>
   <div class="space-y-2 md:justify-self-end">
-    <a href="#" class="inline-flex md:flex items-center font-headline font-bold uppercase hover:text-[#017381]">
+    <a href="#" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
       <span>Certification</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
@@ -33,7 +33,7 @@
     <p class="hidden md:block text-[#4D4D4D] text-sm w-[185px]">Join a community of experts dedicated to growth</p>
   </div>
   <div class="space-y-2">
-    <a href="#" class="inline-flex md:flex items-center font-headline font-bold uppercase hover:text-[#017381]">
+    <a href="#" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
       <span>Speaking</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
@@ -41,7 +41,7 @@
     <p class="hidden md:block text-[#4D4D4D] text-sm w-36">Inspire a movement of disruptive growth</p>
   </div>
   <div class="space-y-2 md:justify-self-center">
-    <a href="#" class="inline-flex md:flex items-center font-headline font-bold uppercase hover:text-[#017381]">
+    <a href="#" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
       <span>Workshops</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>

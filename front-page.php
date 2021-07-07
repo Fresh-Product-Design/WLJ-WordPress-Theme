@@ -1,18 +1,18 @@
 <?php get_header(); ?>
   <!-- Unlock Your Potential -->
-  <?php get_template_part( 'template-parts/home/unlockYourPotential' ); ?>
+  <?php get_template_part( 'template-parts/pages/home/unlockYourPotential' ); ?>
   <!-- Fuel Your Growth -->
-  <?php get_template_part( 'template-parts/home/fuelYourGrowth' ); ?>
+  <?php get_template_part( 'template-parts/pages/home/fuelYourGrowth' ); ?>
   <!-- Receive Growth Newsletter -->
-  <?php get_template_part( 'template-parts/banners/receiveNewsletter' ); ?>
+  <?php get_template_part( 'template-parts/components/banners/receiveNewsletter' ); ?>
   <!-- Whitney Johnson Testimonial -->
-  <?php get_template_part( 'template-parts/home/whitneyJohnsonQuote' ); ?>
+  <?php get_template_part( 'template-parts/pages/home/whitneyJohnsonQuote' ); ?>
   <!-- Meet Whitney & Team -->
-  <?php get_template_part( 'template-parts/home/meetWhitneyAndTeam' ); ?>
+  <?php get_template_part( 'template-parts/pages/home/meetWhitneyAndTeam' ); ?>
   <!-- S Curve Insight -->
-  <?php get_template_part( 'template-parts/home/SCurveInsight' ); ?>
+  <?php get_template_part( 'template-parts/pages/home/SCurveInsight' ); ?>
   <!-- Customer(s) Testimonial -->
-  <?php get_template_part( 'template-parts/testimonials/homeTestimonial' ); ?>
+  <?php get_template_part( 'template-parts/components/testimonials/homeTestimonial' ); ?>
   <!-- Work with Us -->
-  <?php get_template_part( 'template-parts/xSells/workWithUs' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/workWithUs' ); ?>
 <?php get_footer(); ?>

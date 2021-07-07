@@ -10,7 +10,7 @@
 			role="navigation"
 			aria-label="navigation"
 		>
-			<a href="#" class="hover:text-[#017381]">About Us</a>
+			<a href="/about-us" class="hover:text-[#017381]">About Us</a>
 
 			<a href="#" class="hover:text-[#017381]">Whitney Johnson</a>
 
