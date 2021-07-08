@@ -17,7 +17,7 @@
 
 /* Content container to center and apply base x-padding */
 .content-container {
-  @apply container px-4 md:px-2 mx-auto;
+  @apply container px-4 mx-auto;
 }
 
 /* Set up a, button and #mobileMenu tags to transition their colors */
