@@ -11,5 +11,5 @@
   <?php get_template_part( 'template-parts/pages/books/disruptYourself'); ?>
   <?php get_template_part( 'template-parts/pages/books/buildAnATeam'); ?>
   <?php get_template_part( 'template-parts/pages/books/dareDreamDo'); ?>
-  <?php get_template_part( 'template-parts/components/dividers/basic', null, array("background" => "", "line-color" => "bg-[#BFBFBF]")); ?>
+  <?php get_template_part( 'template-parts/components/dividers/basic', null, array("line-color" => "bg-[#BFBFBF]")); ?>
 <?php get_footer(); ?>

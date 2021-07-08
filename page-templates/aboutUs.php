@@ -24,5 +24,5 @@ $jumbotronLinks = array(
   <?php get_template_part( 'template-parts/components/dividers/basic', null, array("background" => "bg-white", "line-color" => "bg-[#BFBFBF]")); ?>
   <?php get_template_part( 'template-parts/pages/about-us/ourTeam'); ?>
   <?php get_template_part( 'template-parts/pages/about-us/ourClients'); ?>
-  <?php get_template_part( 'template-parts/components/dividers/basic', null, array("background" => "", "line-color" => "bg-[#BFBFBF]")); ?>
+  <?php get_template_part( 'template-parts/components/dividers/basic', null, array("line-color" => "bg-[#BFBFBF]")); ?>
 <?php get_footer(); ?>

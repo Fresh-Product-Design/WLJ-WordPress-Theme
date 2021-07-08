@@ -13,5 +13,6 @@
 <?php wp_body_open(); ?>
 <div id="page" class="flex flex-col min-h-screen font-general bg-[#E5E5E5]">
   <?php get_template_part( 'template-parts/header/site-header' ); ?>
+  <?php get_template_part( 'template-parts/header/contact-us-modal' ); ?>
 
   <main id="main" class="flex-grow" role="main">
