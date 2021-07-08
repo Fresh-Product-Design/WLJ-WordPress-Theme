@@ -4,7 +4,7 @@
   id="resourcesSubMenu"
   class="
     hidden bg-white text-black 
-    md:hidden md:group-hover:block md:group-focus:block md:absolute md:top-full md:left-1/2 md:py-8 md:px-4 md:rounded shadow-behind md:backdrop-blur-3xl md:-translate-x-1/2
+    md:hidden md:group-hover:block md:group-focus:block md:absolute md:top-full md:left-1/2 md:py-8 md:px-4 md:rounded md:shadow-behind md:backdrop-blur-3xl md:-translate-x-1/2
   "
   style="margin-left: 0;"
 >

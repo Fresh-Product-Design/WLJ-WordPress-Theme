@@ -880,6 +880,9 @@ video {
 .max-w-\[908px\] {
 	max-width: 908px;
 }
+.max-w-\[750px\] {
+	max-width: 750px;
+}
 .max-w-\[597px\] {
 	max-width: 597px;
 }
@@ -1002,8 +1005,14 @@ video {
 .overflow-hidden {
 	overflow: hidden;
 }
+.whitespace-nowrap {
+	white-space: nowrap;
+}
 .rounded {
 	border-radius: 0.25rem;
+}
+.rounded-2xl {
+	border-radius: 1rem;
 }
 .rounded-lg {
 	border-radius: 0.5rem;
@@ -1140,6 +1149,9 @@ video {
 }
 .p-4 {
 	padding: 1rem;
+}
+.p-8 {
+	padding: 2rem;
 }
 .p-16 {
 	padding: 4rem;
@@ -1436,8 +1448,11 @@ a, button, #mobileMenu {
 }
 
 /* Set up navigation sub menu shadow */
+.shadow-behind {
+  box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
+}
 @media (min-width: 768px) {
-  .shadow-behind {
+  .md:shadow-behind {
     box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
   }
 }
@@ -1615,6 +1630,11 @@ a, button, #mobileMenu {
 	.sm\:text-left {
 		text-align: left;
 	}
+
+	.sm\:text-xl {
+		font-size: 1.25rem;
+		line-height: 1.75rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -1651,6 +1671,14 @@ a, button, #mobileMenu {
 		right: 0.5rem;
 	}
 
+	.md\:order-1 {
+		order: 1;
+	}
+
+	.md\:order-2 {
+		order: 2;
+	}
+
 	.md\:mx-0 {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -1666,6 +1694,10 @@ a, button, #mobileMenu {
 
 	.md\:mr-10 {
 		margin-right: 2.5rem;
+	}
+
+	.md\:mr-8 {
+		margin-right: 2rem;
 	}
 
 	.md\:block {
@@ -1859,14 +1891,14 @@ a, button, #mobileMenu {
 		line-height: 1;
 	}
 
-	.md\:text-7xl {
-		font-size: 4.5rem;
-		line-height: 1;
-	}
-
 	.md\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
+	}
+
+	.md\:text-7xl {
+		font-size: 4.5rem;
+		line-height: 1;
 	}
 
 	.md\:leading-normal {
@@ -2007,6 +2039,10 @@ a, button, #mobileMenu {
 
 	.lg\:w-\[390px\] {
 		width: 390px;
+	}
+
+	.lg\:w-80 {
+		width: 20rem;
 	}
 
 	.lg\:w-1\/2 {
@@ -2190,6 +2226,10 @@ a, button, #mobileMenu {
 
 	.xl\:w-\[265px\] {
 		width: 265px;
+	}
+
+	.xl\:w-96 {
+		width: 24rem;
 	}
 
 	.xl\:w-2\/3 {
