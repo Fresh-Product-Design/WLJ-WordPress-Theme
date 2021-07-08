@@ -16,7 +16,6 @@ $LINKS = array(
   "build-an-a-team" => "#",
   "dare-dream-do" => "#",
   "disrupt-yourself" => "#",
-  "coaches" => "#",
   "privacy-policy" => "/privacy-policy",
   "terms-of-use" => "/terms-of-use"
 );

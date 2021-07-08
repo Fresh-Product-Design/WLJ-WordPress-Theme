@@ -913,6 +913,9 @@ video {
 .grid-rows-6 {
 	grid-template-rows: repeat(6, minmax(0, 1fr));
 }
+.grid-rows-4 {
+	grid-template-rows: repeat(4, minmax(0, 1fr));
+}
 .flex-row {
 	flex-direction: row;
 }
@@ -939,6 +942,9 @@ video {
 }
 .gap-2 {
 	gap: 0.5rem;
+}
+.gap-8 {
+	gap: 2rem;
 }
 .gap-x-2 {
 	-moz-column-gap: 0.5rem;
@@ -1068,6 +1074,9 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(1, 115, 129, var(--tw-bg-opacity));
 }
+.bg-gradient-to-b {
+	background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
 .bg-speaking {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/speaking.png');
 }
@@ -1097,6 +1106,13 @@ video {
 }
 .bg-quote {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/quote.png');
+}
+.from-\[rgba\(254\2c 210\2c 0\2c 0\.60\)\] {
+	--tw-gradient-from: rgba(254,210,0,0.60);
+	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(254, 210, 0, 0));
+}
+.to-white\/5 {
+	--tw-gradient-to: rgba(255, 255, 255, 0.05);
 }
 .bg-cover {
 	background-size: cover;
@@ -1327,16 +1343,15 @@ video {
 	--tw-placeholder-opacity: 1;
 	color: rgba(128, 128, 128, var(--tw-placeholder-opacity));
 }
+.opacity-0 {
+	opacity: 0;
+}
 .mix-blend-multiply {
 	mix-blend-mode: multiply;
 }
 .shadow-md {
 	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.blur-md {
-	--tw-blur: blur(12px);
-	filter: var(--tw-filter);
 }
 .backdrop-blur {
 	--tw-backdrop-blur: blur(8px);
@@ -1494,6 +1509,10 @@ a, button, #mobileMenu {
 .group:hover .group-hover\:border-\[\#017381\] {
 	--tw-border-opacity: 1;
 	border-color: rgba(1, 115, 129, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:opacity-100 {
+	opacity: 1;
 }
 
 @media (min-width: 640px) {

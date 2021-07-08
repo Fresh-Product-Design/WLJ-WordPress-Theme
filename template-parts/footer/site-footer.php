@@ -40,7 +40,7 @@
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
         <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>">Whitney Johnson</a>
         <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["about-us"]."#team"); ?>">Our Team</a>
-        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["coaches"]); ?>">Our Coaches</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["coaching"]."#coaches"); ?>">Our Coaches</a>
       </div>
     </div>
     <!-- Vertical Divider (So that justify-between gives even space on both sides) -->
