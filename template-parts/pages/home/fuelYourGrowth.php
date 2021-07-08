@@ -1,7 +1,7 @@
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <div class="content-container text-[#4d4d4d] text-center mb-24">
-  <h3 class="text-2xl font-bold font-subhead tracking-widest mb-2 uppercase">Fuel Your Growth</h3>
+  <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Fuel Your Growth", "mb" => "mb-2")); ?>
   <p class="text-lg mb-16">Achieve sustained organizational success with our powerful tools</p>
   <div class="
     flex flex-col space-y-16

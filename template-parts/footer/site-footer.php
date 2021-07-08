@@ -16,31 +16,31 @@
     </div>
     <!-- Solution Links -->
     <div class="text-center lg:text-left">
-      <h4 class="font-bold mb-4 lg:mb-8">Solutions</h4>
+      <h4 class="font-bold mb-2 lg:mb-8">Solutions</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["s-curve-insight"]); ?>">S Curve Insight</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["coaching"]); ?>">Coaching</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["certification"]); ?>">Certification</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["speaking"]); ?>">Speaking</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["services"]["workshops"]); ?>">Workshops</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["s-curve-insight"]); ?>">S Curve Insight</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["coaching"]); ?>">Coaching</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["certification"]); ?>">Certification</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["speaking"]); ?>">Speaking</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["services"]["workshops"]); ?>">Workshops</a>
       </div>
     </div>
     <!-- Resource Links -->
     <div class="text-center lg:text-left">
-      <h4 class="font-bold mb-4 lg:mb-8">Resources</h4>
+      <h4 class="font-bold mb-2 lg:mb-8">Resources</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["podcast"]); ?>">Podcast</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["books"]); ?>">Books</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["newsletter"]); ?>">Newsletter</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["podcast"]); ?>">Podcast</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["books"]); ?>">Books</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["newsletter"]); ?>">Newsletter</a>
       </div>
     </div>
     <!-- About U Links -->
     <div class="text-center lg:text-left">
-      <h4 class="font-bold mb-4 lg:mb-8">About Us</h4>
+      <h4 class="font-bold mb-2 lg:mb-8">About Us</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>">Whitney Johnson</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["about-us"]."#team"); ?>">Our Team</a>
-        <a class="hover:underline" href="<?php esc_html_e($LINKS["coaches"]); ?>">Our Coaches</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>">Whitney Johnson</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["about-us"]."#team"); ?>">Our Team</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_html_e($LINKS["coaches"]); ?>">Our Coaches</a>
       </div>
     </div>
     <!-- Vertical Divider (So that justify-between gives even space on both sides) -->

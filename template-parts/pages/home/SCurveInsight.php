@@ -2,7 +2,7 @@
 
 <div class="bg-[#C8E1DE] py-24">
   <div class="content-container text-center">
-    <h3 class="font-subhead font-bold text-2xl tracking-[0.23em] uppercase mb-8">S Curve Insight&trade;</h3>
+    <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "S Curve Insight&trade;", "mb" => "mb-8")); ?>
     <p class="max-w-[908px] text-lg text-[#4d4d4d] mx-auto mb-16">The S Curve Insight Platform is inspired by the world’s leading management and innovation thinkers and is used by FORTUNE 500 companies to accelerate employee and revenue growth.</p>
     <div class="w-full mb-16 overflow-auto">
       <div class="inline-flex space-x-2 text-left w-[843px]">
