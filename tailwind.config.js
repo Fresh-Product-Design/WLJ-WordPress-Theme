@@ -4,6 +4,12 @@ module.exports = {
   purge: ['./**/*.php', "./src/app.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px'
+    },
     fontFamily: {
       'headline': ['DIN Engschrift Std', 'sans-serif'],
       'subhead': ['Montserrat', 'sans-serif'],
@@ -15,6 +21,7 @@ module.exports = {
         return {
           'header-waves': `url('${baseURL}/backgrounds/homeHeader.png')`,
           'weathered-blue': `url('${baseURL}/backgrounds/weatheredBlue.png')`,
+          'paper-curves': `url('${baseURL}/backgrounds/paperCurves.png')`,
           'quote': `url('${baseURL}/icons/quote.png')`,
           'quote-yellow': `url('${baseURL}/icons/quoteYellow.png')`,
           'scurve-start': `url('${baseURL}/backgrounds/sCurve_part1.png')`,
@@ -29,6 +36,10 @@ module.exports = {
       },
       backgroundSize: {
         '60%': '60%',
+      },
+      boxShadow: {
+        'behind': '0px 0px 31px rgba(0, 0, 0, 0.1)',
+        'card': '0px 0px 15px rgba(0, 0, 0, 0.1)'
       }
     },
   },

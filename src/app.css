@@ -21,32 +21,8 @@
 }
 
 /* Set up a, button and #mobileMenu tags to transition their colors */
-a, button, #mobileMenu {
-  transition-property: background-color, border-color, color, fill, stroke;
+* {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
-}
-
-/* Set up navigation sub menu shadow */
-.shadow-behind {
-  box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
-}
-@media (min-width: 768px) {
-  .md:shadow-behind {
-    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.1);
-  }
-}
-
-.shadow-card {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Set Up Yellow Banner gradient */
-.yellow-banner {
-  background: linear-gradient(90deg, #FBEDAB 0%, rgba(245, 210, 45, 0.25) 100%), #FBEDAB;
-}
-
-.yellow-paper-curves {
-  background: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/paperCurves.png'), #fdea8c;
-  background-blend-mode: soft-light;
 }
