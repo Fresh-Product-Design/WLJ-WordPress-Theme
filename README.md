@@ -24,9 +24,12 @@ For the initial release of this theme, we are hard coding each indiviudal conten
 
 ## Page URL Slugs & Page Template Pairings
 
-> URL Slugs can be found in the link-configs.php file, here I set up definitions for the slugs to each page. This file is referenced anywhere we need to link to an internal route, this way we only have to change one file and be sure every reference is updated along with it.
+> URL Slugs can be found in the `link-configs.php` file, here I set up definitions for the slugs to each page. This file is referenced anywhere we need to link to an internal route, this way we only have to change one file and be sure every reference is updated along with it.
 
 * About Us - aboutUs.php
 * About Whitney Johnson - aboutWhitneyJohnson.php
 * Services | Coaching - servicesCoaching.php
 * Services | Certification - servicesCertification.php
+
+## Podcast Groups
+Just like `link-configs.php`, there is a `podcast-configs.php` file that will allow us to quickly change the podcasts shown on Whitney's About page, as well as the "Start Here" podcasts on the actual podcast page. Just update the array(s) with with Post IDs of the podcasts, and the pages will update accordingly.
