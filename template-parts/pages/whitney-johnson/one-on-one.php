@@ -1,4 +1,4 @@
-<div class="content-container py-24">
+<div id="coaching" class="content-container py-24">
   <div class="relative flex flex-col lg:flex-row lg:block bg-white p-16 lg:mr-32 rounded-lg">
     <div class="mb-8 lg:mb-0 text-center lg:absolute lg:-right-28 xl:-right-12 lg:top-24 lg:bottom-24 xl:top-16 xl:bottom-16 rounded-lg">
       <img class="inline h-auto lg:h-full w-auto" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/staff/wj-about-bottom.png') ?>" alt="" width="423" height="464">

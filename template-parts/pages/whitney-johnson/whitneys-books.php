@@ -1,6 +1,6 @@
 <?php require get_template_directory() . "/link-configs.php" ?>
 
-<div id="podcast" class="bg-white py-24">
+<div id="books" class="bg-white py-24">
   <div class="content-container text-center">
     <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Discover Whitney's Books", "mb" => "mb-8 sm:mb-4")); ?>
     <div class="flex flex-col sm:flex-row justify-evenly flex-wrap space-y-4 mb-8">

@@ -1,4 +1,4 @@
-<div class="bg-weathered-blue bg-cover bg-no-repeat">
+<div class="bg-[#c3dbd8] bg-weathered-blue bg-cover bg-no-repeat">
   <div class="sm:bg-disrupt-yourself bg-60% lg:bg-contain bg-right-bottom md:bg-right bg-no-repeat content-container text-center sm:text-left py-24 md:py-36">
     <h1 class="font-headline text-5xl md:text-7xl text-[#C63732] tracking-wider uppercase mb-3">Disrupt Yourself</h1>
     <h2 class="font-subhead text-lg md:text-2xl font-semibold tracking-[0.23em] uppercase mb-7">With Whitney Johnson</h2>

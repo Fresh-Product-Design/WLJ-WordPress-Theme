@@ -21,6 +21,7 @@ module.exports = {
           'scurve-mid': `url('${baseURL}/backgrounds/sCurve_part2.png')`,
           'scurve-end': `url('${baseURL}/backgrounds/sCurve_part3.png')`,
           'disrupt-yourself': `url('${baseURL}/backgrounds/disruptYourself.png')`,
+          'smart-growth': `url('${baseURL}/books/smartGrowth.png')`,
           'speaking': `url('${baseURL}/backgrounds/speaking.png')`,
           'jumbotron': `url('${baseURL}/backgrounds/jumbotronBg.jpg')`,
           'red-check': `url('${baseURL}/icons/checkRed.png')`,
