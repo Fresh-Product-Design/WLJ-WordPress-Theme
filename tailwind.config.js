@@ -47,7 +47,7 @@ module.exports = {
         'behind': '0px 0px 31px rgba(0, 0, 0, 0.1)',
         'card': '0px 0px 15px rgba(0, 0, 0, 0.1)',
         'card-sm': '0px 1px 8px rgba(0, 0, 0, 0.1)',
-        'right': '21px -7px 21px -16px rgba(0, 0, 0, 0.25), 21px 7px 21px -16px rgba(0, 0, 0, 0.25)'
+        'right': '15px -7px 21px -16px rgba(0, 0, 0, 0.25), 15px 7px 21px -16px rgba(0, 0, 0, 0.25)'
       }
     },
   },
