@@ -36,15 +36,18 @@ module.exports = {
           'jumbotron': `url('${baseURL}/backgrounds/jumbotronBg.jpg')`,
           'check-red': `url('${baseURL}/icons/checkRed.png')`,
           'check-green': `url('${baseURL}/icons/checkGreen.png')`,
+          'check-blue': `url('${baseURL}/icons/checkBlue.png')`,
+          'plus-yellow': `url('${baseURL}/icons/plusYellow.png')`,
         }
       },
       backgroundSize: {
-        '60%': '60%',
+        'standard-check': '20px',
       },
       boxShadow: {
         'behind': '0px 0px 31px rgba(0, 0, 0, 0.1)',
         'card': '0px 0px 15px rgba(0, 0, 0, 0.1)',
-        'card-sm': '0px 1px 8px rgba(0, 0, 0, 0.1)'
+        'card-sm': '0px 1px 8px rgba(0, 0, 0, 0.1)',
+        'right': '21px -7px 21px -16px rgba(0, 0, 0, 0.25), 21px 7px 21px -16px rgba(0, 0, 0, 0.25)'
       }
     },
   },

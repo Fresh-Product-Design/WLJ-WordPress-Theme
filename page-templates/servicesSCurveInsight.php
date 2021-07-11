@@ -47,5 +47,5 @@ $tabsOpts = array(
   <?php get_template_part( 'template-parts/components/banners/getInsights'); ?>
   <?php get_template_part( 'template-parts/components/testimonials/services/s-curve' ); ?>
   <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
-  <?php get_template_part( 'template-parts/components/xSells/powerUp' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/powerUpWithPlatform' ); ?>
 <?php get_footer(); ?>

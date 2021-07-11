@@ -30,7 +30,7 @@
         ?>
         <p class="w-[230px] mb-4"><?php esc_html_e($link["info"]) ?></p>
         <?php
-        if (array_key_exists("href", $args)) {
+        if (array_key_exists("href", $link)) {
         ?>
           <a class="group flex items-center justify-center font-bold text-[#017381] hover:text-[#143b3f]" href="<?php esc_attr_e($link["href"]); ?>">
             <span class="mr-1 group-hover:underline">Learn More</span>
