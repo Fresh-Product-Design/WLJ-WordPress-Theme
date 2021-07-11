@@ -1,3 +1,12 @@
-<h1 class="font-headline text-[#C63732] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-widest uppercase <?php array_key_exists("addt-styles", $args) === true ? esc_html_e($args["addt-styles"]) : "" ?>">
+<?php
+  $headlineStyles = "font-headline text-[#C63732] uppercase";
+  // Tracking (letter-spacing) Check
+  $headlineStyles .= array_key_exists("tracking", $args) ? " ".$args["tracking"] : " tracking-widest";
+  // Text Size Check
+  $headlineStyles .= array_key_exists("text-size", $args) ? " ".$args["text-size"] : " text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl";
+  // Addt Styles Check
+  $headlineStyles .= array_key_exists("addt-styles", $args) ? " ".$args["addt-styles"] : "";
+?>
+<h1 class="<?php esc_attr_e($headlineStyles) ?>">
   <?php esc_html_e($args['label']) ?>
 </h1>

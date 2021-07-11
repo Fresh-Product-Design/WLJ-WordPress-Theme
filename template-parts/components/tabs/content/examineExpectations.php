@@ -1,0 +1,4 @@
+<div class="bg-[rgba(233,244,243,0.6)] border-[2px] border-[#C8E1DE] p-4 md:p-8 rounded">
+  <p class="text-xl font-bold text-black mb-6">Examine Expectations</p>
+  <p class="text-[#4d4d4d]">Expectations can function like gravity; they exert a steady and significant force on our goals and behavior. Thoughtful examination of these influences can accelerate your growth by adjusting your expectations with the unfolding reality of the situation. For example, in most situations learning requires hard work and involves making occasional mistakes, so it would cause unnecessary internal tension (even discouragement) if you unconsciously expected learning to be easy or that you'd never make a mistake.</p>
+</div>

@@ -1,8 +1,23 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
+<?php
+  $iconLinksOpts = array(
+    "headline" => "Fuel Your Growth", 
+    "tagline" => "Achieve sustained organizational success with our powerful tools",
+    "links" => array(
+      array("icon-src" => "/src/assets/images/icons/assessment@3x.png", "icon-width" => "72", "icon-height" => "87", "title" => "Assessment", "info" => "Get the insight to build high performing teams.", "href" => $LINKS["services"]["s-curve-insight"]),
+      array("icon-src" => "/src/assets/images/icons/coaching@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Coaching", "info" => "Identify your strengths and achieve your goals.", "href" => $LINKS["services"]["coaching"]),
+      array("icon-src" => "/src/assets/images/icons/certifications@3x.png", "icon-width" => "70", "icon-height" => "87", "title" => "Certifications", "info" => "Join a community of experts dedicated to growth.", "href" => $LINKS["services"]["certification"]),
+      array("icon-src" => "/src/assets/images/icons/speaking@3x.png", "icon-width" => "84.5", "icon-height" => "87", "title" => "Speaking", "info" => "Inspire change within your whole organization.", "href" => $LINKS["services"]["speaking"]),
+    )
+  ); 
+?>
+
 <?php get_header(); ?>
   <!-- Unlock Your Potential -->
-  <?php get_template_part( 'template-parts/pages/home/unlockYourPotential' ); ?>
+  <?php get_template_part( 'template-parts/components/jumbotrons/curves', null, array("headline" => "Individual Transformation Organizational Growth", "tagline" => "Unlock Your Potential", "showArrows" => true )); ?>
   <!-- Fuel Your Growth -->
-  <?php get_template_part( 'template-parts/pages/home/fuelYourGrowth' ); ?>
+  <?php get_template_part( 'template-parts/components/infoBlocks/iconLinks', null, $iconLinksOpts ); ?>
   <!-- Receive Growth Newsletter -->
   <?php get_template_part( 'template-parts/components/banners/receiveNewsletter' ); ?>
   <!-- Whitney Johnson Testimonial -->

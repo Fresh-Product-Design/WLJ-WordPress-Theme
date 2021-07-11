@@ -12,9 +12,9 @@
 			role="navigation"
 			aria-label="navigation"
 		>
-			<a href="<?php esc_html_e($LINKS["about-us"]); ?>" class="hover:text-[#017381]">About Us</a>
+			<a href="<?php esc_attr_e($LINKS["about-us"]); ?>" class="hover:text-[#017381]">About Us</a>
 
-			<a href="<?php esc_html_e($LINKS["whitney-johnson"]); ?>" class="hover:text-[#017381]">Whitney Johnson</a>
+			<a href="<?php esc_attr_e($LINKS["whitney-johnson"]); ?>" class="hover:text-[#017381]">Whitney Johnson</a>
 
 			<span id="servicesNav" class="flex items-center hover:text-[#017381] cursor-pointer peer">
 				<span class="flex-grow">Services</span>
@@ -24,7 +24,7 @@
 			</span>
 			<?php get_template_part( 'template-parts/header/nav-services-dropdown' ); ?>
 
-			<a href="<?php esc_html_e($LINKS["podcast"]); ?>" class="hover:text-[#017381]">Podcast</a>
+			<a href="<?php esc_attr_e($LINKS["podcast"]); ?>" class="hover:text-[#017381]">Podcast</a>
 
 			<span id="resourcesNav" class="relative hover:text-[#017381] cursor-pointer group focus:outline-none">
 				<span class="flex items-center">

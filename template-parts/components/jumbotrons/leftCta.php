@@ -11,5 +11,5 @@
     <?php if(array_key_exists("cta-label", $args) === true) { ?>
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal")); ?>
     <?php } ?>
-    </div>
+  </div>
 </div>

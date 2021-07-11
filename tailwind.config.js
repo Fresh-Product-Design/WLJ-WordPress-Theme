@@ -27,11 +27,15 @@ module.exports = {
           'scurve-start': `url('${baseURL}/backgrounds/sCurve_part1.png')`,
           'scurve-mid': `url('${baseURL}/backgrounds/sCurve_part2.png')`,
           'scurve-end': `url('${baseURL}/backgrounds/sCurve_part3.png')`,
+          'scurve-lg-start': `url('${baseURL}/backgrounds/sCurve_lg_part1.png')`,
+          'scurve-lg-mid': `url('${baseURL}/backgrounds/sCurve_lg_part2.png')`,
+          'scurve-lg-end': `url('${baseURL}/backgrounds/sCurve_lg_part3.png')`,
           'disrupt-yourself': `url('${baseURL}/backgrounds/disruptYourself.png')`,
           'smart-growth': `url('${baseURL}/books/smartGrowth.png')`,
           'speaking': `url('${baseURL}/backgrounds/speaking.png')`,
           'jumbotron': `url('${baseURL}/backgrounds/jumbotronBg.jpg')`,
-          'red-check': `url('${baseURL}/icons/checkRed.png')`,
+          'check-red': `url('${baseURL}/icons/checkRed.png')`,
+          'check-green': `url('${baseURL}/icons/checkGreen.png')`,
         }
       },
       backgroundSize: {
@@ -39,12 +43,12 @@ module.exports = {
       },
       boxShadow: {
         'behind': '0px 0px 31px rgba(0, 0, 0, 0.1)',
-        'card': '0px 0px 15px rgba(0, 0, 0, 0.1)'
+        'card': '0px 0px 15px rgba(0, 0, 0, 0.1)',
+        'card-sm': '0px 1px 8px rgba(0, 0, 0, 0.1)'
       }
     },
   },
   variants: {
     extend: {},
-  },
-  plugins: [],
+  }
 }

@@ -6,7 +6,7 @@
       <h2 class="font-headline leading-snug text-4xl mb-8">Master Relentless Change and Speed Up Your Learning Curve</h2>
       <p class="text-[#4d4d4d] mb-4">Consider this simple yet powerful idea: disruptive companies and ideas upend markets by doing something truly different—they see a need, an empty space waiting to be filled, and they dare to create something for which a market may not yet exist.</p>
       <p class="text-[#4d4d4d] mb-4">As president and co-founder of Rose Park Advisors’ Disruptive Innovation Fund with Clayton Christensen, Whitney Johnson utilized the theory of disruptive innovation to invest in publicly traded stocks and private early-stage companies.  In this book, she will help you understand how the frameworks of disruptive innovation can apply to you.</p>
-      <p class="text-[#4d4d4d] mb-8">We are living in an era of accelerating disruption—managing the S-curve waves of learning and mastering is a requisite skill.  If you want to be successful in unexpected ways, follow your own disruptive path. Dare to innovate. Do something astonishing. Disrupt yourself™.</p>
+      <p class="text-[#4d4d4d] mb-8">We are living in an era of accelerating disruption—managing the S-curve waves of learning and mastering is a requisite skill.  If you want to be successful in unexpected ways, follow your own disruptive path. Dare to innovate. Do something astonishing. Disrupt yourself&trade;.</p>
       <h6 class="font-subhead font-semibold tracking-widest uppercase">Order from These Retailers</h6>
       <div class="flex flex-wrap">
         <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Amazon", "href" => "#", "addt-styles" => "mr-2 mt-4")); ?>
