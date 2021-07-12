@@ -1,7 +1,17 @@
 <!-- Note this component only supports up to 4 icon blocks. -->
 <?php require_once get_template_directory() . "/template-parts/components/infoBlocks/info-block-util.php" ?>
 
-<div class="content-container text-[#4d4d4d] text-center mb-24">
+<?php
+$iconLinksContainerClasses = "content-container text-[#4d4d4d] text-center";
+// Spacing (Margin/Padding) Check
+$iconLinksContainerClasses .= array_key_exists("spacing", $args) ? " ".$args["spacing"] : " mb-24";
+
+$infoClasses = "mb-4";
+// Width Check
+$infoClasses .= array_key_exists("info-width", $args) ? " ".$args["info-width"] : " w-[230px]";
+?>
+
+<div class="<?php esc_attr_e($iconLinksContainerClasses); ?>">
   <?php
   if (array_key_exists("headline", $args)) {
   ?>
@@ -28,7 +38,7 @@
         <?php
         }
         ?>
-        <p class="w-[230px] mb-4"><?php esc_html_e($link["info"]) ?></p>
+        <p class="<?php esc_attr_e($infoClasses); ?>"><?php esc_html_e($link["info"]) ?></p>
         <?php
         if (array_key_exists("href", $link)) {
         ?>
