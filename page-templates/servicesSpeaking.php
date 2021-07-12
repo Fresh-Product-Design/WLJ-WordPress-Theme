@@ -8,7 +8,7 @@ $jumbotronLinks = array(
   "Power of Speaking Events" => "#power-of-speaking",
   "About Whitney Johnson" => "#about-whitney-johnson",
   "Speaking Topics" => "#speaking-topics",
-  "Contact Us" => "#contact",
+  "Contact Us" => "#contactUs",
 );
 $iconLinksOpts = array(
   "headline" => "Power of Whitney's Speaking Events", 

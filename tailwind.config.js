@@ -37,16 +37,19 @@ module.exports = {
           'check-red': `url('${baseURL}/icons/checkRed.png')`,
           'check-green': `url('${baseURL}/icons/checkGreen.png')`,
           'check-blue': `url('${baseURL}/icons/checkBlue.png')`,
+          'plus-blue': `url('${baseURL}/icons/plusBlue.png')`,
           'plus-yellow': `url('${baseURL}/icons/plusYellow.png')`,
           'whitney-different': `url('${baseURL}/backgrounds/whitney-different.png')`,
           'whitney-inspire': `url('${baseURL}/backgrounds/whitney-inspire.png')`,
         }
       },
       backgroundSize: {
+        "60%": "60%",
         'standard-check': '20px',
       },
       backgroundPosition: {
-        'speaking-fix': 'bottom right -220px'
+        'speaking-fix': 'bottom right -220px',
+        'workshop-plus-fix': 'left top 3px'
       },
       boxShadow: {
         'behind': '0px 0px 31px rgba(0, 0, 0, 0.1)',

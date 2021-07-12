@@ -1,5 +1,5 @@
-<div class="py-24">
-  <div class="content-container bg-white py-12 text-center rounded md:shadow-behind">
+<div class="content-container py-24">
+  <div class="bg-white py-12 text-center rounded md:shadow-behind">
     <div class="relative px-4 sm:px-16" data-js="multipleQuotes">
       <!-- Prev Arrow -->
       <span class="absolute top-1/2 left-0 sm:left-8 -translate-y-1/2 text-2xl text-[#017381] hover:text-[#2a5a61] cursor-pointer material-icons-round" data-quote-prev>arrow_back_ios</span>

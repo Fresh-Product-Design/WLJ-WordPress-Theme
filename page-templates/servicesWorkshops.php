@@ -13,11 +13,18 @@ $jumbotronOpts = array(
 $jumbotronLinks = array(
   "Our Methoodology" => "#methodology",
   "Workshop Topics" => "#workshop-topics",
-  "Contact Us" => "#contact"
+  "Contact Us" => "#contactUs"
 );
 ?>
 
 <?php get_header(); ?>
   <?php get_template_part( 'template-parts/components/jumbotrons/leftCta', null, $jumbotronOpts); ?>
   <?php get_template_part( 'template-parts/components/jumbotrons/links', null, $jumbotronLinks); ?>
+  <?php get_template_part( 'template-parts/pages/services/workshops/methodology' ); ?>
+  <?php get_template_part( 'template-parts/components/banners/bookAWorkshop' ); ?>
+  <?php get_template_part( 'template-parts/pages/services/workshops/workshopTopics' ); ?>
+  <?php get_template_part( 'template-parts/components/banners/bookAWorkshop' ); ?>
+  <?php get_template_part( 'template-parts/components/testimonials/services/workshops' ); ?>
+  <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/continueGrowth' ); ?>
 <?php get_footer(); ?>
