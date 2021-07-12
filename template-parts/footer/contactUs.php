@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="lg:flex-grow">
-      <?php get_template_part( "template-parts/components/captures/contactForm", null, array("classes" => "max-w-[608px] ml-auto") ); ?>
+      <?php get_template_part( "template-parts/components/captures/contactForm", null, array("classes" => "max-w-[608px] lg:ml-auto") ); ?>
     </div>
   </div>
 <?php } ?>

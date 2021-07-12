@@ -1,5 +1,5 @@
 <?php
-  $buttonStyles = "bg-[#C63732] hover:bg-red-700 text-white text-center px-4 py-3 rounded whitespace-nowrap";
+  $buttonStyles = "bg-[#C63732] hover:bg-red-700 font-bold text-white text-center px-4 py-3 rounded whitespace-nowrap";
   // Addt Styles Check
   $buttonStyles .= array_key_exists("addt-styles", $args) ? " ".$args["addt-styles"] : "";
 ?>

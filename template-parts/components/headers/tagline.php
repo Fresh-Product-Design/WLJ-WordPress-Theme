@@ -1,5 +1,7 @@
 <?php
-  $taglineStyles = "text-black";
+  $taglineStyles = "";
+  // Text Color Check
+  $taglineStyles .= array_key_exists("color", $args) ? " ".$args["color"] : " text-black";
   // Text Size Check
   $taglineStyles .= array_key_exists("text-size", $args) ? " ".$args["text-size"] : " text-lg md:text-xl lg:text-2xl";
   // Text Align Check
