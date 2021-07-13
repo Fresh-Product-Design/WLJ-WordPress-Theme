@@ -20,9 +20,9 @@ $iconLinksOpts = array(
   "headline" => "Power of the S Curve", 
   "tagline" => "The framework empowers you to maximize your growth and reach your goals",
   "links" => array(
-    array("icon-src" => "/src/assets/images/icons/s-curve_distribution@3x.png", "icon-width" => "76", "icon-height" => "87", "title" => "S Curve Distribution", "info" => "See where your team is on their growth journey.", "href" => "#"),
-    array("icon-src" => "/src/assets/images/icons/growth_accelerants@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Growth Acceletants", "info" => "Identify your team’s strengths and areas for improvement.", "href" => "#"),
-    array("icon-src" => "/src/assets/images/icons/team_culture@3x.png", "icon-width" => "81", "icon-height" => "87", "title" => "Team Culture", "info" => "Assess your organization’s culture and health.", "href" => "#", "addt-styles" => "md:col-span-2"),
+    array("icon-src" => "/src/assets/images/icons/s-curve_distribution@3x.png", "icon-width" => "76", "icon-height" => "87", "title" => "S Curve Distribution", "info" => "See where your team is on their growth journey.", "href" => "#s-curve"),
+    array("icon-src" => "/src/assets/images/icons/growth_accelerants@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Growth Accelerants", "info" => "Identify your team’s strengths and areas for improvement.", "href" => "#accelerants"),
+    array("icon-src" => "/src/assets/images/icons/team_culture@3x.png", "icon-width" => "81", "icon-height" => "87", "title" => "Team Culture", "info" => "Assess your organization’s culture and health.", "href" => "#culture", "addt-styles" => "md:col-span-2"),
   ),
   "cta-label" => "Request a Demo"
 ); 

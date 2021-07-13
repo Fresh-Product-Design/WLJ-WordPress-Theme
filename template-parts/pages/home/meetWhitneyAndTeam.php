@@ -6,6 +6,6 @@
     <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Meet Whitney & the Team", "mb" => "mb-8", "align" => "text-left")); ?>
     <p class="mb-8">Whitney Johnson is the CEO of Disruption Advisors and one of the fifty leading business thinkers in the world as named by Thinkers50 – an expert on helping high-growth organizations develop high-growth individuals.</p>
     <p class="mb-8">Whitney is an award-winning author, world-class keynote speaker, frequent lecturer for Harvard Business School’s Executive Education, and an executive coach and advisor to CEOs.</p>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'More About The Team', 'link' => $LINKS["about-us"])); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'More About The Team', 'href' => $LINKS["about-us"])); ?>
   </div>
 </div>

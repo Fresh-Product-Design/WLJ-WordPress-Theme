@@ -13,6 +13,6 @@
       <p class="bg-plus-yellow bg-left bg-no-repeat pl-8 text-lg">Co-Founder with Clayton Christensen of Rose Hill Advisor</p>
       <p class="bg-plus-yellow bg-left bg-no-repeat pl-8 text-lg">Top LinkedIn Voices 2020</p>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/hollow-invert', null, array('label' => 'Learn More About Whitney', 'link' => $LINKS["whitney-johnson"])); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow-invert', null, array('label' => 'Learn More About Whitney', 'href' => $LINKS["whitney-johnson"])); ?>
   </div>
 </div>

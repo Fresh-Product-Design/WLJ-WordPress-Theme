@@ -3,7 +3,7 @@
   // Addt Styles Check
   $buttonStyles .= array_key_exists("addt-styles", $args) ? " ".$args["addt-styles"] : "";
 ?>
-<a class="<?php esc_attr_e($buttonStyles) ?>" href="<?php esc_attr_e($args['link']) ?>" role="button">
+<a class="<?php esc_attr_e($buttonStyles) ?>" href="<?php esc_attr_e($args['href']) ?>" role="button">
   <span class="mr-1"><?php esc_html_e($args['label']) ?></span>
   <span class="material-icons-outlined">file_download</span>
 </a>

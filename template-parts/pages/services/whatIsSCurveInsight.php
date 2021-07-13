@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <div class="relative flex flex-col lg:flex-row lg:block bg-white p-8 lg:mr-12 rounded-lg">
   <div class="hidden lg:block mb-8 lg:mb-0 text-center lg:absolute lg:-right-12 lg:top-8 lg:bottom-8 xl:top-4 xl:bottom-4">
     <img class="inline h-auto lg:h-full w-auto border-4 border-white rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/take-the-assessment-alt.png') ?>" alt="" width="406" height="311">
@@ -10,7 +12,7 @@
       <li>Recieve actionable insight into their apititude for each of the Seven Accelerants of Growth.</li>
       <li>Empower personal disruption to fuel growth so your organization can reach its collective potential.</li>
     </ul>
-    <a class="group inline-flex items-center justify-center font-bold text-[#017381] hover:text-[#143b3f]" href="#">
+    <a class="group inline-flex items-center justify-center font-bold text-[#017381] hover:text-[#143b3f]" href="<?php esc_attr_e($LINKS["services"]["s-curve-insight"]) ?>">
       <span class="mr-1 group-hover:underline">Learn More About the S Curve Insight</span>
       <span class="material-icons-round mr">arrow_forward</span>
     </a>

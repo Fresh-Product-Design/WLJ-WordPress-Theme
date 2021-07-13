@@ -18,6 +18,6 @@
       <p class="bg-check-green bg-left bg-no-repeat px-8 lg:pr-0 mt-4 max-w-[284px]">Find the right Accelerants to fuel growth.</p>
       <p class="bg-check-green bg-left bg-no-repeat px-8 lg:pr-0 mt-4 max-w-[284px]">Understand your Ecosystem and opportunities for transformation.</p>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us to See a Demo', 'link' => "#")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us to See a Demo', "js-hook" => "fireContactModal")); ?>
   </div>
 </div>

@@ -1,6 +1,6 @@
 <?php require get_template_directory() . "/link-configs.php" ?>
 
-<form class="<?php if(array_key_exists("classes", $args) === true) { esc_attr_e($args["classes"]); } ?>" action="#" method="post" onSubmit="(e) => { e.preventDefault(); }">
+<form class="<?php if(array_key_exists("classes", $args) === true) { esc_attr_e($args["classes"]); } ?>" method="post" onSubmit="(e) => { e.preventDefault(); }">
   <div class="grid grid-cols-2 grid-rows-6 gap-2 mb-4">
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="firstName" placeholder="First Name" required />
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="lastName" placeholder="Last Name" required />

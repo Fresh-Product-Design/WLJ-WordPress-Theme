@@ -7,7 +7,7 @@
       <li>An overview of the overall team's strengths and weaknesses with combined results on the S Curve</li>
       <li>Access to see and compare specific individuals on the team</li>
     </ul>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More about the Assessment', 'link' => "#")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More about the Assessment', "js-hook" => "fireContactModal" )); ?>
   </div>
   <div class="hidden lg:block flex-shrink-0">
     <img class="rounded" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/strengthen_teams.png') ?>" alt="" width="444" height="444" />

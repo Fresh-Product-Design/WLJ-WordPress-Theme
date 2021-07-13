@@ -1,4 +1,4 @@
-<div class="text-left mb-16 md:mb-20">
+<div id="s-curve" class="text-left mb-16 md:mb-20">
   <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => "The S Curve of Learning&trade;", "addt-styles" => "mb-6 font-bold")); ?>
   <p class="text-lg mb-6">The S Curve of Learning helps people disrupt themselves by understanding where they are in their personal growth pattern, how those patterns work, and what actions to take to accelerate the cycle.</p>
   <p class="text-lg mb-10">People are constantly growing and changing and have different levels of engagement and productivity at different stages of their growth journey. This journey is visualized as an ‘S-Curve of Learning’ and has three broad categories:</p>

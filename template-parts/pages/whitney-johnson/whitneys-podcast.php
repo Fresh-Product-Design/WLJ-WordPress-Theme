@@ -11,6 +11,6 @@
         renderPodcastImages($PODCASTS["about-whitney-johnson"]);
       ?>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'View All Episodes', 'link' => $LINKS["podcast"])); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'View All Episodes', 'href' => $LINKS["podcast"])); ?>
   </div>
 </div>

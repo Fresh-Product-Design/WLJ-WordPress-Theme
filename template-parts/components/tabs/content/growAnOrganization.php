@@ -8,7 +8,7 @@
       <li>Insight to the organizations culture and health</li>
       <li>Access see and compared specific individuals in the organization</li>
     </ul>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More about the Assessment', 'link' => "#")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More about the Assessment', "js-hook" => "fireContactModal" )); ?>
   </div>
   <div class="hidden lg:block flex-shrink-0">
     <img class="rounded h-auto w-[333px] xl:w-[444px]" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/grow_organization.png') ?>" alt="" width="444" height="444" />

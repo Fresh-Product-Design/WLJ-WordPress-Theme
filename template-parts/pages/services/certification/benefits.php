@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <div id="benefits" class="content-container py-24">
   <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Benefits of Certification", "mb" => "mb-2")); ?>
   <p class="text-[#4d4d4d] text-lg text-center mb-16">Community of experts dedicated to disruption and growth</p>
@@ -15,7 +17,7 @@
       <div class="bg-plus-yellow bg-left-top bg-no-repeat pl-8 mb-8">
         <p>Opportunities for further certifications to stay on the cutting edge of disruption.</p>
       </div>
-      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', 'link' => "#")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', "js-hook" => "fireContactModal" )); ?>
     </div>
     <div class="hidden lg:block">
       <img class="h-auto lg:h-full w-auto rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/certified_partner.png') ?>" alt="" width="431" height="292">
@@ -46,7 +48,7 @@
     </div>
     <div class="flex flex-col md:flex-row justify-center text-center pt-6 lg:pt-10">
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Become a Partner", "js-hook" => "fireContactModal", "addt-styles" => "md:mr-4 mt-4")); ?>
-      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More About Our Platform', 'link' => "#", "addt-styles" => "mt-4")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More About Our Platform', 'href' => $LINKS["services"]["s-curve-insight"], "addt-styles" => "mt-4")); ?>
     </div>
   </div>
 </div>

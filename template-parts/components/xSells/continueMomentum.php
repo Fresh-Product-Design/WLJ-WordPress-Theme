@@ -9,19 +9,19 @@
         <img class="w-full h-auto mb-8 rounded" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/take-the-assessment-alt.png') ?>" alt="" width="303" height="231" />
         <h4 class="text-2xl font-bold mb-3">Take the Assessment</h4>
         <p class="flex-grow lg:flex-grow-0 max-w-[258px] text-[#4d4d4d] mb-6 md:mb-12">Get the insight to build high performing teams.</p>
-        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => $LINKS["newsletter"])); ?>
+        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'href' => $LINKS["services"]["s-curve-insight"] )); ?>
       </div>
       <div class="flex flex-col lg:block w-[280px] md:w-[235px] lg:w-[300px] xl:w-[350px] bg-white mx-auto md:mx-0 p-4 rounded shadow-card">
         <img class="w-full h-auto mb-8 rounded" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/findACoach.png') ?>" alt="" width="303" height="231" />
         <h4 class="text-2xl font-bold mb-3">Find a Coach</h4>
         <p class="flex-grow lg:flex-grow-0 max-w-[265px] text-[#4d4d4d] mb-6 md:mb-12">Master personal disruption through hands-on training.</p>
-        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => $LINKS["newsletter"])); ?>
+        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'href' => $LINKS["services"]["coaching"] )); ?>
       </div>
       <div class="flex flex-col lg:block w-[280px] md:w-[235px] lg:w-[300px] xl:w-[350px] bg-white mx-auto md:mx-0 p-4 rounded shadow-card">
         <img class="w-full h-auto mb-8 rounded" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/scheduleAWorkshop.png') ?>" alt="" width="303" height="231" />
         <h4 class="text-2xl font-bold mb-3">Schedule a Workshop</h4>
         <p class="flex-grow lg:flex-grow-0 max-w-[272px] text-[#4d4d4d] mb-6 md:mb-12">Master personal disruption through hands-on training.</p>
-        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'link' => $LINKS["newsletter"])); ?>
+        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'href' => $LINKS["services"]["workshops"] )); ?>
       </div>
     </div>
   </div>

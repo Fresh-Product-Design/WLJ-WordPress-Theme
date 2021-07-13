@@ -41,7 +41,7 @@
         <p class="text-[#4d4d4d] font-bold mb-1">Drive a Culture of Growth</p>
         <p>Closely monitor growth to measure and drive business outcomes.</p>
       </div>
-      <a class="group inline-flex items-center justify-center font-bold text-[#017381] hover:text-[#143b3f]" href="#">
+      <a class="group inline-flex items-center justify-center font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
         <span class="mr-1 group-hover:underline">Contact Us to Learn More</span>
         <span class="material-icons-round mr">arrow_forward</span>
       </a>

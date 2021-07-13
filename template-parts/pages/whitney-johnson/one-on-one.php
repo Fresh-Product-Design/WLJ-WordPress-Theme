@@ -1,3 +1,5 @@
+<?php require get_template_directory() . "/link-configs.php" ?>
+
 <div id="coaching" class="content-container py-24">
   <div class="relative flex flex-col lg:flex-row lg:block bg-white p-16 lg:mr-32 rounded-lg">
     <div class="mb-8 lg:mb-0 text-center lg:absolute lg:-right-28 xl:-right-12 lg:top-24 lg:bottom-24 xl:top-16 xl:bottom-16 rounded-lg">
@@ -14,7 +16,7 @@
         <li>Original Cohort of 15, Marshall Goldsmith’s #100 Coaches</li>
         <li>Top 100 Best Coaches Award – World HRD Congress (India)</li>
       </ul>
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Learn More about Coaching", "js-hook" => "fireContactModal")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Learn More about Coaching", "href" => $LINKS["services"]["coaching"], "target" => "")); ?>
     </div>
   </div>
 </div>

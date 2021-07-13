@@ -1296,9 +1296,6 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(233, 244, 243, var(--tw-bg-opacity));
 }
-.bg-transparent {
-	background-color: transparent;
-}
 .bg-gradient-to-b {
 	background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1808,9 +1805,6 @@ video {
 .group:hover .group-hover\:border-\[\#017381\] {
 	--tw-border-opacity: 1;
 	border-color: rgba(1, 115, 129, var(--tw-border-opacity));
-}
-.group:hover .group-hover\:bg-black\/20 {
-	background-color: rgba(0, 0, 0, 0.2);
 }
 .group:hover .group-hover\:underline {
 	text-decoration: underline;

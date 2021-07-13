@@ -9,9 +9,9 @@
     <div class="text-center lg:text-left">
       <img class="block mb-6 mx-auto lg:mx-0" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/branding/footerLogo.png') ?>" alt="" width="159" height="37" />
       <div class="flex justify-center lg:justify-start space-x-4">
-        <a href="#" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/twitter.png') ?>" alt="" width="21" height="20" /></a>
-        <a href="#" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/instagram.png') ?>" alt="" width="21" height="20" /></a>
-        <a href="#" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/linkedin.png') ?>" alt="" width="21" height="20" /></a>
+        <a href="<?php esc_attr_e($LINKS["twitter"]); ?>" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/twitter.png') ?>" alt="" width="21" height="20" /></a>
+        <a href="<?php esc_attr_e($LINKS["instagram"]); ?>" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/instagram.png') ?>" alt="" width="21" height="20" /></a>
+        <a href="<?php esc_attr_e($LINKS["linkedin"]); ?>" target="_blank" rel="noopener"><img src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/icons/linkedin.png') ?>" alt="" width="21" height="20" /></a>
       </div>
     </div>
     <!-- Solution Links -->

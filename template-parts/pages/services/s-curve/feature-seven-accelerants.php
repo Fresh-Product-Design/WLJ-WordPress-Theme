@@ -11,7 +11,7 @@ $tabsOpts = array(
   )
 );
 ?>
-<div class="text-left mb-16 md:mb-20">
+<div id="accelerants" class="text-left mb-16 md:mb-20">
   <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => "The Seven Accelerants of Growth&trade;", "addt-styles" => "mb-6 font-bold")); ?>
   <p class="text-lg mb-6">Our attitudes and behaviors can either slow or accelerate our growth. The Seven Accelerants are distilled principals that have been proven over the test of time.</p>
   <p class="text-lg mb-10">They help people disrupt themselves by examining patterns, challenge assumptions, and look at problems in new and dynamic ways.</p>
