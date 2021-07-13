@@ -1,0 +1,4 @@
+<div class="bg-[rgba(233,244,243,0.6)] border-[2px] border-[#C8E1DE] p-4 md:p-8 rounded">
+  <p class="text-xl font-bold text-black mb-6">Leverage Failure</p>
+  <p class="text-[#4d4d4d]">We all hate to fail – but failure can be a powerfully effective teacher if we can check our ego and listen to learn. Note that inspiring stories from business or athletic leaders about “failing forward” are often a mix of both powerful truth and lie: The truth is that there generally are ways to learn from and respond to failure that can contribute to future success. The lie is that by the time we hear the story, the pain, shame, and difficulty associated with the failure has diminished…so it can sound much easier than it actually was.</p>
+</div>

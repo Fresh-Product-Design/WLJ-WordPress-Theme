@@ -6,7 +6,7 @@ $tabsOpts = array(
     array("key" => "constraints", "label" => "3. Embrace Constraints", "content-src" => "template-parts/components/tabs/content/embraceConstraints"),
     array("key" => "expectations", "label" => "4. Examine Expectations", "content-src" => "template-parts/components/tabs/content/examineExpectations"),
     array("key" => "grow", "label" => "5. Step Back to Grow", "content-src" => "template-parts/components/tabs/content/stepBackToGrow"),
-    array("key" => "failure", "label" => "6. Give Failure Its Due", "content-src" => "template-parts/components/tabs/content/giveFailureItsDue"),
+    array("key" => "failure", "label" => "6. Leverage Failure", "content-src" => "template-parts/components/tabs/content/leverageFailure"),
     array("key" => "discovery", "label" => "7. Be Discovery Driven", "content-src" => "template-parts/components/tabs/content/discoveryDriven"),
   )
 );
