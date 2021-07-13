@@ -1725,6 +1725,10 @@ video {
   font-display: swap;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* This is required, because WP sets it to absolute on mobile sizes. This breaks because we set the body to relative. */
 #wpadminbar {
   position: fixed!important;

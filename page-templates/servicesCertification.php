@@ -21,7 +21,7 @@ $iconLinksOpts = array(
   "tagline" => "Elite group of executive coaches helping leaders at FORTUNE 500 companies achieve peak performance.",
   "links" => array(
     array("icon-src" => "/src/assets/images/icons/supported.png", "icon-width" => "89", "icon-height" => "87", "title" => "Supported", "info" => "Part of a community of experts dedicated to growth and disruption"),
-    array("icon-src" => "/src/assets/images/icons/experienced.png", "icon-width" => "68", "icon-height" => "87", "title" => "Experience", "info" => "Vetted and certified representatives of our proprietary framworks"),
+    array("icon-src" => "/src/assets/images/icons/experienced.png", "icon-width" => "68", "icon-height" => "87", "title" => "Experienced", "info" => "Vetted and certified representatives of our proprietary framworks"),
     array("icon-src" => "/src/assets/images/icons/connected.png", "icon-width" => "76", "icon-height" => "87", "title" => "Connected", "info" => "Have access to a proven suite of tools for coaching, workshops, and more"),
   ),
   "spacing" => "mb-12",
