@@ -1360,6 +1360,9 @@ video {
 .bg-check-green {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/checkGreen.png');
 }
+.bg-x-red {
+	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/xRed.svg');
+}
 .bg-check-blue {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/checkBlue.png');
 }

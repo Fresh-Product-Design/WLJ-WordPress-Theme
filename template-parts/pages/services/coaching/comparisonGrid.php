@@ -29,25 +29,25 @@
       <div class="flex flex-col w-[166px] space-y-2 lg:text-lg">
         <div class="flex items-center justify-center h-[68px] bg-white rounded"><p class="text-black font-bold text-center px-5">Tradition Coaching</p></div>
         <p class="bg-check-green bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
         <p class="bg-check-green bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
       </div>
       <!-- Cloud Based Services Column -->
       <div class="flex flex-col w-[166px] space-y-2 lg:text-lg">
         <div class="flex items-center justify-center h-[68px] bg-white rounded"><p class="text-black font-bold text-center px-5">Cloud Based Services</p></div>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
         <p class="bg-check-green bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
         <p class="bg-check-green bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
-        <p class="bg-check-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
+        <p class="bg-x-red bg-standard-check bg-center bg-no-repeat bg-white h-[68px] rounded"></p>
       </div>
     </div>
   </div>

@@ -39,6 +39,7 @@ module.exports = {
           'check-blue': `url('${baseURL}/icons/checkBlue.png')`,
           'plus-blue': `url('${baseURL}/icons/plusBlue.png')`,
           'plus-yellow': `url('${baseURL}/icons/plusYellow.png')`,
+          'x-red': `url('${baseURL}/icons/xRed.svg')`,
           'whitney-different': `url('${baseURL}/backgrounds/whitney-different.png')`,
           'whitney-inspire': `url('${baseURL}/backgrounds/whitney-inspire.png')`,
         }
