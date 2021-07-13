@@ -2,7 +2,7 @@
 
 <span id="mobileMenu" class="material-icons-round text-[#4D4D4D] hover:text-black md:hidden" role="button">menu</span>
 
-<div id="site-navigation-container" class="hidden md:block absolute md:static top-[90px] bottom-0 left-0 right-0 border-t md:border-t-0 border-gray-300 overflow-auto md:overflow-visible">
+<div id="site-navigation-container" class="hidden md:block absolute max-h-[calc(100vh-90px)] md:static top-[90px] bottom-0 left-0 right-0 border-t md:border-t-0 border-gray-300 overflow-auto md:overflow-visible">
 	<div class="bg-white">
 		<nav
 			id="site-navigation"
