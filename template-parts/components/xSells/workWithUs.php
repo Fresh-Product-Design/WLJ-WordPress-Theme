@@ -18,7 +18,7 @@
       <div class="bg-white p-4 rounded shadow-card">
         <h4 class="text-2xl font-bold mb-3">Book Whitney Johnson</h4>
         <p class="max-w-[272px] text-[#4d4d4d] mb-6 lg:mb-12">Speaking events that inspire change within your organization.</p>
-        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', "href" => $LINKS["services"]["speaki g"] )); ?>
+        <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', "href" => $LINKS["services"]["speaking"] )); ?>
       </div>
     </div>
   </div>
