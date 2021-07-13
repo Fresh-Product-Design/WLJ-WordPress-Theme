@@ -22,6 +22,15 @@ $iconLinksOpts = array(
   "info-width" => "w-[262px]",
   "cta-label" => "Book Whitney Johnson"
 );
+$xSellOpts = array(
+  "title" => "Continue the momentum after a speaking event",
+  "tagline" => "Combine power of a speaking event with our other services to supercharge your growth.",
+  "cards" => array(
+    array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
+    array("src" => "template-parts/components/xSells/blocks/findACoach"),
+    array("src" => "template-parts/components/xSells/blocks/scheduleAWorkshop")
+  )
+);
 ?>
 
 <?php get_header(); ?>
@@ -34,5 +43,5 @@ $iconLinksOpts = array(
   <?php get_template_part( 'template-parts/components/testimonials/services/speaking' ); ?>
   <?php get_template_part( 'template-parts/pages/services/speaking/keynotes' ); ?>
   <?php get_template_part( 'template-parts/pages/services/speaking/speaking-topics' ); ?>
-  <?php get_template_part( 'template-parts/components/xSells/continueMomentum' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>

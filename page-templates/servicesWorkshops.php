@@ -15,6 +15,15 @@ $jumbotronLinks = array(
   "Workshop Topics" => "#workshop-topics",
   "Contact Us" => "#contactUs"
 );
+$xSellOpts = array(
+  "title" => "Continue the Growth After Your Workshop",
+  "tagline" => "We help organizations build happier, more engaged and productive teams.",
+  "cards" => array(
+    array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
+    array("src" => "template-parts/components/xSells/blocks/findACoach"),
+    array("src" => "template-parts/components/xSells/blocks/bookWhitneyJohnson")
+  )
+);
 ?>
 
 <?php get_header(); ?>
@@ -26,5 +35,5 @@ $jumbotronLinks = array(
   <?php get_template_part( 'template-parts/components/banners/bookAWorkshop' ); ?>
   <?php get_template_part( 'template-parts/components/testimonials/services/workshops' ); ?>
   <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
-  <?php get_template_part( 'template-parts/components/xSells/continueGrowth' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>

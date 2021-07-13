@@ -16,6 +16,15 @@ $jumbotronLinks = array(
   "Our Coaches" => "#coaches",
   "Contact Us" => "#contactUs",
 );
+$xSellOpts = array(
+  "title" => "Power Up Your Experience with Your Coach",
+  "tagline" => "Combine power of coaching with our other services to supercharge your growth.",
+  "cards" => array(
+    array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
+    array("src" => "template-parts/components/xSells/blocks/scheduleAWorkshop"),
+    array("src" => "template-parts/components/xSells/blocks/bookWhitneyJohnson")
+  )
+);
 ?>
 
 <?php get_header(); ?>
@@ -30,5 +39,5 @@ $jumbotronLinks = array(
   <?php get_template_part( 'template-parts/pages/services/coaching/ourCoaches' ); ?>
   <?php get_template_part( 'template-parts/components/testimonials/services/coaching' ); ?>
   <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
-  <?php get_template_part( 'template-parts/components/xSells/powerUpWithCoaches' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>

@@ -13,7 +13,6 @@
     <div class="flex flex-col md:flex-row border-b border-[#BFBFBF] pb-8 lg:border-none lg:pb-0">
       <div class="mb-8 md:mb-0 md:mr-8 flex-shrink-0">
         <div class="relative">
-          <span class="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl material-icons-round">play_arrow</span>
           <img class="w-full md:w-[320px] lg:w-[500px]" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/video-disrupt-yourself.png') ?>" alt="" width="500" height="274" />
         </div>
       </div>
@@ -30,7 +29,6 @@
     <div class="flex flex-col md:flex-row border-b border-[#BFBFBF] pb-8 lg:border-none lg:pb-0">
       <div class="mb-8 md:mb-0 md:mr-8 flex-shrink-0">
         <div class="relative">
-          <span class="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl material-icons-round">play_arrow</span>
           <img class="w-full md:w-[320px] lg:w-[500px]" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/video-build-an-a-team.png') ?>" alt="" width="500" height="274" />
         </div>
       </div>
@@ -47,7 +45,6 @@
     <div class="flex flex-col md:flex-row border-b border-[#BFBFBF] pb-8 lg:border-none lg:pb-0">
       <div class="mb-8 md:mb-0 md:mr-8 flex-shrink-0">
         <div class="relative">
-          <span class="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl material-icons-round">play_arrow</span>
           <img class="w-full md:w-[320px] lg:w-[500px]" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/video-smart-growth.png') ?>" alt="" width="500" height="274" />
         </div>
       </div>
@@ -64,7 +61,6 @@
     <div class="flex flex-col md:flex-row">
       <div class="mb-8 md:mb-0 md:mr-8 flex-shrink-0">
         <div class="relative">
-          <span class="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl material-icons-round">play_arrow</span>
           <img class="w-full md:w-[320px] lg:w-[500px]" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/video-next-step.png') ?>" alt="" width="500" height="274" />
         </div>
       </div>

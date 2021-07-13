@@ -12,7 +12,7 @@
 >
   <div class="space-y-2">
     <a href="<?php esc_attr_e($LINKS["services"]["s-curve-insight"]); ?>" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
-      <span>S Curve Insight</span>
+      <span class="h-[20px]">S Curve Insight</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">
@@ -20,7 +20,7 @@
   </div>
   <div class="space-y-2 md:justify-self-center">
     <a href="<?php esc_attr_e($LINKS["services"]["coaching"]); ?>" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
-      <span>Coaching</span>
+      <span class="h-[20px]">Coaching</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">
@@ -28,7 +28,7 @@
   </div>
   <div class="space-y-2 md:justify-self-end">
     <a href="<?php esc_attr_e($LINKS["services"]["certification"]); ?>" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
-      <span>Certification</span>
+      <span class="h-[20px]">Certification</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">
@@ -36,7 +36,7 @@
   </div>
   <div class="space-y-2">
     <a href="<?php esc_attr_e($LINKS["services"]["speaking"]); ?>" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
-      <span>Speaking</span>
+      <span class="h-[20px]">Speaking</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">
@@ -44,7 +44,7 @@
   </div>
   <div class="space-y-2 md:justify-self-center">
     <a href="<?php esc_attr_e($LINKS["services"]["workshops"]); ?>" class="inline-flex md:flex items-center text-xl tracking-widest font-headline uppercase hover:text-[#017381]">
-      <span>Workshops</span>
+      <span class="h-[20px]">Workshops</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">

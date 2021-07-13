@@ -10,7 +10,16 @@
       array("icon-src" => "/src/assets/images/icons/certifications@3x.png", "icon-width" => "70", "icon-height" => "87", "title" => "Certifications", "info" => "Join a community of experts dedicated to growth.", "href" => $LINKS["services"]["certification"]),
       array("icon-src" => "/src/assets/images/icons/speaking@3x.png", "icon-width" => "84.5", "icon-height" => "87", "title" => "Speaking", "info" => "Inspire change within your whole organization.", "href" => $LINKS["services"]["speaking"]),
     )
-  ); 
+  );
+  $xSellOpts = array(
+    "title" => "Work With Us",
+    "tagline" => "We help organizations build happier, more engaged and productive teams.",
+    "cards" => array(
+      array("src" => "template-parts/components/xSells/blocks/takeTheAssessment", "opts" => array("no-img" => true)),
+      array("src" => "template-parts/components/xSells/blocks/becomeAPartner"),
+      array("src" => "template-parts/components/xSells/blocks/bookWhitneyJohnson", "opts" => array("no-img" => true))
+    )
+  );
 ?>
 
 <?php get_header(); ?>
@@ -29,5 +38,5 @@
   <!-- Customer(s) Testimonial -->
   <?php get_template_part( 'template-parts/components/testimonials/homeTestimonial' ); ?>
   <!-- Work with Us -->
-  <?php get_template_part( 'template-parts/components/xSells/workWithUs' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>

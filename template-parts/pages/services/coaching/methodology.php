@@ -24,8 +24,8 @@
     </div>
   </div>
   <div class="relative flex flex-col lg:flex-row lg:block bg-white p-8 lg:mr-12 rounded-lg">
-    <div class="hidden lg:block mb-8 lg:mb-0 text-center lg:absolute lg:-right-12 lg:top-4 lg:bottom-4">
-      <img class="inline h-auto lg:h-full w-auto border-4 border-white rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/findACoach.png') ?>" alt="" width="406" height="311">
+    <div class="hidden lg:block mb-8 lg:mb-0 text-center lg:absolute lg:-right-12 lg:top-4">
+      <img class="inline w-[568px] h-[436px] xl:w-[401px] xl:h-[308px] border-4 border-white rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/findACoach.png') ?>" alt="" width="406" height="311">
     </div>
     <div class="lg:w-2/5 xl:w-2/3">
       <h4 class="font-subhead text-2xl font-bold text-black tracking-widest mb-4">What we can accomplish together.</h4>

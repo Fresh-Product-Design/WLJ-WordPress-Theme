@@ -1,8 +1,8 @@
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <div class="relative flex flex-col lg:flex-row lg:block bg-white p-8 lg:mr-12 rounded-lg">
-  <div class="hidden lg:block mb-8 lg:mb-0 text-center lg:absolute lg:-right-12 lg:top-8 lg:bottom-8 xl:top-4 xl:bottom-4">
-    <img class="inline h-auto lg:h-full w-auto border-4 border-white rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/take-the-assessment-alt.png') ?>" alt="" width="406" height="311">
+  <div class="hidden lg:block mb-8 lg:mb-0 text-center lg:absolute lg:-right-12 lg:top-8 xl:top-4">
+    <img class="w-[368px] h-[344px] xl:w-[265px] xl:h-[248px] border-4 border-white rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/take-the-assessment-new.png') ?>" alt="" width="406" height="311">
   </div>
   <div class="lg:pr-4 xl:pr-0 lg:w-1/2 xl:w-2/3">
     <h4 class="font-subhead text-2xl font-bold text-black tracking-widest mb-4">What is the S Curve Insight Platform?</h4>

@@ -35,6 +35,16 @@ $tabsOpts = array(
   ),
   "addt-styles" => "mb-24"
 );
+
+$xSellOpts = array(
+  "title" => "Power Up Your Experience with the Platform",
+  "tagline" => "Combining the insight of the S Curve with our other services will supercharge your growth.",
+  "cards" => array(
+    array("src" => "template-parts/components/xSells/blocks/findACoach"),
+    array("src" => "template-parts/components/xSells/blocks/scheduleAWorkshop"),
+    array("src" => "template-parts/components/xSells/blocks/bookWhitneyJohnson")
+  )
+);
 ?>
 
 <?php get_header(); ?>
@@ -47,5 +57,5 @@ $tabsOpts = array(
   <?php get_template_part( 'template-parts/components/banners/getInsights'); ?>
   <?php get_template_part( 'template-parts/components/testimonials/services/s-curve' ); ?>
   <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
-  <?php get_template_part( 'template-parts/components/xSells/powerUpWithPlatform' ); ?>
+  <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>

@@ -5,15 +5,15 @@
   <div class="w-full mb-1 overflow-auto text-center">
     <div class="inline-flex space-x-2 text-left w-[811px] md:w-[946px] lg:w-[990px]">
       <div class="bg-[#E9F4F3] bg-scurve-lg-start bg-contain bg-bottom bg-no-repeat w-[265px] h-[477px] md:w-[310px] md:h-[558px] lg:w-[322px] lg:h-[580px] p-4 rounded">
-        <p class="text-xl text-black mb-4">Launch Point</p>
+        <p class="font-bold text-xl text-black mb-4">Launch Point</p>
         <p class="text-sm text-[#4d4d4d]">At the <strong>launch point</strong> individuals are new to a role, facing new challenges, and tend to need a lot ofsupport, while their “fresh eyes” perspective offers a huge opportunity for a team. </p>
       </div>
       <div class="bg-[#E9F4F3] bg-scurve-lg-mid bg-contain bg-bottom bg-no-repeat w-[265px] h-[477px] md:w-[310px] md:h-[558px] lg:w-[322px] lg:h-[580px] p-4 rounded">
-        <p class="text-xl text-black mb-4">Sweet Spot</p>
+        <p class="font-bold text-xl text-black mb-4">Sweet Spot</p>
         <p class="text-sm text-[#4d4d4d]">The <strong>sweet spot</strong> is where people are thriving, challenged, learning, and invigorated by the work. Growth comes from new projects, teams, and focus.</p>
       </div>
       <div class="bg-[#E9F4F3] bg-scurve-lg-end bg-contain bg-bottom bg-no-repeat w-[265px] h-[477px] md:w-[310px] md:h-[558px] lg:w-[322px] lg:h-[580px] p-4 rounded">
-        <p class="text-xl text-black mb-4">Mastery</p>
+        <p class="font-bold text-xl text-black mb-4">Mastery</p>
         <p class="text-sm text-[#4d4d4d]">While <strong>mastery</strong> is great, people here can get bored if things become too easy. Growth comes from developing fresh challenges in the current position or transitioning to a new opportunity within an organization.</p>
       </div>
     </div>
