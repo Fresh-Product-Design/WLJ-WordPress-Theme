@@ -1,5 +1,5 @@
 <?php
-$defaultStyles = "inline-flex items-center justify-center font-bold px-4 py-3 border border-white text-white hover:bg-black/5 rounded";
+$defaultStyles = "inline-flex items-center justify-center font-bold px-4 py-3 border border-white text-white hover:bg-black/5 rounded cursor-pointer";
 // Addt Styles Check
 $defaultStyles .= array_key_exists("addt-styles", $args) ? " ".$args["addt-styles"] : "";
 ?>

@@ -11,7 +11,7 @@
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Learn to leverage each key disruptive accelerant</p>
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Develop a high-growth mindset, ready to embrace the future</p>
       </div>
-      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
         <span class="mr-1 group-hover:underline">Contact Us to Schedule</span>
         <span class="material-icons-round mr">arrow_forward</span>
       </a>
@@ -27,7 +27,7 @@
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Develop a connected team</p>
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Foster a growth mindset</p>
       </div>
-      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
         <span class="mr-1 group-hover:underline">Contact Us to Schedule</span>
         <span class="material-icons-round mr">arrow_forward</span>
       </a>
@@ -44,7 +44,7 @@
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Practice deep listening</p>
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Strategize collaboratively</p>
       </div>
-      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
         <span class="mr-1 group-hover:underline">Contact Us to Schedule</span>
         <span class="material-icons-round mr">arrow_forward</span>
       </a>
@@ -58,7 +58,7 @@
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Shift from growing people to growing a company</p>
         <p class="bg-plus-blue bg-workshop-plus-fix bg-no-repeat pl-8">Utilize disruption as a catalyst for human performance</p>
       </div>
-      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+      <a class="group flex items-center pt-10 font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
         <span class="mr-1 group-hover:underline">Contact Us to Schedule</span>
         <span class="material-icons-round mr">arrow_forward</span>
       </a>

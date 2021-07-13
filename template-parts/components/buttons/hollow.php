@@ -1,5 +1,5 @@
 <?php
-  $buttonStyles = "inline-flex items-center justify-center font-bold px-4 py-3 border border-[#017381] text-[#017381] hover:bg-black/5 rounded";
+  $buttonStyles = "inline-flex items-center justify-center font-bold px-4 py-3 border border-[#017381] text-[#017381] hover:bg-black/5 rounded cursor-pointer";
   // Addt Styles Check
   $buttonStyles .= array_key_exists("addt-styles", $args) ? " ".$args["addt-styles"] : "";
 ?>

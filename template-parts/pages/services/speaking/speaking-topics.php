@@ -19,7 +19,7 @@
       <div class="space-y-4">
         <h4 class="text-xl font-bold">Disrupt Yourself</h4>
         <p class="text-[#4d4d4d]">We are living in an era of accelerating disruption- managing and mastering the S Curve is a requisite skill. If you want to be successful in unexpected ways, follow your own disruptive path. Dare to innovate. Do something astonishing. Disrupt yourself.</p>
-        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer cursor-pointer" data-js="fireContactModal">
           <span class="mr-1 group-hover:underline">Inquire Now</span>
           <span class="material-icons-round mr">arrow_forward</span>
         </a>
@@ -35,7 +35,7 @@
       <div class="space-y-4">
         <h4 class="text-xl font-bold">Build an A Team</h4>
         <p class="text-[#4d4d4d]">We all want opportunities to learn, experiment, and grow in our jobs. The best bosses know this and how to make it happen through thoughtful role design and challenge. The result is a team that learns how to thrive, no matter what the industry throws at them.</p>
-        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
           <span class="mr-1 group-hover:underline">Inquire Now</span>
           <span class="material-icons-round mr">arrow_forward</span>
         </a>
@@ -51,7 +51,7 @@
       <div class="space-y-4">
         <h4 class="text-xl font-bold">Smart Growth</h4>
         <p class="text-[#4d4d4d]">Faucibus eget quam interdum pellentesque pretium nisl tristique eget urna aliquam ut lacus mauris maecenas tellus ornare et nec vitae consequat neque maecenas viverra quis morbi tortor vel sollicitudin ornare scelerisque egestas at aliquet viverra faucibus proin nunc euismod est</p>
-        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
           <span class="mr-1 group-hover:underline">Inquire Now</span>
           <span class="material-icons-round mr">arrow_forward</span>
         </a>
@@ -67,7 +67,7 @@
       <div class="space-y-4">
         <h4 class="text-xl font-bold">The Next Step: Lessons on embracing change and continuous improvement</h4>
         <p class="text-[#4d4d4d]">Learn to leverage disruption and build momentum along your S Curveof Learning by leveraging the Seven Accelerants of Growth. Feel confident and move toward continuous improvement rather thansuccumbing to the chaos of change. Whatever the challenges, it is the individual that is the fundamental unit of growth.</p>
-        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f]" data-js="fireContactModal">
+        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
           <span class="mr-1 group-hover:underline">Inquire Now</span>
           <span class="material-icons-round mr">arrow_forward</span>
         </a>
