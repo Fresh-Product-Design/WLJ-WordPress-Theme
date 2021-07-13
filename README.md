@@ -27,6 +27,7 @@ For the initial release of this theme, we are hard coding each indiviudal conten
 > URL Slugs can be found in the `link-configs.php` file, here I set up definitions for the slugs to each page. This file is referenced anywhere we need to link to an internal route, this way we only have to change one file and be sure every reference is updated along with it.
 
 * About Us - ./page-templates/aboutUs.php
+* Front Page - ./front-page.php
 * About Whitney Johnson - ./page-templates/aboutWhitneyJohnson.php
 * Services | S Curve Insigh - ./page-templates/servicesSCurveInsight.php
 * Services | Coaching - ./page-templates/servicesCoaching.php
