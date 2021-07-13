@@ -8,10 +8,10 @@
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="organization" placeholder="Organization" required />
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="jobTitle" placeholder="Job Title or Role" required />
     <select class="w-full text-[14px] px-4 py-3 border border-[#939E9E] rounded" name="interestedIn" required>
-      <option selected disabled>What are you interested in?</option>
+      <option selected>What are you interested in?</option>
     </select>
     <select class="w-full text-[14px] px-4 py-3 border border-[#939E9E] rounded" name="hearAboutUs" required>
-      <option selected disabled>How did you find out about us?</option>
+      <option selected>How did you find out about us?</option>
     </select>
     <textarea class="col-span-2 row-span-2 text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded resize-none" name="description" placeholder="How can we help?"></textarea>
   </div>

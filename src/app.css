@@ -14,6 +14,14 @@ html {
   scroll-behavior: smooth;
 }
 
+
+select {
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
+  -webkit-appearance: none;
+  background-position-x: 95%;
+  background-size: 10px;
+}
+
 /* This is required, because WP sets it to absolute on mobile sizes. This breaks because we set the body to relative. */
 #wpadminbar {
   position: fixed!important;

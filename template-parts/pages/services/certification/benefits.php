@@ -31,17 +31,17 @@
       <div class="inline-flex space-x-2 text-left w-[774px] lg:w-[894px] xl:w-[1152px]">
         <div class="bg-[#E9F4F3] bg-scurve-lg-start bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 1.</p>
-          <p class="text-xl text-black mb-4">Give the Assessment</p>
+          <p class="font-bold text-xl text-black mb-4">Give the Assessment</p>
           <p class="text-sm text-[#4d4d4d]">Clients will discover and clearly understand where they on their growth.</p>
         </div>
         <div class="bg-[#E9F4F3] bg-scurve-lg-mid bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 2.</p>
-          <p class="text-xl text-black mb-4">Accelerate Growth</p>
+          <p class="font-bold text-xl text-black mb-4">Accelerate Growth</p>
           <p class="text-sm text-[#4d4d4d]">Help your client reach their full potenial with actionable insights and your personalized guidance.</p>
         </div>
         <div class="bg-[#E9F4F3] bg-scurve-lg-end bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 3.</p>
-          <p class="text-xl text-black mb-4">Help Visualize Potential</p>
+          <p class="font-bold text-xl text-black mb-4">Help Visualize Potential</p>
           <p class="text-sm text-[#4d4d4d]">Identify their strengths to leverage and where to focus for development.</p>
         </div>
       </div>
