@@ -7,13 +7,13 @@
     </div>
     <div class="lg:w-1/2 xl:w-2/3">
       <h4 class="font-subhead text-sm text-[#808080] tracking-widest mb-2 uppercase">Executive Coaching</h4>
-      <p class="text-xl font-bold leading-relaxed mb-4">Whitney provides one-on-one coaching with a limited number of executives that fuels their professional and organizational growth.</p>
+      <p class="text-xl font-bold leading-relaxed mb-4">Whitney provides one-on-one coaching with a limited number of executives who want to grow themselves to grow their organization.</p>
       <p class="max-w-[597px] text-[#4d4d4d] mb-2">Whitney is recognized as one of world’s foremost thought leaders and executive coaches. She has gained recognition from:</p>
       <ul class="text-[#4d4d4d] list-disc ml-6 space-y-2 mb-8">
-        <li>Certified Coach by Marshall Goldsmith Stakeholder-Centered Coaching</li>
+        <li>Original cohort of 15, Marshall Goldsmith's 100 Coaches / #1 Talent Coach</li>
         <li>Coach, Harvard Business School Executive Education</li>
         <li>Member, Harvard Medical School Institute of Coaching</li>
-        <li>Original Cohort of 15, Marshall Goldsmith’s #100 Coaches</li>
+        <li>Certified Coach by Marshall Goldsmith Stakeholder-Centered Coaching</li>
         <li>Top 100 Best Coaches Award – World HRD Congress (India)</li>
       </ul>
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Learn More about Coaching", "href" => $LINKS["services"]["coaching"], "target" => "")); ?>

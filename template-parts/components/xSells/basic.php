@@ -1,4 +1,4 @@
-<div class="bg-[#fdea8c] bg-paper-curves py-24">
+<div class="bg-[#fcf1bc] md:bg-paper-curves py-24">
   <div class="content-container text-center">
   <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => $args["title"], "mb" => "mb-2")); ?>
     <p class="text-lg text-[#4d4d4d] mb-16"><?php esc_html_e($args["tagline"]) ?></p>

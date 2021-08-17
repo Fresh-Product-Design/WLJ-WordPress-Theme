@@ -21,7 +21,7 @@ module.exports = {
         return {
           'header-waves': `url('${baseURL}/backgrounds/homeHeader.png')`,
           'weathered-blue': `url('${baseURL}/backgrounds/weatheredBlue.png')`,
-          'paper-curves': `url('${baseURL}/backgrounds/paperCurves.png')`,
+          'paper-curves': `url('${baseURL}/backgrounds/xsell.png')`,
           'quote': `url('${baseURL}/icons/quote.png')`,
           'quote-yellow': `url('${baseURL}/icons/quoteYellow.png')`,
           'scurve-start': `url('${baseURL}/backgrounds/sCurve_part1.png')`,

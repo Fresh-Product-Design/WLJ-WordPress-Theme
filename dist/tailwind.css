@@ -622,6 +622,9 @@ video {
 .relative {
 	position: relative;
 }
+.sticky {
+	position: sticky;
+}
 .inset-0 {
 	top: 0px;
 	right: 0px;
@@ -984,9 +987,6 @@ video {
 .max-w-\[1050px\] {
 	max-width: 1050px;
 }
-.max-w-\[740px\] {
-	max-width: 740px;
-}
 .max-w-\[260px\] {
 	max-width: 260px;
 }
@@ -1007,6 +1007,9 @@ video {
 }
 .max-w-\[925px\] {
 	max-width: 925px;
+}
+.max-w-\[740px\] {
+	max-width: 740px;
 }
 .max-w-\[258px\] {
 	max-width: 258px;
@@ -1142,15 +1145,15 @@ video {
 	margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
 	margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-	--tw-space-y-reverse: 0;
-	margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-	margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
 	margin-right: calc(0.25rem * var(--tw-space-x-reverse));
 	margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-y-reverse: 0;
+	margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+	margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-y-reverse: 0;
@@ -1252,10 +1255,6 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(246, 246, 246, var(--tw-bg-opacity));
 }
-.bg-white {
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
 .bg-\[\#BFBFBF\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(191, 191, 191, var(--tw-bg-opacity));
@@ -1263,6 +1262,10 @@ video {
 .bg-\[\#C8E1DE\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(200, 225, 222, var(--tw-bg-opacity));
+}
+.bg-white {
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 .bg-black\/60 {
 	background-color: rgba(0, 0, 0, 0.6);
@@ -1294,9 +1297,9 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(195, 219, 216, var(--tw-bg-opacity));
 }
-.bg-\[\#fdea8c\] {
+.bg-\[\#fcf1bc\] {
 	--tw-bg-opacity: 1;
-	background-color: rgba(253, 234, 140, var(--tw-bg-opacity));
+	background-color: rgba(252, 241, 188, var(--tw-bg-opacity));
 }
 .bg-\[rgba\(233\2c 244\2c 243\2c 0\.6\)\] {
 	background-color: rgba(233,244,243,0.6);
@@ -1326,9 +1329,6 @@ video {
 }
 .bg-quote-yellow {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/quoteYellow.png');
-}
-.bg-paper-curves {
-	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/paperCurves.png');
 }
 .bg-check-red {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/checkRed.png');
@@ -1689,9 +1689,6 @@ video {
 }
 .opacity-30 {
 	opacity: 0.3;
-}
-.mix-blend-multiply {
-	mix-blend-mode: multiply;
 }
 .shadow-md {
 	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -2368,6 +2365,10 @@ select {
 
 	.md\:bg-transparent {
 		background-color: transparent;
+	}
+
+	.md\:bg-paper-curves {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/xsell.png');
 	}
 
 	.md\:bg-whitney-different {
