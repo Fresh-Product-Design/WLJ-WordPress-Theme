@@ -4,7 +4,7 @@
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/findACoach.png" : false,
     "title" => "Find a Coach",
-    "tagline" => "Master personal disruption through hands-on training.",
+    "tagline" => "Master personal disruption through personalized coaching.",
     "href" => $LINKS["services"]["coaching"]
   );
   

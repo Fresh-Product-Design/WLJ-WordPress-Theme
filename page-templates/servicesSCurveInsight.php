@@ -7,7 +7,7 @@
 $jumbotronOpts = array(
   "title" => "Critical Insight Into Your Team’s Potential",
   "tagline" => "Take your organization to the next level.",
-  "corner-tag" => "S Curve Insight&trade;",
+  "corner-tag" => "S Curve Insight&trade; Platform",
   "cta-label" => "Request a Demo",
   "padding" => "pt-12 pb-16 lg:pt-28 lg:pb-8",
   "margin" => "mb-16 lg:mb-32",
@@ -18,10 +18,10 @@ $jumbotronOpts = array(
 
 $iconLinksOpts = array(
   "headline" => "Power of the S Curve", 
-  "tagline" => "The framework empowers you to maximize your growth and reach your goals",
+  "tagline" => "This framework empowers you to maximize your growth and make progress toward what matters most",
   "links" => array(
-    array("icon-src" => "/src/assets/images/icons/s-curve_distribution@3x.png", "icon-width" => "76", "icon-height" => "87", "title" => "S Curve Distribution", "info" => "See where your team is on their growth journey.", "href" => "#s-curve"),
-    array("icon-src" => "/src/assets/images/icons/growth_accelerants@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Growth Accelerants", "info" => "Identify your team’s strengths and areas for improvement.", "href" => "#accelerants"),
+    array("icon-src" => "/src/assets/images/icons/s-curve_distribution@3x.png", "icon-width" => "76", "icon-height" => "87", "title" => "S Curve Distribution", "info" => "See where your team is in their growth journey.", "href" => "#s-curve"),
+    array("icon-src" => "/src/assets/images/icons/growth_accelerants@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Growth Accelerants", "info" => "Identify and lean into strengths, mitigate weaknesses.", "href" => "#accelerants"),
     array("icon-src" => "/src/assets/images/icons/team_culture@3x.png", "icon-width" => "81", "icon-height" => "87", "title" => "Team Culture", "info" => "Assess your organization’s culture and health.", "href" => "#culture", "addt-styles" => "md:col-span-2"),
   ),
   "cta-label" => "Request a Demo"
@@ -50,7 +50,6 @@ $xSellOpts = array(
 <?php get_header(); ?>
   <?php get_template_part( 'template-parts/components/jumbotrons/curvesWithImage', null, $jumbotronOpts); ?>
   <?php get_template_part( 'template-parts/components/infoBlocks/iconLinks', null, $iconLinksOpts ); ?>
-  <?php get_template_part( 'template-parts/components/tabs/basic', null, $tabsOpts); ?>
   <?php get_template_part( 'template-parts/components/tabs/basic', null, $tabsOpts); ?>
   <?php get_template_part( 'template-parts/components/banners/getInsights'); ?>
   <?php get_template_part( 'template-parts/pages/services/s-curve/whatIsSCurveInsight'); ?>

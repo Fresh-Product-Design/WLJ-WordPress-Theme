@@ -2,10 +2,10 @@
   $iconLinksOpts = array(
     "remove-line" => true,
     "links" => array(
-      array("icon-src" => "/src/assets/images/icons/connected@3x.png", "icon-width" => "87", "icon-height" => "87", "title" => "Connected", "info" => "Vibrant connections are the difference between isolated individuals and a powerful team."),
+      array("icon-src" => "/src/assets/images/icons/connected@3x.png", "icon-width" => "87", "icon-height" => "87", "title" => "Connected", "info" => "Vibrant connections are difference between isolated individuals."),
       array("icon-src" => "/src/assets/images/icons/conducive@3x.png", "icon-width" => "87", "icon-height" => "87", "title" => "Conducive", "info" => "Teams only thrive and grow in a context with the right physical and emotional resources."),
-      array("icon-src" => "/src/assets/images/icons/nurturing@3x.png", "icon-width" => "86", "icon-height" => "87", "title" => "Nuturing", "info" => "Management relationships that are open and invested in growth will nurture individuals and teams."),
-      array("icon-src" => "/src/assets/images/icons/overcoming@3x.png", "icon-width" => "69", "icon-height" => "87", "title" => "Overcoming", "info" => "Successful teams have the spirit and resources to overcome the setbacks that inevitably come."),
+      array("icon-src" => "/src/assets/images/icons/nurturing@3x.png", "icon-width" => "86", "icon-height" => "87", "title" => "Nurturing", "info" => "Management relationships that are open and invested in growth will nurture individuals and teams."),
+      array("icon-src" => "/src/assets/images/icons/overcoming@3x.png", "icon-width" => "69", "icon-height" => "87", "title" => "Resilience", "info" => "Successful teams have the spirit to bounce back from inevitable setbacks."),
     )
   ); 
 ?>

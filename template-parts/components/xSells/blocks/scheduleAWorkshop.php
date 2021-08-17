@@ -4,7 +4,7 @@
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/scheduleAWorkshop.png" : false,
     "title" => "Schedule A Workshop",
-    "tagline" => "Master personal disruption through hands-on training.",
+    "tagline" => "Build momentum through customized training.",
     "href" => $LINKS["services"]["workshops"]
   );
   
