@@ -2,24 +2,24 @@
 
 <div class="bg-[#C8E1DE] py-24">
   <div class="content-container text-center">
-    <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "S Curve Insight&trade;", "mb" => "mb-2")); ?>
-    <p class="max-w-[908px] text-lg text-[#4d4d4d] mx-auto mb-16">The S Curve Insight Platform is inspired by the world’s leading management and innovation thinkers and is used by FORTUNE 500 companies to accelerate employee and revenue growth.</p>
+    <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "S Curve Insight&trade; Platform", "mb" => "mb-2")); ?>
+    <p class="max-w-[908px] text-lg text-[#4d4d4d] mx-auto mb-16">The S Curve Insight Platform is inspired by the world's leading innovation and management thinkers and is used by FORTUNE 500 companies who understand that they fund their company's growth via the learning and growth of their people.</p>
     <div class="w-full mb-16 overflow-auto">
       <div class="inline-flex space-x-2 text-left w-[843px]">
         <div class="bg-white bg-scurve-start bg-bottom bg-no-repeat w-[275px] h-[453px] p-4 rounded">
           <p class="text-sm text-[#808080] mb-2">Step 1.</p>
           <h4 class="text-xl font-bold mb-4">Take the Assessment</h4>
-          <p class="text-sm text-[#4d4d4d]">See where each of your employees is on their growth journey.</p>
+          <p class="text-sm text-[#4d4d4d]">See where each individual is, including you, on their growth journey.</p>
         </div>
         <div class="bg-white bg-scurve-mid bg-bottom bg-no-repeat w-[275px] h-[453px] p-4 rounded">
           <p class="text-sm text-[#808080] mb-2">Step 2.</p>
           <h4 class="text-xl font-bold mb-4">Accelerate Growth</h4>
-          <p class="text-sm text-[#4d4d4d]">Help your employees reach their full potenial with actionable insights and personalized coaching.</p>
+          <p class="text-sm text-[#4d4d4d]">Gain actionable insight into how you can grow faster.</p>
         </div>
         <div class="bg-white bg-scurve-end bg-bottom bg-no-repeat w-[275px] h-[453px] p-4 rounded">
           <p class="text-sm text-[#808080] mb-2">Step 3.</p>
-          <h4 class="text-xl font-bold mb-4">Help Visualize Potential</h4>
-          <p class="text-sm text-[#4d4d4d]">Identify the strengths to leverage and where to focus employee development.</p>
+          <h4 class="text-xl font-bold mb-4">Achieve Potential</h4>
+          <p class="text-sm text-[#4d4d4d]">Build momentum by coaching to the curve.</p>
         </div>
       </div>
     </div>

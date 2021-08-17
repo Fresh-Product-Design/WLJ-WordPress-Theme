@@ -2,10 +2,10 @@
 
 <?php
   $iconLinksOpts = array(
-    "headline" => "Fuel Your Growth", 
-    "tagline" => "Achieve sustained organizational success with our powerful tools",
+    "headline" => "Grow Smarter", 
+    "tagline" => "Achieve sustained organizational success with critical insight on individual momentum",
     "links" => array(
-      array("icon-src" => "/src/assets/images/icons/assessment@3x.png", "icon-width" => "72", "icon-height" => "87", "title" => "Assessment", "info" => "Get the insight to build high performing teams.", "href" => $LINKS["services"]["s-curve-insight"]),
+      array("icon-src" => "/src/assets/images/icons/assessment@3x.png", "icon-width" => "72", "icon-height" => "87", "title" => "Assessment", "info" => "Get insight on building a high performing team.", "href" => $LINKS["services"]["s-curve-insight"]),
       array("icon-src" => "/src/assets/images/icons/coaching@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Coaching", "info" => "Identify your strengths and achieve your goals.", "href" => $LINKS["services"]["coaching"]),
       array("icon-src" => "/src/assets/images/icons/certifications@3x.png", "icon-width" => "70", "icon-height" => "87", "title" => "Certifications", "info" => "Join a community of experts dedicated to growth.", "href" => $LINKS["services"]["certification"]),
       array("icon-src" => "/src/assets/images/icons/speaking@3x.png", "icon-width" => "84.5", "icon-height" => "87", "title" => "Speaking", "info" => "Inspire change within your whole organization.", "href" => $LINKS["services"]["speaking"]),

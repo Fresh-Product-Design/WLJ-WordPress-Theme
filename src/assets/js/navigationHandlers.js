@@ -6,6 +6,7 @@ let mobileMenuBackdrop;
 let isMobileMenuOpen = false;
 
 function openMobileMenu() {
+  mobileMenuIcon.dataset.mobileNavOpen = true;
   // Update icon
   mobileMenuIcon.innerText = "close";
   isMobileMenuOpen = true;
@@ -22,6 +23,7 @@ function openMobileMenu() {
   siteNavContainer.classList.remove('hidden');
 }
 function closeMobileMenu() {
+  mobileMenuIcon.dataset.mobileNavOpen = false;
   // Update icon
   mobileMenuIcon.innerText = "menu";
   isMobileMenuOpen = false;

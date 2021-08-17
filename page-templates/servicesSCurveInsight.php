@@ -51,6 +51,7 @@ $xSellOpts = array(
   <?php get_template_part( 'template-parts/components/jumbotrons/curvesWithImage', null, $jumbotronOpts); ?>
   <?php get_template_part( 'template-parts/components/infoBlocks/iconLinks', null, $iconLinksOpts ); ?>
   <?php get_template_part( 'template-parts/components/tabs/basic', null, $tabsOpts); ?>
+  <?php get_template_part( 'template-parts/components/tabs/basic', null, $tabsOpts); ?>
   <?php get_template_part( 'template-parts/components/banners/getInsights'); ?>
   <?php get_template_part( 'template-parts/pages/services/s-curve/whatIsSCurveInsight'); ?>
   <?php get_template_part( 'template-parts/pages/services/s-curve/features'); ?>

@@ -18,7 +18,7 @@
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-2 lg:mb-8">Solutions</h4>
       <div class="flex flex-row flex-wrap justify-center lg:justify-start lg:flex-col text-sm text-[#017381] space-x-2 lg:space-x-0 lg:space-y-4">
-        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_attr_e($LINKS["services"]["s-curve-insight"]); ?>">S Curve Insight</a>
+        <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_attr_e($LINKS["services"]["s-curve-insight"]); ?>">S Curve Insight Platform</a>
         <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_attr_e($LINKS["services"]["coaching"]); ?>">Coaching</a>
         <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_attr_e($LINKS["services"]["certification"]); ?>">Certification</a>
         <a class="mt-2 lg:mt-0 hover:underline" href="<?php esc_attr_e($LINKS["services"]["speaking"]); ?>">Speaking</a>
@@ -48,7 +48,7 @@
     <!-- Stay Connected -->
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Stay Connected</h4>
-      <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0">Indispensable learnings, research, and articles help you climb the S Curve of Learning.</p>
+      <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0">Indispensable learnings, listening and research to help you get smarter about growth.</p>
       <?php get_template_part( 'template-parts/components/captures/emailAddress' ); ?>
     </div>
   </div>

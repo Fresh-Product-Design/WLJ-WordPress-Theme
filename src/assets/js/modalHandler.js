@@ -1,34 +1,56 @@
 let contactModal;
+let thankYouModal;
 
-function openContactModal() {
+function openModal(type) {
+  // Close mobile nav that may be open
+  const mobileMenu = document.getElementById('mobileMenu');
+  if (!!mobileMenu.dataset.mobileNavOpen) { mobileMenu.click(); }
   // Update Body to not scroll
   document.getElementsByTagName('body')[0].classList.add('overflow-hidden');
   // Show Modal
-  contactModal.classList.remove("hidden");
+  if (type === "contactUs") {
+    contactModal.classList.remove("hidden");
+  } else if(type === "thankYouLeadCapture") {
+    thankYouModal.classList.remove("hidden");
+  }
 };
 
-function closeContactModal() {
+function closeAllModals() {
+  closeModal(contactModal);
+  closeModal(thankYouModal);
+}
+
+function closeModal(modal) {
   // Update Body to scroll
   document.getElementsByTagName('body')[0].classList.remove('overflow-hidden');
   // Hide Modal
-  contactModal.classList.add("hidden");
+  modal.classList.add("hidden");
 }
 
 // Handles closing via click of the background of the modal
-function closeContactModalFromBackground(event) {
-  if (event.target.id !== 'contactUsModal') return;
-  closeContactModal();
+function closeModalFromBackground(event, modal) {
+  if (typeof event.target.dataset.modal === "undefined") return;
+  closeModal(modal);
 }
 
 function setModalHandlers() {
   contactModal = document.getElementById("contactUsModal");
-  contactModal.addEventListener('click', closeContactModalFromBackground);
+  thankYouModal = document.getElementById("thankYouLeadCaptureModal");
 
-  document.getElementById("closeContactModal").addEventListener('click', closeContactModal);
+  // Set General Close Modal Handlers
+  const modals = document.querySelectorAll("[data-modal]");
+  modals.forEach(modal => {
+    modal.addEventListener('click', function (event) { closeModalFromBackground(event, modal); });
+    const closeButtons = modal.querySelectorAll("[data-modal-close]");
+    closeButtons.forEach(closeButton => {
+      closeButton.addEventListener('click', function () { closeModal(modal); });
+    });
+  });
 
+  // Set Contact Us Modal Open Handler
   const hooks = document.querySelectorAll("[data-js='fireContactModal']");
   hooks.forEach(hook => {
-    hook.addEventListener('click', openContactModal);
+    hook.addEventListener('click', function () { openModal("contactUs"); });
   });
 };
 

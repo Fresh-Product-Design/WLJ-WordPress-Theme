@@ -4,7 +4,7 @@
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/bookWhitneyJohnson.png" : false,
     "title" => "Book Whitney Johnson",
-    "tagline" => "Speaking events that inspire change within your organization.",
+    "tagline" => "Host speaking events that inspire change within your organization.",
     "href" => $LINKS["services"]["speaking"]
   );
   

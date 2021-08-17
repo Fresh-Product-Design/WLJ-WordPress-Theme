@@ -1514,6 +1514,9 @@ video {
 .pt-4 {
 	padding-top: 1rem;
 }
+.pb-20 {
+	padding-bottom: 5rem;
+}
 .pb-28 {
 	padding-bottom: 7rem;
 }
@@ -2579,12 +2582,12 @@ select {
 		margin-top: 0px;
 	}
 
-	.lg\:mb-28 {
-		margin-bottom: 7rem;
-	}
-
 	.lg\:mb-10 {
 		margin-bottom: 2.5rem;
+	}
+
+	.lg\:mb-28 {
+		margin-bottom: 7rem;
 	}
 
 	.lg\:mr-12 {
@@ -2855,6 +2858,10 @@ select {
 		padding-top: 6rem;
 	}
 
+	.lg\:pb-24 {
+		padding-bottom: 6rem;
+	}
+
 	.lg\:pb-48 {
 		padding-bottom: 12rem;
 	}
@@ -2954,6 +2961,10 @@ select {
 	.xl\:mx-auto {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.xl\:mb-24 {
+		margin-bottom: 6rem;
 	}
 
 	.xl\:mb-32 {
@@ -3062,6 +3073,10 @@ select {
 
 	.xl\:grid-rows-1 {
 		grid-template-rows: repeat(1, minmax(0, 1fr));
+	}
+
+	.xl\:pb-32 {
+		padding-bottom: 8rem;
 	}
 
 	.xl\:pt-28 {

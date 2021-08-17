@@ -15,5 +15,6 @@
 <div id="page" class="flex flex-col min-h-screen font-general bg-[#f6f6f6]">
   <?php get_template_part( 'template-parts/header/site-header' ); ?>
   <?php get_template_part( 'template-parts/header/contact-us-modal' ); ?>
+  <?php get_template_part( 'template-parts/header/thank-you-lead-capture-modal' ); ?>
 
   <main id="main" class="flex-grow" role="main">

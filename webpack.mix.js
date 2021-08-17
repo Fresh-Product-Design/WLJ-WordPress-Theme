@@ -7,4 +7,3 @@ mix.postCss('src/app.css', 'tailwind.css', [
 ])
     
 mix.setPublicPath('dist');
-    
