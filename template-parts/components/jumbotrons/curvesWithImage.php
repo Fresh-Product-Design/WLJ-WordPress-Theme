@@ -1,5 +1,5 @@
 <?php
-  $wrapperStyles = "bg-header-waves bg-cover bg-bottom";
+  $wrapperStyles = "bg-header-waves bg-cover bg-bottom bg-[#C8E1DE]";
   // Margin Check
   $wrapperStyles .= array_key_exists("margin", $args) ? " ".$args["margin"] : "mb-16";
 

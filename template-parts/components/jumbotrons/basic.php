@@ -1,4 +1,4 @@
-<div class="bg-jumbotron bg-cover bg-bottom py-24 md:py-36 text-center">
+<div class="bg-jumbotron bg-cover bg-bottom bg-[#C8E1DE] py-24 md:py-36 text-center">
   <div class="content-container">
     <?php get_template_part( 'template-parts/components/headers/headline', null, array("label" => $args['title'])); ?>
     <?php if(empty($args['tagline']) === false) { ?>

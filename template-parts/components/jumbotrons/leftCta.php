@@ -1,4 +1,4 @@
-<div class="bg-jumbotron bg-cover bg-bottom py-24 md:py-36">
+<div class="bg-jumbotron bg-cover bg-bottom bg-[#C8E1DE] py-24 md:py-36">
   <div class="content-container">
     <?php if(array_key_exists("corner-tag", $args) === true) { ?>
       <h6 class="font-subheader font-semibold mb-8 tracking-widest uppercase"><?php esc_html_e($args['corner-tag']) ?></h6>

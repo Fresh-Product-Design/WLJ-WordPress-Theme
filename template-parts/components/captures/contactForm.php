@@ -9,7 +9,7 @@
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="jobTitle" placeholder="Job Title or Role" required />
     <select class="w-full text-[14px] px-4 py-3 border border-[#939E9E] rounded" name="interestedIn" required>
       <option selected value="">What are you interested in?</option>
-      <option value="S Curve Insight">S Curve Insight</option>
+      <option value="S Curve Insight Platform">S Curve Insight Platform</option>
       <option value="Coaching">Coaching</option>
       <option value="Certification">Certification</option>
       <option value="Speaking">Speaking</option>
@@ -19,12 +19,13 @@
     </select>
     <select class="w-full text-[14px] px-4 py-3 border border-[#939E9E] rounded" name="hearAboutUs" required>
       <option selected value="">How did you find out about us?</option>
+      <option value="Conference / Event">Conference / Event</option>
+      <option value="Friend / Colleague">Friend / Colleague</option>
       <option value="Facebook">Facebook</option>
       <option value="Google">Google</option>
       <option value="Instagram">Instagram</option>
       <option value="LinkedIn">LinkedIn</option>
       <option value="Twitter">Twitter</option>
-      <option value="Friend / Colleague">Friend / Colleague</option>
       <option value="Other">Other</option>
     </select>
     <textarea class="col-span-2 row-span-2 text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded resize-none" name="description" placeholder="How can we help?" required></textarea>

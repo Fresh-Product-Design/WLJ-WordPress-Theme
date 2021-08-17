@@ -10,7 +10,7 @@
     <input class="w-full text-[14px] px-4 py-3 border border-[#939E9E] placeholder-[#808080] rounded" type="text" name="jobTitle" placeholder="Job Title or Role" required />
     <select class="w-full text-[14px] px-4 py-3 border border-[#939E9E] rounded" name="interestedIn" required>
       <option selected value="">What are you interested in?</option>
-      <option value="S Curve Insight">S Curve Insight</option>
+      <option value="S Curve Insight Platform">S Curve Insight Platform</option>
       <option value="Coaching">Coaching</option>
       <option value="Certification">Certification</option>
       <option value="Speaking">Speaking</option>

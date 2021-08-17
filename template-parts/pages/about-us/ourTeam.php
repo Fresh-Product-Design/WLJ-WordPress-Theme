@@ -1,7 +1,7 @@
 <?php
 $teamMembers = array(
   array("name" => "Chelsea Smith", "title" => "Director of Business Development", "image" => "/src/assets/images/staff/chelseasmith.jpg"),
-  array("name" => "Emily Cottrell", "title" => "Marketing Associate", "image" => "/src/assets/images/staff/emilycottrell.jpg"),
+  array("name" => "Maddie McDaniel", "title" => "Marketing Associate", "image" => "/src/assets/images/staff/maddiemcdaniel.jpg"),
   array("name" => "Frank Morgan", "title" => "Writer", "image" => "/src/assets/images/staff/frankmorgan.jpg"),
   array("name" => "Jen Burt", "title" => "Controller", "image" => "/src/assets/images/staff/jenburt.jpg"),
   array("name" => "Jennifer Ross", "title" => "Senior Marketing Manager", "image" => "/src/assets/images/staff/jenniferross.jpg"),
@@ -10,7 +10,7 @@ $teamMembers = array(
   array("name" => "Stephen Ludwig", "title" => "Director of Marketing", "image" => "/src/assets/images/staff/stephenludwig.jpg"),
   array("isEmpty" => true), // This is to help desktop "center" the remaining two members
   array("name" => "Tim Weeks", "title" => "CFO", "image" => "/src/assets/images/staff/timweeks.jpg"),
-  array("name" => "Whitney Jobe", "title" => "Podcast Editor", "image" => "/src/assets/images/staff/whitneyjobe.jpg"),
+  array("name" => "Whitney Jobe", "title" => "Audio Engineer", "image" => "/src/assets/images/staff/whitneyjobe.jpg"),
 );
 ?>
 
