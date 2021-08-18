@@ -4,7 +4,7 @@
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/take-the-assessment-alt.png" : false,
     "title" => "Take the Assessment",
-    "tagline" => "Get the insight to build high performing teams.",
+    "tagline" => "Get insight into your growth journey.",
     "href" => $LINKS["services"]["s-curve-insight"]
   );
   
