@@ -1236,6 +1236,10 @@ video {
 	--tw-border-opacity: 1;
 	border-color: rgba(200, 225, 222, var(--tw-border-opacity));
 }
+.border-\[\#d4d4d4\] {
+	--tw-border-opacity: 1;
+	border-color: rgba(212, 212, 212, var(--tw-border-opacity));
+}
 .bg-\[\#f6f6f6\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(246, 246, 246, var(--tw-bg-opacity));
@@ -2773,10 +2777,6 @@ select {
 
 	.lg\:border-b {
 		border-bottom-width: 1px;
-	}
-
-	.lg\:border-none {
-		border-style: none;
 	}
 
 	.lg\:border-\[\#BFBFBF\] {
