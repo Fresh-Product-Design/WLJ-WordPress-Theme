@@ -846,9 +846,6 @@ video {
 .h-\[436px\] {
 	height: 436px;
 }
-.h-\[477px\] {
-	height: 477px;
-}
 .h-\[3px\] {
 	height: 3px;
 }
@@ -944,9 +941,6 @@ video {
 }
 .w-\[568px\] {
 	width: 568px;
-}
-.w-\[811px\] {
-	width: 811px;
 }
 .w-\[120px\] {
 	width: 120px;
@@ -2154,10 +2148,6 @@ select {
 		height: 464px;
 	}
 
-	.md\:h-\[558px\] {
-		height: 558px;
-	}
-
 	.md\:w-\[300px\] {
 		width: 300px;
 	}
@@ -2200,14 +2190,6 @@ select {
 
 	.md\:w-\[848px\] {
 		width: 848px;
-	}
-
-	.md\:w-\[946px\] {
-		width: 946px;
-	}
-
-	.md\:w-\[310px\] {
-		width: 310px;
 	}
 
 	.md\:w-\[120px\] {
@@ -2321,12 +2303,6 @@ select {
 		--tw-space-x-reverse: 0;
 		margin-right: calc(1.5rem * var(--tw-space-x-reverse));
 		margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-	}
-
-	.md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-		--tw-space-x-reverse: 0;
-		margin-right: calc(1rem * var(--tw-space-x-reverse));
-		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
 	.md\:justify-self-end {
@@ -2808,6 +2784,11 @@ select {
 		border-color: rgba(191, 191, 191, var(--tw-border-opacity));
 	}
 
+	.lg\:bg-\[\#E9F4F3\] {
+		--tw-bg-opacity: 1;
+		background-color: rgba(233, 244, 243, var(--tw-bg-opacity));
+	}
+
 	.lg\:bg-scurve-start {
 		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part1.png');
 	}
@@ -2818,6 +2799,18 @@ select {
 
 	.lg\:bg-scurve-end {
 		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part3.png');
+	}
+
+	.lg\:bg-scurve-lg-start {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_lg_part1.png');
+	}
+
+	.lg\:bg-scurve-lg-mid {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_lg_part2.png');
+	}
+
+	.lg\:bg-scurve-lg-end {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_lg_part3.png');
 	}
 
 	.lg\:bg-contain {

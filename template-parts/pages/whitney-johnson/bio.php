@@ -8,11 +8,11 @@
     <p class="text-justify text-lg text-[#4d4d4d] mb-4">Whitney was the co-founder of the Disruptive Innovation Fund, involved in fund formation, capital raising, and the development of the fund’s strategy, with Harvard Business School’s Clayton Christensen. They invested and led the $8 million seed round for South Korea’s Coupang, currently valued at more than $60 billion.</p>
     <p class="text-justify text-lg text-[#4d4d4d] mb-4 clear-left">Whitney is married, has two children, and lives in Lexington, VA.</p>
     <div class="flex items-center justify-evenly flex-wrap">
-      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/thinkers50.png') ?>" alt="" width="87" height="87" />
+      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/thinkers50.png') ?>" alt="" width="80" height="100" />
       <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/harvardBusiness.png') ?>" alt="" width="130" height="130" />
-      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/influencer.png') ?>" alt="" width="130" height="130" />
-      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/harvardBusinessExecutive.png') ?>" alt="" width="130" height="130" />
-      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/100coaches.png') ?>" alt="" width="130" height="130" />
+      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/influencer.png') ?>" alt="" width="125" height="125" />
+      <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/HBPCorpLearning.png') ?>" alt="" width="133" height="17" />
+      <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/100coaches.png') ?>" alt="" width="125" height="125" />
       <img class="pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/recognitions/inc5000.png') ?>" alt="" width="79" height="58" />
     </div>
   </div>
