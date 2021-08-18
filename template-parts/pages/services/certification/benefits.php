@@ -32,18 +32,18 @@
     <p class="text-xl font-bold mb-2">Receive Access to the S Curve Insight Platform</p>
     <p class="text-lg text-[#4d4d4d] mb-6">As a certified partner you are granted access to administer one of the most dynamic leadership development tools available, provento help transform individuals, teams, and organizations. It’s a powerful resource to add to your coaching arsenal.</p>
     <div class="w-full mb-1 overflow-auto text-center">
-      <div class="inline-flex space-x-2 text-left w-[774px] lg:w-[894px] xl:w-[1152px]">
-        <div class="bg-[#E9F4F3] bg-scurve-lg-start bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
+      <div class="inline-flex flex-col lg:flex-row text-left space-y-4 lg:space-y-0 lg:space-x-2 lg:w-[894px] xl:w-[1152px]">
+        <div class="bg-[#E9F4F3] lg:bg-scurve-lg-start bg-contain bg-bottom bg-no-repeat lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 1.</p>
           <p class="font-bold text-xl text-black mb-4">Give the Assessment</p>
           <p class="text-sm text-[#4d4d4d]">Help your client discover where they are on their current growth curve.</p>
         </div>
-        <div class="bg-[#E9F4F3] bg-scurve-lg-mid bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
+        <div class="bg-[#E9F4F3] lg:bg-scurve-lg-mid bg-contain bg-bottom bg-no-repeat lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 2.</p>
           <p class="font-bold text-xl text-black mb-4">Accelerate Growth</p>
           <p class="text-sm text-[#4d4d4d]">Provide actionable insight into how they can grow faster.</p>
         </div>
-        <div class="bg-[#E9F4F3] bg-scurve-lg-end bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
+        <div class="bg-[#E9F4F3] lg:bg-scurve-lg-end bg-contain bg-bottom bg-no-repeat lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 3.</p>
           <p class="font-bold text-xl text-black mb-4">Achieve Potential</p>
           <p class="text-sm text-[#4d4d4d]">Build momentum by coaching to their curve.</p>
