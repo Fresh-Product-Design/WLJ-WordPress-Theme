@@ -777,6 +777,9 @@ video {
 .mb-7 {
 	margin-bottom: 1.75rem;
 }
+.mb-0 {
+	margin-bottom: 0px;
+}
 .ml-6 {
 	margin-left: 1.5rem;
 }
@@ -830,9 +833,6 @@ video {
 }
 .h-auto {
 	height: auto;
-}
-.h-\[453px\] {
-	height: 453px;
 }
 .h-\[344px\] {
 	height: 344px;
@@ -911,12 +911,6 @@ video {
 }
 .w-\[265px\] {
 	width: 265px;
-}
-.w-\[843px\] {
-	width: 843px;
-}
-.w-\[275px\] {
-	width: 275px;
 }
 .w-\[99px\] {
 	width: 99px;
@@ -1329,15 +1323,6 @@ video {
 }
 .bg-check-red {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/checkRed.png');
-}
-.bg-scurve-start {
-	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part1.png');
-}
-.bg-scurve-mid {
-	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part2.png');
-}
-.bg-scurve-end {
-	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part3.png');
 }
 .bg-quote {
 	background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/icons/quote.png');
@@ -2000,6 +1985,10 @@ select {
 		padding-top: 0px;
 	}
 
+	.sm\:pt-8 {
+		padding-top: 2rem;
+	}
+
 	.sm\:pt-4 {
 		padding-top: 1rem;
 	}
@@ -2616,6 +2605,10 @@ select {
 		height: 350px;
 	}
 
+	.lg\:h-\[453px\] {
+		height: 453px;
+	}
+
 	.lg\:h-\[390px\] {
 		height: 390px;
 	}
@@ -2650,6 +2643,14 @@ select {
 
 	.lg\:w-\[220px\] {
 		width: 220px;
+	}
+
+	.lg\:w-\[843px\] {
+		width: 843px;
+	}
+
+	.lg\:w-\[275px\] {
+		width: 275px;
 	}
 
 	.lg\:w-\[390px\] {
@@ -2788,6 +2789,12 @@ select {
 		margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
+	.lg\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-x-reverse: 0;
+		margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+		margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+	}
+
 	.lg\:border-b {
 		border-bottom-width: 1px;
 	}
@@ -2799,6 +2806,18 @@ select {
 	.lg\:border-\[\#BFBFBF\] {
 		--tw-border-opacity: 1;
 		border-color: rgba(191, 191, 191, var(--tw-border-opacity));
+	}
+
+	.lg\:bg-scurve-start {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part1.png');
+	}
+
+	.lg\:bg-scurve-mid {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part2.png');
+	}
+
+	.lg\:bg-scurve-end {
+		background-image: url('/wp-content/themes/whitneyjohnson/src/assets/images/backgrounds/sCurve_part3.png');
 	}
 
 	.lg\:bg-contain {
