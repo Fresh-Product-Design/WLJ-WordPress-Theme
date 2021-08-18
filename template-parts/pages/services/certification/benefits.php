@@ -2,20 +2,20 @@
 
 <div id="benefits" class="content-container py-24">
   <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Benefits of Certification", "mb" => "mb-2")); ?>
-  <p class="text-[#4d4d4d] text-lg text-center mb-16">Community of experts dedicated to disruption and growth</p>
+  <p class="text-[#4d4d4d] text-lg text-center mb-16">A community of experts dedicated to disruption and growth</p>
   <!-- Why Become a Certified Partner -->
   <div class="flex flex-col lg:flex-row mb-16">
     <div class="lg:pr-8 text-[#4d4d4d]">
       <h4 class="font-subhead text-2xl font-bold text-black tracking-widest mb-4">Why Become a Certified Partner?</h4>
-      <p class="mb-4">Certified partners undergo an extensive vetting and certification to ensure they are versed in the language of disruption.</p>
+      <p class="mb-4">Certified partners undergo an extensive vetting and certification process to ensure they are fluent in the language of disruption and growth.</p>
       <div class="bg-plus-yellow bg-left-top bg-no-repeat pl-8 mb-4">
-        <p>Add value to your business through provern frameworks and advanced insights.</p>
+        <p>Add value to your business employing proven tools and frameworks.</p>
       </div>
       <div class="bg-plus-yellow bg-left-top bg-no-repeat pl-8 mb-4">
-        <p>Become a member of the community of Disruption Advisors.</p>
+        <p>Learn best practices as a member of the community of Disruption Advisors.</p>
       </div>
       <div class="bg-plus-yellow bg-left-top bg-no-repeat pl-8 mb-8">
-        <p>Opportunities for further certifications to stay on the cutting edge of disruption.</p>
+        <p>Stay on the cutting edge of your own growth, with opportunities for additional learning and certifications.</p>
       </div>
       <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', "js-hook" => "fireContactModal" )); ?>
     </div>
@@ -23,6 +23,10 @@
       <img class="h-auto lg:h-full w-auto rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/certified_partner.png') ?>" alt="" width="431" height="292">
     </div>
   </div>
+
+  <!-- Testimonial -->
+  <?php get_template_part( 'template-parts/components/testimonials/services/certification-mid' ); ?>
+
   <!-- Receive Access -->
   <div class="bg-white p-8 lg:p-12 rounded">
     <p class="text-xl font-bold mb-2">Receive Access to the S Curve Insight Platform</p>
