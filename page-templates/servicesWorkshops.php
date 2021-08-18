@@ -34,6 +34,6 @@ $xSellOpts = array(
   <?php get_template_part( 'template-parts/pages/services/workshops/workshopTopics' ); ?>
   <?php get_template_part( 'template-parts/components/banners/bookAWorkshop' ); ?>
   <?php get_template_part( 'template-parts/components/testimonials/services/workshops' ); ?>
-  <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner' ); ?>
+  <?php get_template_part( 'template-parts/components/banners/becomeACertifiedPartner-workshops' ); ?>
   <?php get_template_part( 'template-parts/components/xSells/basic', null, $xSellOpts ); ?>
 <?php get_footer(); ?>
