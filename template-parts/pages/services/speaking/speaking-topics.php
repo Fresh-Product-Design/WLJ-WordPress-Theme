@@ -1,9 +1,8 @@
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <div id="speaking-topics" class="content-container pb-24">
-  <p class="font-subhead text-sm text-[#808080] tracking-widest uppercase">Whitney Has Delivered Keynotes For</p>
-  <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => "Always customized to your team needs.", "text-size" => "text-2xl md:text-3xl lg:text-4xl", "addt-styles" => "mb-6 font-bold")); ?>
-  <p class="text-[#4d4d4d] text-lg mb-6">Each keynote is specifically designed to your needs to engage, inspire, and empower your audience through the principles of disruption and growth.</p>
+  <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => "Always customized to your organization's needs.", "text-size" => "text-2xl md:text-3xl lg:text-4xl", "addt-styles" => "mb-6 font-bold")); ?>
+  <p class="text-[#4d4d4d] text-lg mb-6">Each keynote (live or virtual) is rigorously tailored to engage, inspire and empower your audience.</p>
   <p class="text-[#4d4d4d] text-lg mb-6">Browse our speaking brochure to learn more.</p>
   <?php get_template_part( 'template-parts/components/buttons/hollow-download', null, array('label' => 'View the Speaking Brochure', 'href' => $LINKS["speaking-packet-dl"], "addt-styles" => "mb-12")); ?>
   <!-- Video Examples -->
@@ -19,7 +18,7 @@
       <div class="space-y-4">
         <h4 class="text-xl font-bold">Disrupt Yourself</h4>
         <p class="text-[#4d4d4d]">We are living in an era of accelerating disruption- managing and mastering the S Curve is a requisite skill. If you want to be successful in unexpected ways, follow your own disruptive path. Dare to innovate. Do something astonishing. Disrupt yourself.</p>
-        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer cursor-pointer" data-js="fireContactModal">
+        <a class="group flex items-center font-bold text-[#017381] hover:text-[#143b3f] cursor-pointer" data-js="fireContactModal">
           <span class="mr-1 group-hover:underline">Inquire Now</span>
           <span class="material-icons-round mr">arrow_forward</span>
         </a>

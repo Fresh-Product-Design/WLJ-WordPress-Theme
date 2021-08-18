@@ -12,11 +12,11 @@ $jumbotronLinks = array(
 );
 $iconLinksOpts = array(
   "headline" => "Power of Whitney's Speaking Events", 
-  "tagline" => "Audiences are left inspired, informedand ready to take new actions for personal and organizational growth.",
+  "tagline" => "Audiences are left informed and inspired on how to step back from who they are, to slingshot into who they want to be.",
   "links" => array(
-    array("icon-src" => "/src/assets/images/icons/customized.png", "icon-width" => "78.5", "icon-height" => "87", "title" => "Customized", "info" => "We ensure get the absolute most out of each event."),
-    array("icon-src" => "/src/assets/images/icons/focused.png", "icon-width" => "86", "icon-height" => "87", "title" => "Focused", "info" => "Attendees will clearly see how the S Curve applies to them."),
-    array("icon-src" => "/src/assets/images/icons/empowering.png", "icon-width" => "70", "icon-height" => "87", "title" => "Empowering", "info" => "People gain new tools to immediately implement."),
+    array("icon-src" => "/src/assets/images/icons/customized.png", "icon-width" => "78.5", "icon-height" => "87", "title" => "Customized", "info" => "We work closely with you to tailor the event to your needs."),
+    array("icon-src" => "/src/assets/images/icons/focused.png", "icon-width" => "86", "icon-height" => "87", "title" => "Focused", "info" => "Attendees will clearly see where they are on their S Curve growth journey."),
+    array("icon-src" => "/src/assets/images/icons/empowering.png", "icon-width" => "70", "icon-height" => "87", "title" => "Empowering", "info" => "Participants will walk away with 1-2 specific things they can do to grow smarter."),
   ),
   "spacing" => "",
   "info-width" => "w-[262px]",
@@ -24,7 +24,7 @@ $iconLinksOpts = array(
 );
 $xSellOpts = array(
   "title" => "Continue the momentum after a speaking event",
-  "tagline" => "Combine power of a speaking event with our other services to supercharge your growth.",
+  "tagline" => "Combine the power of a speaking event.",
   "cards" => array(
     array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
     array("src" => "template-parts/components/xSells/blocks/findACoach"),

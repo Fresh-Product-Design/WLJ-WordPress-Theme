@@ -11,10 +11,10 @@
         <p>CEO, Mansueto Ventures</p>
       </div>
       <div class="hidden" data-quote>
-        <p class="inline-block max-w-[1050px] bg-quote-yellow bg-left-top bg-no-repeat mx-6 py-3 mb-2 text-lg">I was in the 100leaders session this morning and enjoyed your presentation! You’ve done a great job crafting an engaging and information rich presentation that also highlights your energy and personality. Kudos!</p>
-        <p class="font-bold">Eric Schurenberg</p>
+        <p class="inline-block max-w-[1050px] bg-quote-yellow bg-left-top bg-no-repeat mx-6 py-3 mb-2 text-lg">Whitney does an outstanding job crafting an engaging and information rich presentation that also highlights her energy and personality. Kudos!</p>
+        <p class="font-bold">Rob Nail</p>
         <hr class="h-[2px] w-[89px] mx-auto my-1 bg-[#F5D22D]" />
-        <p>CEO, Mansueto Ventures</p>
+        <p>Associate Founder and Former CEO Singularity University</p>
       </div>
       <!-- Next Arrow -->
       <span class="absolute top-1/2 right-0 sm:right-8 -translate-y-1/2 text-2xl text-[#017381] hover:text-[#2a5a61] cursor-pointer material-icons-round" data-quote-next>arrow_forward_ios</span>
