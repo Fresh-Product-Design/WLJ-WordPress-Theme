@@ -19,8 +19,8 @@
       </div>
       <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', "js-hook" => "fireContactModal" )); ?>
     </div>
-    <div class="hidden lg:block">
-      <img class="h-auto lg:h-full w-auto rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/certified_partner.png') ?>" alt="" width="431" height="292">
+    <div class="hidden lg:block flex-shrink-0">
+      <img class="rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/certified_partner.png') ?>" alt="" width="369" height="253">
     </div>
   </div>
 
@@ -36,17 +36,17 @@
         <div class="bg-[#E9F4F3] bg-scurve-lg-start bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 1.</p>
           <p class="font-bold text-xl text-black mb-4">Give the Assessment</p>
-          <p class="text-sm text-[#4d4d4d]">Clients will discover and clearly understand where they on their growth.</p>
+          <p class="text-sm text-[#4d4d4d]">Help your client discover where they are on their current growth curve.</p>
         </div>
         <div class="bg-[#E9F4F3] bg-scurve-lg-mid bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 2.</p>
           <p class="font-bold text-xl text-black mb-4">Accelerate Growth</p>
-          <p class="text-sm text-[#4d4d4d]">Help your client reach their full potenial with actionable insights and your personalized guidance.</p>
+          <p class="text-sm text-[#4d4d4d]">Provide actionable insight into how they can grow faster.</p>
         </div>
         <div class="bg-[#E9F4F3] bg-scurve-lg-end bg-contain bg-bottom bg-no-repeat w-[250px] h-[450px] lg:w-[290px] lg:h-[522px] xl:w-[376px] xl:h-[677px] p-4 rounded">
           <p class="text-xs text-[#808080]">Step 3.</p>
-          <p class="font-bold text-xl text-black mb-4">Help Visualize Potential</p>
-          <p class="text-sm text-[#4d4d4d]">Identify their strengths to leverage and where to focus for development.</p>
+          <p class="font-bold text-xl text-black mb-4">Achieve Potential</p>
+          <p class="text-sm text-[#4d4d4d]">Build momentum by coaching to their curve.</p>
         </div>
       </div>
     </div>
