@@ -15,9 +15,9 @@
       </div>
     </div>
     <div class="clear-left bg-white text-center shadow-behind rounded p-8">
-      <p class="text-xl mb-12">"Whitney Johnson delivers an insightful book, providing strategies every leader can use to build high-performing teams."</p>
-      <p class="font-headline text-2xl tracking-widest uppercase">Alan Mulally</p>
-      <p class="max-w-[615px] mx-auto text-lg uppercase">Former President and CEO, Ford Motor Company; Former CEO, Boeing Commercial Airplanes; And Director, Google and Carbon 3D</p>
+      <p class="text-xl mb-12">"Management, when practiced well, is a noble profession. Build an A Team is an important book for manager who want to help their team members learn, grow and realize their potential."</p>
+      <p class="font-headline text-2xl tracking-widest uppercase">Clayton M. Christensen</p>
+      <p class="max-w-[750px] mx-auto text-lg uppercase">Former Kim B. Clark Professor of Business Administration, Harvard Business School; New York Times-bestselling author, The Innovator's Dilemma</p>
     </div>
   </div>
 </div>

@@ -19,7 +19,7 @@
     <div class="clear-left bg-white text-center shadow-behind rounded p-8">
       <p class="text-xl mb-12">"Disrupt Yourself reads like a handbook for innovation: it shows the incredible value of recognizing what you are good at and finding unexpected ways to apply those strengths to the marketplace. The dramatic ‘jumps’ that Johnson encourages us to take truly form the basis of creativity and success."</p>
       <p class="font-headline text-2xl tracking-widest uppercase">Steve Wozniak</p>
-      <p class="text-lg uppercase">CO-Founder, Apple, INC. & Chief Scientist, Primary Data</p>
+      <p class="text-lg uppercase">Co-Founder, Apple, Inc</p>
     </div>
   </div>
 </div>

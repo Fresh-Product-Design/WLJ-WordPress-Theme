@@ -10,7 +10,7 @@
 >
   <div class="space-y-2 mb-8">
     <a href="<?php esc_attr_e($LINKS["newsletter"]); ?>" class="flex items-center font-headline text-xl tracking-widest uppercase hover:text-[#017381]">
-      <span class="h-[20px]">Newletter</span>
+      <span class="h-[20px]">Newsletter</span>
       <span class="material-icons-round">keyboard_arrow_right</span>
     </a>
     <hr class="hidden md:block w-12 h-[2px] border-none bg-[#F5D22D]">
