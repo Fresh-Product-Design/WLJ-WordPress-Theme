@@ -28,7 +28,7 @@
         <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => $args['tagline'], "text-size" => "text-lg md:text-xl", "addt-styles" => "mb-8")); ?>
       <?php } ?>
       <?php if(array_key_exists("cta-label", $args) === true) { ?>
-        <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal")); ?>
+        <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal", "contact-reason" => $args["cta-reason"])); ?>
       <?php } ?>
     </div>
     <img class="<?php esc_attr_e($imageStyles) ?>" src="<?php esc_attr_e(get_template_directory_uri() . $args["img-src"]) ?>" alt="" width="<?php esc_attr_e($args["img-base-width"]) ?>" height="<?php esc_attr_e($args["img-base-height"]) ?>" />

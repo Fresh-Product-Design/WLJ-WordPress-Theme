@@ -57,7 +57,7 @@ $infoClasses .= array_key_exists("info-width", $args) ? " ".$args["info-width"] 
   <?php
   if (array_key_exists("cta-label", $args)) {
   ?>
-    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal", "addt-styles" => "mx-auto mt-16")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal", "contact-reason" => $args["cta-reason"], "addt-styles" => "mx-auto mt-16")); ?>
   <?php
   }
   ?>

@@ -18,6 +18,6 @@
       <div class="flex items-center"><p class="bg-check-green bg-left bg-no-repeat px-8 lg:pr-0 mt-4 max-w-[284px] xl:max-w-[375px]">Identify the right Accelerants to further fuel growth.</p></div>
       <p class="bg-check-green bg-left bg-no-repeat px-8 lg:pr-0 mt-4 justify-self-end max-w-[284px] xl:max-w-[375px]">Assess the health of your Ecosystem and reveal opportunities for transformation.</p>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us to See a Demo', "js-hook" => "fireContactModal")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us to See a Demo', "js-hook" => "fireContactModal", "contact-reason" => "S Curve Insight Platform")); ?>
   </div>
 </div>

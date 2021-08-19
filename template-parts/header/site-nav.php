@@ -36,7 +36,7 @@
 				<?php get_template_part( 'template-parts/header/nav-resources-dropdown' ); ?>
 			</span>
 
-			<?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "addt-styles" => "block md:hidden lg:block")); ?>
+			<?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "contact-reason" => "S Curve Insight Platform", "addt-styles" => "block md:hidden lg:block")); ?>
 		</nav>
 	</div>
 </div>

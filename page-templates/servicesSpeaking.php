@@ -20,7 +20,8 @@ $iconLinksOpts = array(
   ),
   "spacing" => "",
   "info-width" => "w-[262px]",
-  "cta-label" => "Book Whitney Johnson"
+  "cta-label" => "Book Whitney Johnson",
+  "cta-reason" => "Speaking"
 );
 $xSellOpts = array(
   "title" => "Continue the momentum after a speaking event",

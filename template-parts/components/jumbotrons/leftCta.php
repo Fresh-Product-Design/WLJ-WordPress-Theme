@@ -9,7 +9,7 @@
       <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => $args['tagline'], "addt-styles" => "mb-8")); ?>
     <?php } ?>
     <?php if(array_key_exists("cta-label", $args) === true) { ?>
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => $args["cta-label"], "js-hook" => "fireContactModal", "contact-reason" => $args["cta-reason"])); ?>
     <?php } ?>
   </div>
 </div>

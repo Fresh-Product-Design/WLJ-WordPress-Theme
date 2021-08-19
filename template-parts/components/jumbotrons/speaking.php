@@ -5,7 +5,7 @@
       <?php get_template_part( 'template-parts/components/headers/headline', null, array("label" => "Inspire a movement of growth", "color" => "text-white")); ?>
       <hr class="h-[2px] w-[56px] bg-[#017381] my-8" />
       <?php get_template_part( 'template-parts/components/headers/tagline', null, array("label" => "Grow yourself, grow your people, grow your organization.", "color" => "text-white", "addt-styles" => "mb-8")); ?>
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Book Whitney Johnson", "js-hook" => "fireContactModal")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Book Whitney Johnson", "js-hook" => "fireContactModal", "contact-reason" => "Speaking")); ?>
     </div>
   </div>
 </div>

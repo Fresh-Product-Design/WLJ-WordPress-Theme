@@ -13,6 +13,8 @@
   );
   // Attr js-hook Check
   $attrs[] = array_key_exists("js-hook", $args) ? sprintf('data-js="%s"', $args["js-hook"]) : "";
+  // Attr reason
+  $attrs[] = array_key_exists("contact-reason", $args) ? sprintf('data-reason="%s"', $args["contact-reason"]) : "";
   // Attr href Check
   $attrs[] = array_key_exists("href", $args) ? sprintf('href="%s"', $args["href"]) : "";
   // Attr target Check

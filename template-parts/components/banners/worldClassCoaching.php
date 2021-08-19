@@ -4,6 +4,6 @@
       <h6 class="font-bold text-black text-lg md:text-xl mb-1">World-class coaching to help you achieve your goals</h6>
       <p class="text-[#4d4d4d]">Accelerate your personal and professional development.</p>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Get Coached", "js-hook" => "fireContactModal", "addt-styles" => "")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Get Coached", "js-hook" => "fireContactModal", "contact-reason" => "Coaching", "addt-styles" => "")); ?>
   </div>
 </div>

@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="inline-flex flex-col sm:flex-row">
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "addt-styles" => "mb-3 sm:mb-0 sm:mr-3")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Request a Demo", "js-hook" => "fireContactModal", "contact-reason" => "S Curve Insight Platform", "addt-styles" => "mb-3 sm:mb-0 sm:mr-3")); ?>
       <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More', 'href' => $LINKS["services"]["s-curve-insight"])); ?>
     </div>
   </div>

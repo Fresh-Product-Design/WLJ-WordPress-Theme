@@ -17,7 +17,7 @@
       <div class="bg-plus-yellow bg-left-top bg-no-repeat pl-8 mb-8">
         <p>Stay on the cutting edge of your own growth, with opportunities for additional learning and certifications.</p>
       </div>
-      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', "js-hook" => "fireContactModal" )); ?>
+      <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Contact Us To Get Started', "js-hook" => "fireContactModal", "contact-reason" => "Certification" )); ?>
     </div>
     <div class="hidden lg:block flex-shrink-0">
       <img class="rounded-lg" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/services/certified_partner.png') ?>" alt="" width="369" height="253">
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center text-center pt-6 lg:pt-10">
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Become a Partner", "js-hook" => "fireContactModal", "addt-styles" => "md:mr-4 mt-4")); ?>
+      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Become a Partner", "js-hook" => "fireContactModal", "contact-reason" => "Certification", "addt-styles" => "md:mr-4 mt-4")); ?>
       <?php get_template_part( 'template-parts/components/buttons/hollow', null, array('label' => 'Learn More About Our Platform', 'href' => $LINKS["services"]["s-curve-insight"], "addt-styles" => "mt-4")); ?>
     </div>
   </div>

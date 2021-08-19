@@ -8,7 +8,8 @@ $jumbotronOpts = array(
   "title" => "Personalized and Focused Guidance for Growth",
   "tagline" => "World-class coaching to help you achieve your goals.",
   "corner-tag" => "Coaching Services",
-  "cta-label" => "Get Coached"
+  "cta-label" => "Get Coached",
+  "cta-reason" => "Coaching"
 );
 $jumbotronLinks = array(
   "Our Methodology" => "#methodology",

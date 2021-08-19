@@ -8,7 +8,8 @@ $jumbotronOpts = array(
   "title" => "Cultivate an entire culture of empowered growth",
   "tagline" => "Customized workshops to empower personal and professional growth.",
   "corner-tag" => "Workshops",
-  "cta-label" => "Book a Customized Workshop"
+  "cta-label" => "Book a Customized Workshop",
+  "cta-reason" => "Workshops"
 );
 $jumbotronLinks = array(
   "Our Methoodology" => "#methodology",

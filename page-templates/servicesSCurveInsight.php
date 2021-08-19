@@ -9,6 +9,7 @@ $jumbotronOpts = array(
   "tagline" => "Take your organization to the next level.",
   "corner-tag" => "S Curve Insight&trade; Platform",
   "cta-label" => "Request a Demo",
+  "cta-reason" => "S Curve Insight Platform",
   "padding" => "pt-12 pb-16 lg:pt-28 lg:pb-8",
   "margin" => "mb-16 lg:mb-32",
   "img-src" => "/src/assets/images/services/sCurveApplication.png",
@@ -24,7 +25,8 @@ $iconLinksOpts = array(
     array("icon-src" => "/src/assets/images/icons/growth_accelerants@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Growth Accelerants", "info" => "Identify and lean into strengths, mitigate weaknesses.", "href" => "#accelerants"),
     array("icon-src" => "/src/assets/images/icons/team_culture@3x.png", "icon-width" => "81", "icon-height" => "87", "title" => "Team Culture", "info" => "Assess your organization’s culture and health.", "href" => "#culture", "addt-styles" => "md:col-span-2"),
   ),
-  "cta-label" => "Request a Demo"
+  "cta-label" => "Request a Demo",
+  "cta-reason" => "S Curve Insight Platform"
 ); 
 
 $tabsOpts = array(

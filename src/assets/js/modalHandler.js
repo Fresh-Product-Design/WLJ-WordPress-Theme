@@ -1,7 +1,7 @@
 let contactModal;
 let thankYouModal;
 
-function openModal(type) {
+function openModal(type, reason) {
   // Close mobile nav that may be open
   const mobileMenu = document.getElementById('mobileMenu');
   if (!!mobileMenu.dataset.mobileNavOpen) { mobileMenu.click(); }
@@ -12,6 +12,10 @@ function openModal(type) {
     contactModal.classList.remove("hidden");
   } else if(type === "thankYouLeadCapture") {
     thankYouModal.classList.remove("hidden");
+  }
+  // Update reason if present
+  if (reason) {
+    contactModal.querySelector("form select[name='interestedIn']").value = reason;
   }
 };
 
@@ -50,7 +54,10 @@ function setModalHandlers() {
   // Set Contact Us Modal Open Handler
   const hooks = document.querySelectorAll("[data-js='fireContactModal']");
   hooks.forEach(hook => {
-    hook.addEventListener('click', function () { openModal("contactUs"); });
+    hook.addEventListener('click', function (e) {
+      const reason = e.target.dataset.reason || null;
+      openModal("contactUs", reason);
+    });
   });
 };
 

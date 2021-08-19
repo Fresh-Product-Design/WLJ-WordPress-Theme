@@ -4,6 +4,6 @@
       <h6 class="font-bold text-black text-lg md:text-xl mb-1">Become a Certified Partner</h6>
       <p class="text-[#4d4d4d]">Grow your business and gain access to proprietary tools and frameworks.</p>
     </div>
-    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Become a Partner", "js-hook" => "fireContactModal")); ?>
+    <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Become a Partner", "js-hook" => "fireContactModal", "contact-reason" => "Certification")); ?>
   </div>
 </div>
