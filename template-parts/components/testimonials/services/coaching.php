@@ -31,6 +31,7 @@
     <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/BYU.png') ?>" alt="" width="133" height="53" />
     <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/cisco.png') ?>" alt="" width="133" height="53" />
     <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/unified.png') ?>" alt="" width="133" height="53" />
+    <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/magma.png') ?>" alt="" width="133" height="86" />
     <img class="w-[133px] lg:w-[175px] pt-8 sm:pt-4 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/worldbankgroup.png') ?>" alt="" width="133" height="53" />
   </div>
 </div>

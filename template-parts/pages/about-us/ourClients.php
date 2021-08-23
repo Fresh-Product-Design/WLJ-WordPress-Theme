@@ -18,6 +18,7 @@
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/tricor.png') ?>" alt="" width="133" height="42" />
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/nga.png') ?>" alt="" width="133" height="43" />
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/sage-hospitality.png') ?>" alt="" width="133" height="59" />
+    <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/magma.png') ?>" alt="" width="133" height="86" />
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/original-footwear.png') ?>" alt="" width="133" height="47" />
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/wd-40.png') ?>" alt="" width="133" height="53" />
     <img class="w-[133px] lg:w-[175px] pt-12 sm:pt-8 px-6 box-content" src="<?php esc_attr_e(get_template_directory_uri() . '/src/assets/images/clients/utah-commerce.png') ?>" alt="" width="133" height="43" />
