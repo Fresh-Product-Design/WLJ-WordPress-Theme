@@ -49,7 +49,7 @@
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Stay Connected</h4>
       <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0">Indispensable learnings, listening and research to help you get smarter about growth.</p>
-      <?php get_template_part( 'template-parts/components/captures/emailAddress' ); ?>
+      <div class="max-w-xs"><script async data-uid="97ad73f778" src="https://wlj-advisors-llc.ck.page/97ad73f778/index.js"></script></div>
     </div>
   </div>
   <p class="text-center space-y-2 md:space-y-0 md:space-x-1 text-sm">

@@ -4,6 +4,6 @@
       <h6 class="font-bold text-black text-lg md:text-xl mb-1">Receive the Growth Through Disruption newsletter in your inbox.</h6>
       <p class="text-[#4d4d4d]">Grow with our online community of disruptors.</p>
     </div>
-    <?php get_template_part( 'template-parts/components/captures/emailAddress' ); ?>
+    <div class="max-w-xs"><script async data-uid="97ad73f778" src="https://wlj-advisors-llc.ck.page/97ad73f778/index.js"></script></div>
   </div>
 </div>

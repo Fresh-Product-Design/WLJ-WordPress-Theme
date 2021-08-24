@@ -3,8 +3,8 @@
     <p class="order-2 md:order-1 max-w-[750px] text-xl text-[#4d4d4d] md:mr-8">Gain insight on how to self-direct your growth, and how to help others grow, by signing up and reading Whitney Johnson's weekly newsletter.</p>
     <div class="order-1 md:order-2 bg-white text-center p-8 mb-10 md:mb-0 shadow-behind rounded-2xl">
       <h4 class="text-xl font-bold mb-4">Receive weekly motivation in your inbox.</h4>
-      <?php get_template_part( 'template-parts/components/captures/emailAddress', null, array("addt-styles" => "lg:w-80 xl:w-96") ); ?>
-      <p class="text-[#4d4d4d] mt-4">Grow with our online community of distruptors.</p>
+      <div class="lg:w-80 xl:w-96"><script async data-uid="97ad73f778" src="https://wlj-advisors-llc.ck.page/97ad73f778/index.js"></script></div>
+      <p class="text-[#4d4d4d]">Grow with our online community of distruptors.</p>
     </div>
   </div>
   <hr class="h-[2px] w-[56px] bg-[#017381] mb-10" />
