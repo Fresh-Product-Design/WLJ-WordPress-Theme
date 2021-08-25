@@ -4,16 +4,18 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/aboutUs.php";
+
 $jumbotronOpts = array(
-  'title' => 'About Us',
-  'tagline' => 'We activate smart growth in leaders, teams and organizations.'
+  'title' => $lang["jumbotron"]["headline"],
+  'tagline' => $lang["jumbotron"]["tagline"]
 );
 $jumbotronLinks = array(
-  "What We Do" => "#whatWeDo",
-  "Our Leadership" => "#leadership",
-  "Our Team" => "#team",
-  "Our Clients" => "#clients",
-  "Contact Us" => "#contactUs"
+  $lang["whatWeDo"]["title"] => "#whatWeDo",
+  $lang["leadership"]["title"] => "#leadership",
+  $lang["team"]["title"] => "#team",
+  $lang["clients"]["title"] => "#clients",
+  $lang["contactUs"]["title"] => "#contactUs"
 );
 ?>
 <?php get_header(); ?>
