@@ -14,7 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 select {
   background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
   -webkit-appearance: none;
@@ -37,4 +36,26 @@ select {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
+}
+
+/* Posts (Podcasts and Newsletters) */
+.post-meta a {
+  font-weight: bold;
+}
+
+.post-content {
+  font-size: 18px;
+}
+.post-content p, figure {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.post-meta a,
+.post-content a {
+  color: #017381;
+}
+.post-meta a:hover,
+.post-content a:hover {
+  color: #143b3f;
 }

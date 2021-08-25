@@ -13,7 +13,6 @@ $LINKS = array(
   "podcast-apple" => "https://podcasts.apple.com/us/podcast/disrupt-yourself-podcast-with-whitney-johnson/id1156483471?mt=2",
   "podcast-spotify" => "https://open.spotify.com/show/7cn2cgc34znzwPkkwH58sQ",
   "podcast-stitcher" => "https://www.stitcher.com/show/disrupt-yourself-podcast-with-whitney-johnson",
-  "podcast-google-play" => "https://play.google.com/music/m/I2wbmod36up4dh4cj444juo4gzu?t=Disrupt_Yourself_Podcast_with_Whitney_Johnson",
   "newsletter" => "/newsletter",
   "books" => "/books",
   "smart-growth" => array(

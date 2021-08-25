@@ -10,7 +10,6 @@
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Apple Podcasts", "addt-styles" => "mt-4", "href" => $LINKS["podcast-apple"])); ?>
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Spotify", "addt-styles" => "mt-4 sm:ml-4", "href" => $LINKS["podcast-spotify"])); ?>
       <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Stitcher", "addt-styles" => "mt-4", "href" => $LINKS["podcast-stitcher"])); ?>
-      <?php get_template_part( 'template-parts/components/buttons/cta', null, array("label" => "Google Play", "addt-styles" => "mt-4 sm:ml-4", "href" => $LINKS["podcast-google-play"])); ?>
     </div>
   </div>
 </div>
