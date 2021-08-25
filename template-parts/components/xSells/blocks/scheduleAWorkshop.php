@@ -1,10 +1,11 @@
 <?php
+  require get_template_directory() . "/lang/crossSell.php";
   require get_template_directory() . "/link-configs.php";
   
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/scheduleAWorkshop.png" : false,
-    "title" => "Schedule A Workshop",
-    "tagline" => "Build momentum through customized training.",
+    "title" => $lang["scheduleAWorkshop"]["title"],
+    "tagline" => $lang["scheduleAWorkshop"]["text"],
     "href" => $LINKS["services"]["workshops"]
   );
   

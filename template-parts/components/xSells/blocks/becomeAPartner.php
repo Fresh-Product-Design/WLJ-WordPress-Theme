@@ -1,9 +1,11 @@
+
 <?php
+  require get_template_directory() . "/lang/crossSell.php";
   require get_template_directory() . "/link-configs.php";
   
   $blockOpts = array(
-    "title" => "Become A Partner",
-    "tagline" => "Join a community of experts promoting growth through disruption.",
+    "title" => $lang["becomeAPartner"]["title"],
+    "tagline" => $lang["becomeAPartner"]["text"],
     "href" => $LINKS["services"]["certification"]
   );
   

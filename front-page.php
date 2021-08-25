@@ -1,19 +1,20 @@
+<?php require get_template_directory() . "/lang/front-page.php" ?>
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <?php
   $iconLinksOpts = array(
-    "headline" => "Grow Smarter", 
-    "tagline" => "Achieve sustained organizational success with critical insight on individual momentum",
+    "headline" => $lang["iconLinks"]["headline"], 
+    "tagline" => $lang["iconLinks"]["tagline"],
     "links" => array(
-      array("icon-src" => "/src/assets/images/icons/assessment@3x.png", "icon-width" => "72", "icon-height" => "87", "title" => "Assessment", "info" => "Get insight on building a high performing team.", "href" => $LINKS["services"]["s-curve-insight"]),
-      array("icon-src" => "/src/assets/images/icons/coaching@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Coaching", "info" => "Identify your strengths and achieve your goals.", "href" => $LINKS["services"]["coaching"]),
-      array("icon-src" => "/src/assets/images/icons/certifications@3x.png", "icon-width" => "70", "icon-height" => "87", "title" => "Certifications", "info" => "Join a community of experts dedicated to growth.", "href" => $LINKS["services"]["certification"]),
-      array("icon-src" => "/src/assets/images/icons/speaking@3x.png", "icon-width" => "84.5", "icon-height" => "87", "title" => "Speaking", "info" => "Inspire change within your whole organization.", "href" => $LINKS["services"]["speaking"]),
+      array("icon-src" => "/src/assets/images/icons/assessment@3x.png", "icon-width" => "72", "icon-height" => "87", "title" => "Assessment", "info" => $lang["iconLinks"]["assessment"], "href" => $LINKS["services"]["s-curve-insight"]),
+      array("icon-src" => "/src/assets/images/icons/coaching@3x.png", "icon-width" => "90", "icon-height" => "87", "title" => "Coaching", "info" => $lang["iconLinks"]["coaching"], "href" => $LINKS["services"]["coaching"]),
+      array("icon-src" => "/src/assets/images/icons/certifications@3x.png", "icon-width" => "70", "icon-height" => "87", "title" => "Certifications", "info" => $lang["iconLinks"]["tagline"], "href" => $LINKS["services"]["certification"]),
+      array("icon-src" => "/src/assets/images/icons/speaking@3x.png", "icon-width" => "84.5", "icon-height" => "87", "title" => "Speaking", "info" => $lang["iconLinks"]["speaking"], "href" => $LINKS["services"]["speaking"]),
     )
   );
   $xSellOpts = array(
-    "title" => "Work With Us",
-    "tagline" => "We help organizations build happier, more engaged and productive teams.",
+    "title" => $lang["crossSell"]["headline"],
+    "tagline" => $lang["crossSell"]["tagline"],
     "cards" => array(
       array("src" => "template-parts/components/xSells/blocks/takeTheAssessment", "opts" => array("no-img" => true)),
       array("src" => "template-parts/components/xSells/blocks/becomeAPartner"),
@@ -24,7 +25,7 @@
 
 <?php get_header(); ?>
   <!-- Unlock Your Potential -->
-  <?php get_template_part( 'template-parts/components/jumbotrons/curves', null, array("headline" => "Individual Transformation Organizational Growth", "tagline" => "Unlock Your Potential", "showArrows" => true )); ?>
+  <?php get_template_part( 'template-parts/components/jumbotrons/curves', null, array("headline" => $lang["jumbotron"]["headline"], "tagline" => $lang["jumbotron"]["tagline"], "showArrows" => true )); ?>
   <!-- Fuel Your Growth -->
   <?php get_template_part( 'template-parts/components/infoBlocks/iconLinks', null, $iconLinksOpts ); ?>
   <!-- Receive Growth Newsletter -->

@@ -1,3 +1,4 @@
+<?php require get_template_directory() . "/lang/shared.php" ?>
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <footer id="footer" class="w-full bg-white py-10 lg:pt-20" role="contentinfo">
@@ -48,7 +49,7 @@
     <!-- Stay Connected -->
     <div class="text-center lg:text-left">
       <h4 class="font-bold mb-4 lg:mb-8">Stay Connected</h4>
-      <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0">Indispensable learnings, listening and research to help you get smarter about growth.</p>
+      <p class="w-full md:w-[300px] text-[14px] mb-6 mx-auto lg:mx-0"><?php esc_html_e($lang["stayConnected"]["text"]) ?></p>
       <div class="max-w-xs"><script async data-uid="97ad73f778" src="https://wlj-advisors-llc.ck.page/97ad73f778/index.js"></script></div>
     </div>
   </div>

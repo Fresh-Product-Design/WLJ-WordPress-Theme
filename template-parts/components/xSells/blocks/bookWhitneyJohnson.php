@@ -1,10 +1,11 @@
 <?php
+  require get_template_directory() . "/lang/crossSell.php";
   require get_template_directory() . "/link-configs.php";
   
   $blockOpts = array(
     "img" => array_key_exists("no-img", $args) === false ? "/src/assets/images/services/bookWhitneyJohnson.png" : false,
-    "title" => "Book Whitney Johnson",
-    "tagline" => "Host speaking events that inspire change and growth within your organization.",
+    "title" => $lang["bookWhitneyJohnson"]["title"],
+    "tagline" => $lang["bookWhitneyJohnson"]["text"],
     "href" => $LINKS["services"]["speaking"]
   );
   
