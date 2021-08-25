@@ -4,15 +4,17 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/aboutWhitneyJohnson.php";
+
 $jumbotronOpts = array(
-  'title' => 'Whitney Johnson'
+  'title' => $lang["jumbotron"]["headline"]
 );
 $jumbotronLinks = array(
-  "Whitney's Bio" => "#bio",
-  "Speaking" => "#speaking",
-  "Podcast" => "#podcast",
-  "Books" => "#books",
-  "Coaching" => "#coaching"
+  $lang["bio"]["title"] => "#bio",
+  $lang["speaking"]["title"] => "#speaking",
+  $lang["podcast"]["tab-title"] => "#podcast",
+  $lang["books"]["tab-title"] => "#books",
+  $lang["coaching"]["title"] => "#coaching"
 );
 ?>
 

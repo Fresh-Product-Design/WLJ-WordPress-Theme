@@ -1,8 +1,9 @@
+<?php require get_template_directory() . "/lang/aboutWhitneyJohnson.php" ?>
 <?php require get_template_directory() . "/link-configs.php" ?>
 
 <div id="books" class="bg-white py-24">
   <div class="content-container text-center">
-    <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Discover Whitney's Books", "mb" => "mb-8 sm:mb-4")); ?>
+    <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => $lang["books"]["title"], "mb" => "mb-8 sm:mb-4")); ?>
     <div class="flex flex-col sm:flex-row justify-evenly flex-wrap space-y-4 mb-8">
       <div class="sm:mt-4">
         <a href="<?php esc_attr_e($LINKS["smart-growth"]["amazon"]) ?>" target="_blank" rel="noopener" class="relative group inline-block sm:block border-[2px] border-[#017381] rounded hover:bg-black/10">
