@@ -4,21 +4,23 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/servicesWorkshops.php";
+
 $jumbotronOpts = array(
-  "title" => "Cultivate an entire culture of empowered growth",
-  "tagline" => "Customized workshops to empower personal and professional growth.",
-  "corner-tag" => "Workshops",
-  "cta-label" => "Book a Customized Workshop",
+  "title" => $lang["jumbotron"]["headline"],
+  "tagline" => $lang["jumbotron"]["tagline"],
+  "corner-tag" => $lang["jumbotron"]["corner-text"],
+  "cta-label" => $lang["jumbotron"]["ctaText"],
   "cta-reason" => "Workshops"
 );
 $jumbotronLinks = array(
-  "Our Methoodology" => "#methodology",
-  "Workshop Topics" => "#workshop-topics",
-  "Contact Us" => "#contactUs"
+  $lang["methodology"]["title"] => "#methodology",
+  $lang["workshopTopics"]["title"] => "#workshop-topics",
+  $lang["contactUs"]["title"] => "#contactUs"
 );
 $xSellOpts = array(
-  "title" => "Continue the Growth After Your Workshop",
-  "tagline" => "We help organizations build happier, more engaged and productive teams.",
+  "title" => $lang["crossSell"]["headline"],
+  "tagline" => $lang["crossSell"]["tagline"],
   "cards" => array(
     array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
     array("src" => "template-parts/components/xSells/blocks/findACoach"),
