@@ -4,28 +4,30 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/servicesSpeaking.php";
+
 $jumbotronLinks = array(
-  "Power of Speaking Events" => "#power-of-speaking",
-  "About Whitney Johnson" => "#about-whitney-johnson",
-  "Speaking Topics" => "#speaking-topics",
-  "Contact Us" => "#contactUs",
+  $lang["powerOfSpeaking"]["tab-title"] => "#power-of-speaking",
+  $lang["aboutWhitney"]["tab-title"] => "#about-whitney-johnson",
+  $lang["speakingTopics"]["tab-title"] => "#speaking-topics",
+  $lang["contactUs"]["title"] => "#contactUs",
 );
 $iconLinksOpts = array(
-  "headline" => "Power of Whitney's Speaking Events", 
-  "tagline" => "Audiences are left informed and inspired on how to step back from who they are, to slingshot into who they want to be.",
+  "headline" => $lang["powerOfSpeaking"]["title"], 
+  "tagline" => $lang["powerOfSpeaking"]["text"],
   "links" => array(
-    array("icon-src" => "/src/assets/images/icons/customized.png", "icon-width" => "78.5", "icon-height" => "87", "title" => "Customized", "info" => "We work closely with you to tailor the event to your needs."),
-    array("icon-src" => "/src/assets/images/icons/focused.png", "icon-width" => "86", "icon-height" => "87", "title" => "Focused", "info" => "Attendees will clearly see where they are on their S Curve growth journey."),
-    array("icon-src" => "/src/assets/images/icons/empowering.png", "icon-width" => "70", "icon-height" => "87", "title" => "Empowering", "info" => "Participants will walk away with 1-2 specific things they can do to grow smarter."),
+    array("icon-src" => "/src/assets/images/icons/customized.png", "icon-width" => "78.5", "icon-height" => "87", "title" => "Customized", "info" => $lang["powerOfSpeaking"]["customized"]),
+    array("icon-src" => "/src/assets/images/icons/focused.png", "icon-width" => "86", "icon-height" => "87", "title" => "Focused", "info" => $lang["powerOfSpeaking"]["focused"]),
+    array("icon-src" => "/src/assets/images/icons/empowering.png", "icon-width" => "70", "icon-height" => "87", "title" => "Empowering", "info" => $lang["powerOfSpeaking"]["empowering"]),
   ),
   "spacing" => "",
   "info-width" => "w-[262px]",
-  "cta-label" => "Book Whitney Johnson",
+  "cta-label" => $lang["powerOfSpeaking"]["ctaText"],
   "cta-reason" => "Speaking"
 );
 $xSellOpts = array(
-  "title" => "Continue the momentum after a speaking event",
-  "tagline" => "Combine the power of a speaking event.",
+  "title" => $lang["crossSell"]["headline"],
+  "tagline" => $lang["crossSell"]["tagline"],
   "cards" => array(
     array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
     array("src" => "template-parts/components/xSells/blocks/findACoach"),
