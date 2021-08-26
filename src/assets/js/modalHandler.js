@@ -55,7 +55,12 @@ function setModalHandlers() {
   const hooks = document.querySelectorAll("[data-js='fireContactModal']");
   hooks.forEach(hook => {
     hook.addEventListener('click', function (e) {
-      const reason = e.target.dataset.reason || null;
+      let reason = e.target.dataset.reason || null;
+      if (!reason) {
+        // Check if parent element has reason
+        const parent = e.target.parentElement || null;
+        reason = parent ? (parent.dataset.reason || null) : reason;
+      }
       openModal("contactUs", reason);
     });
   });

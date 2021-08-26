@@ -1,4 +1,6 @@
+<?php require get_template_directory() . "/lang/servicesSCurveInsight.php"; ?>
+
 <div class="bg-[rgba(233,244,243,0.6)] border-[2px] border-[#C8E1DE] p-4 md:p-8 rounded">
-  <p class="text-xl font-bold text-black mb-6">Leverage Failure</p>
-  <p class="text-[#4d4d4d]">We all hate to fail––but failure can be an effective teacher if we can remove our ego from the equation. Note that inspiring stories about "failing forward" are typically a mix of powerful truths and lies. The truth is that there are ways to learn from and respond to failure that contribute to our future success. The lie is that by the time we hear the story, the pain and the shame associated with the difficulty has diminished, so the experience may sound easier than it was.</p>
+  <p class="text-xl font-bold text-black mb-6"><?php esc_html_e($lang["features"]["accelerants"]["tab-six"]["title"]); ?></p>
+  <p class="text-[#4d4d4d]"><?php esc_html_e($lang["features"]["accelerants"]["tab-six"]["text"]); ?></p>
 </div>

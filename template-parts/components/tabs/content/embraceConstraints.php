@@ -1,4 +1,6 @@
+<?php require get_template_directory() . "/lang/servicesSCurveInsight.php"; ?>
+
 <div class="bg-[rgba(233,244,243,0.6)] border-[2px] border-[#C8E1DE] p-4 md:p-8 rounded">
-  <p class="text-xl font-bold text-black mb-6">Embrace Constraints</p>
-  <p class="text-[#4d4d4d]">Expectations can function like gravity: they exert a steady and signficant force on our goals and behavior. Growth happens faster when we adjust our expectations as reality unfolds. For example, as you move up your learning curve, you will occasionally make mistakes. Expecting to not make them could cause internal tension (and discouragement) if there is the expectation that learning is easy, or that mistakes won't be made.</p>
+  <p class="text-xl font-bold text-black mb-6"><?php esc_html_e($lang["features"]["accelerants"]["tab-three"]["title"]); ?></p>
+  <p class="text-[#4d4d4d]"><?php esc_html_e($lang["features"]["accelerants"]["tab-three"]["text"]); ?></p>
 </div>
