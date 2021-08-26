@@ -12,6 +12,16 @@
       "text" => "Download our free resources outlining the Accelerants of Growth—including books, podcasts and TEDtalks to help you move up your S Curve of Learning."
     ),
 
+    // Used on Coaching and Workshops
+    "whatIsSCurve" => array(
+      "title" => "What is the S Curve Insight Platform?",
+      "text" => "Backed by over 20 years of research, the S Curve Insight platform is a proprietary framework and technology that:",
+      "bulletOne" => "Identifies where each individual, including you, are on their growth journey.",
+      "bulletTwo" => "Provides actionable insights around each of the seven Accelerants of Growth.",
+      "bulletThree" => "Empowers self-directed growth leading to organizational innovation and growth.",
+      "ctaText" => "Learn More About the S Curve Insight"
+    ),
+
     "certifiedPartnerWhite" => array(
       "headline" => "Become a Certified Partner",
       "tagline" => "Get access to our proprietary disruption framework and the S Curve Insight&trade; Platform.",

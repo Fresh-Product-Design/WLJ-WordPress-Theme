@@ -4,22 +4,24 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/servicesCoaching.php";
+
 $jumbotronOpts = array(
-  "title" => "Personalized and Focused Guidance for Growth",
-  "tagline" => "World-class coaching to help you achieve your goals.",
-  "corner-tag" => "Coaching Services",
-  "cta-label" => "Get Coached",
+  "title" => $lang["jumbotron"]["headline"],
+  "tagline" => $lang["jumbotron"]["tagline"],
+  "corner-tag" => $lang["jumbotron"]["corner-text"],
+  "cta-label" => $lang["jumbotron"]["ctaText"],
   "cta-reason" => "Coaching"
 );
 $jumbotronLinks = array(
-  "Our Methodology" => "#methodology",
-  "Our Services" => "#services",
-  "Our Coaches" => "#coaches",
-  "Contact Us" => "#contactUs",
+  $lang["methodology"]["tab-title"] => "#methodology",
+  $lang["services"]["tab-title"] => "#services",
+  $lang["coaches"]["tab-title"] => "#coaches",
+  $lang["contactUs"]["title"] => "#contactUs",
 );
 $xSellOpts = array(
-  "title" => "Power Up Your Experience with Your Coach",
-  "tagline" => "Combine the power of coaching with our other services to supercharge your growth.",
+  "title" => $lang["crossSell"]["headline"],
+  "tagline" => $lang["crossSell"]["tagline"],
   "cards" => array(
     array("src" => "template-parts/components/xSells/blocks/takeTheAssessment"),
     array("src" => "template-parts/components/xSells/blocks/scheduleAWorkshop"),

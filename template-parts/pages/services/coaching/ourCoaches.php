@@ -1,3 +1,4 @@
+<?php require get_template_directory() . "/lang/servicesCoaching.php"; ?>
 <?php
 $coaches = array(
   array("name" => "Devanie Helman", "image" => "/src/assets/images/coaches/devanie-helman.png"),
@@ -17,8 +18,8 @@ $coaches = array(
 );
 ?>
 <div id="coaches" class="content-container py-24">
-  <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "Our Coaches", "mb" => "mb-2")); ?>
-  <p class="max-w-[1040px] text-[#4d4d4d] text-lg text-center mx-auto mb-16">Our certified Disruption Advisors have gone through rigorous training to earn their certification. Many are also certified by the International Coaching Federation and have decades of experience coaching executives across all industries and roles.</p>
+  <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => $lang["coaches"]["title"], "mb" => "mb-2")); ?>
+  <p class="max-w-[1040px] text-[#4d4d4d] text-lg text-center mx-auto mb-16"><?php esc_html_e($lang["coaches"]["text"]); ?></p>
   <div class="grid items-center sm:items-start justify-items-center grid-cols-2 grid-rows-7 sm:grid-cols-3 sm:grid-rows-5 md:grid-cols-4 md:grid-rows-3 gap-x-4 gap-y-4 mx-auto">
       <?php
         foreach ($coaches as $coach)
