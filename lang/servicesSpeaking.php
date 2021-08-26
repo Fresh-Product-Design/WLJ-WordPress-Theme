@@ -25,7 +25,7 @@
       "bulletTwo" => "Bestselling and award-winning author",
       "bulletThree" => "Thinkers 50, Leading Global Management Thinker",
       "bulletFour" => "LinkedIn Top Voice 2020: U.S. Influencers",
-      "bulletFive" => "CEO, Disruption Advisor",
+      "bulletFive" => "CEO, Disruption Advisors",
       "bulletSix" => "#1 Talent Coach, Marshall Goldsmith's 100 Coaches",
       "bulletSeven" => "Host of the popular 'Disrupt Yourself' podcast",
       "ctaText" => "Learn More About Whitney"

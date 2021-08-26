@@ -17,7 +17,7 @@
       "title" => "What is the S Curve Insight Platform?",
       "text" => "Backed by over 20 years of research, the S Curve Insight platform is a proprietary framework and technology that:",
       "bulletOne" => "Identifies where each individual, including you, are on their growth journey.",
-      "bulletTwo" => "Provides actionable insights around each of the seven Accelerants of Growth.",
+      "bulletTwo" => "Provides actionable insights around each of the Seven Accelerants of Growth.",
       "bulletThree" => "Empowers self-directed growth leading to organizational innovation and growth.",
       "ctaText" => "Learn More About the S Curve Insight"
     ),

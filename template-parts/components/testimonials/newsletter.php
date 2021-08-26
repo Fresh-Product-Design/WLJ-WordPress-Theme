@@ -1,6 +1,6 @@
 <?php require get_template_directory() . "/lang/newsletter.php"; ?>
 
-<div class="content-container pt-24">
+<div class="content-container pb-24">
   <?php get_template_part( 'template-parts/components/headers/basic', null, array("label" => "What Our Readers Are Saying", "mb" => "mb-8", "align" => "text-center")); ?>
   <div class="bg-white py-12 text-center rounded md:shadow-behind">
     <div class="relative px-4 sm:px-16" data-js="multipleQuotes">

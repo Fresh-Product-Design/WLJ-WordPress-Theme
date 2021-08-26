@@ -9,7 +9,7 @@
 
     "iconLinks" => array(
       "headline" => "Power of the S Curve",
-      "tagline" => "This framework empowers you to maximize your growth and make progress toward what matters most",
+      "tagline" => "This framework empowers you to maximize your growth and make progress toward what matters most.",
       "distribution" => "See where your team is in their growth journey.",
       "accelerants" => "Identify and lean into strengths, mitigate weaknesses.",
       "culture" => "Assess your organization’s culture and health.",
@@ -71,7 +71,7 @@
 
       "sCurve" => array(
         "title" => "The S Curve of Learning&trade;",
-        "text-one" => "The S Curve of Learning models personal growth: what you most important goals are, and the progress you are making toward achieving them. Every new skill learned, every challenge taken, takes the form of a distinct learning curve. You can pinpoint where you are in the growth process; you can determine what your next step needs to be. You can use this model to self-direct your growth; you can use it to help others grow.",
+        "text-one" => "The S Curve of Learning models personal growth: what your most important goals are, and the progress you are making toward achieving them. Every new skill learned, every challenge taken, takes the form of a distinct learning curve. You can pinpoint where you are in the growth process; you can determine what your next step needs to be. You can use this model to self-direct your growth; you can use it to help others grow.",
         "text-two" => "Whether in your career, in your team members, in your organization, or your personal life—your growth journey can be visualized as a rising S-shaped curve (like a wave) with three broad categories:",
         "step1-title" => "Launch Point",
         "step1-text" => "On the launch point, individuals are new to a role, facing new challenges, and likely need extra support, while their &quot;fresh eyes&quot; perspective can offer valuable insight. Growth feels slow.",

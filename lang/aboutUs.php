@@ -19,7 +19,7 @@
       "whitneyTitle" => "Founder and CEO",
       "whitneyText" => "Whitney is an innovation and disruption theorist and former award-winning Wall Street stock analyst. She is the author of the bestselling Build an A Team, the critically-acclaimed Disrupt Yourself, and is a frequent contributor to Harvard Business Review and MIT Sloan Management Review.",
       "amyTitle" => "President",
-      "amyText" => "Amy Humble, formerly Jim Collins’ chief of staff, author of Good to Great, is a visionary, engaging strategic adviser, facilitator, and executive coach. In addition to running Disruption Advisors, she conducts strategy and coaching sessions with executives from the FORTUNE 500, Inc. 5000, and leading social institutions in the world."
+      "amyText" => "Amy Humble is a visionary, engaging strategic adviser, facilitator, and executive coach. She conducts strategy and coaching sessions with executives from the FORTUNE 500, Inc. 5000, and leading social institutions in the world. Previously, Amy served as chief of staff for Jim Collins, author of Good to Great."
     ),
 
     "testimonial" => array(

@@ -23,7 +23,7 @@
     "coaches" => array(
       "title" => "Coaches",
       "text" => "As a certified Disruption Advisor you are equipped with the tools and frameworks to help executives and leaders navigate and manage change, become more innovative, and facilitate growth. Join an elite group of executive coaches helping leaders across the world achieve peak performance.",
-      "bottomText" => "The Certified Coach Package includes in-depth training with Whitney Johnson on the S Curve, the S Curve Insight Platform and the Seven Acclerants for Growth.",
+      "bottomText" => "The Certified Coach Package includes in-depth training with Whitney Johnson on the S Curve, the S Curve Insight Platform and the Seven Accelerants for Growth.",
       "ctaText" => "Contact Us to Get Started"
     ),
 
@@ -38,7 +38,7 @@
       "title" => "Consultants",
       "text-one" => "Navigating challenges and delivering solutions for your clients is a critical component of your practice.",
       "text-two" => "Whether talent development, performance management, succession planning, or workforce for the future, the S Curve Insight&trade; Platform and accompanying tools can help you guide your clients up their curve.",
-      "bottomText" => "The Consultant Package includes the recorded training on the S Curve, the S Curve Insight Platform, the Seven Accelerants for Groth, and the Culture Audit. It also includes written materials and handouts you can use with your clients.",
+      "bottomText" => "The Consultant Package includes the recorded training on the S Curve, the S Curve Insight Platform, the Seven Accelerants for Growth, and the Culture Audit. It also includes written materials and handouts you can use with your clients.",
       "ctaText" => "Contact Us to Get Started"
     ),
 
@@ -70,7 +70,7 @@
 
     "receiveAccess" => array(
       "title" => "Receive Access to the S Curve Insight Platform",
-      "text" => "As a certified partner you are granted access to administer one of the most dynamic leadership development tools available, provento help transform individuals, teams, and organizations. It’s a powerful resource to add to your coaching arsenal.",
+      "text" => "As a certified partner you will have access to a dynamic leadership development tool, proven to help individuals, teams and organizations transform––an important addition to your coaching toolkit.",
       "step1-title" => "Give the Assessment",
       "step1-text" => "Help your client discover where they are on their current growth curve.",
       "step2-title" => "Accelerate Growth",

@@ -8,7 +8,7 @@
     ),
 
     "methodology" => array(
-      "title" => "Our Methoodology",
+      "title" => "Our Methodology",
       "tagline" => "Our team of veteran coaches know how to empower leaders and teams where it counts most.",
       "bulletOne-title" => "Relevant Content",
       "bulletOne-text" => "Customized for your team; full of tailored takeaways",
@@ -38,7 +38,7 @@
     ),
 
     "topicOne" => array(
-      "title" => "Accelerate Your Growth",
+      "title" => "Accelerate Your Growth;",
       "tagline" => "Managing Your Career, Managing Your Life",
       "bulletOne" => "Understand the 7-point framework of personal disruption",
       "bulletTwo" => "Learn to leverage each of the seven accelerants, whether early, mid-career or seasoned professional",

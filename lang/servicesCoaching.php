@@ -14,20 +14,26 @@
       
       "bulletOne-title" => "Certified Coaches",
       "bulletOne-text" => "Certified instructors offer deep insight into growth",
+
       "bulletTwo-title" => "Customized",
-      "bulletTwo-text" => "Sessions uniquely customized for the individual or group",
+      "bulletTwo-text" => "Sessions are customized to you or your group",
+
       "bulletThree-title" => "Data Guided",
       "bulletThree-text" => "Based with proven methodologies and data-backed solutions",
+
       "bulletFour-title" => "Informed Results",
       "bulletFour-text" => "Utilizes our S Curve Insight&trade; Platform to both measure and affect growth",
       
       "info-title" => "What we can accomplish together.",
-      "infoBulletOne-title" => "Cultivate a distruptive growth perspective",
+      "infoBulletOne-title" => "Cultivate a disruptive growth perspective",
       "infoBulletOne-text" => "Learn proven, proprietary principles of disruptive growth.",
+
       "infoBulletTwo-title" => "Galvanize a smart growth mindset",
       "infoBulletTwo-text" => "Pinpoint where you are in your growth so you can affect your growth.",
+
       "infoBulletThree-title" => "Create a culture of growth",
       "infoBulletThree-text" => "Help the people you manage accelerate their growth and drive business outcomes.",
+
       "infoCtaText" => "Contact Us to Learn More"
     ),
 
@@ -55,7 +61,7 @@
       "title" => "Coaching Services Available",
       "text" => "We offer both personal executive and group coaching.",
       "sectionOne-title" => "Executive Coaching",
-      "sectionOne-text" => "Our collaborative, systematic and results-oriented processed facilitates self-directed learning, professional growth, and improved organizational performance.",
+      "sectionOne-text" => "Our collaborative, systematic and results-oriented process facilitates self-directed learning, professional growth, and improved organizational performance.",
       "sectionTwo-title" => "Group/Team Coaching",
       "sectionTwo-text" => "Group coaching accelerates individual growth while facilitating bonds between participants that leads to innovation and organization growth."
     ),
