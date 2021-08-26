@@ -4,35 +4,37 @@
   Template Post Type: page
 */
 
+require get_template_directory() . "/lang/servicesCertification.php";
+
 $jumbotronOpts = array(
-  "title" => "join a community of experts dedicated to disruption & growth",
-  "tagline" => "Certified Disruption Advisors support leaders, teams, and organizations traveling the S Curve to achieve their goals.",
-  "corner-tag" => "Certification",
-  "cta-label" => "Become a Disruption Advisor",
+  "title" => $lang["jumbotron"]["headline"],
+  "tagline" => $lang["jumbotron"]["tagline"],
+  "corner-tag" => $lang["jumbotron"]["corner-text"],
+  "cta-label" => $lang["jumbotron"]["ctaText"],
   "cta-reason" => "Certification"
 );
 $jumbotronLinks = array(
-  "Who Are Disruption Advisors" => "#who-are-disruption-advisors",
-  "Who Can Be Certified" => "#who-can-be-certified",
-  "Benefits of Certification" => "#benefits",
-  "Contact Us" => "#contactUs",
+  $lang["whoAreWe"]["tab-title"] => "#who-are-disruption-advisors",
+  $lang["whoCanBe"]["tab-title"] => "#who-can-be-certified",
+  $lang["benefits"]["tab-title"] => "#benefits",
+  $lang["contactUs"]["title"] => "#contactUs",
 );
 $iconLinksOpts = array(
-  "headline" => "Who are Disruption Advisors", 
-  "tagline" => "A group of expert coaches helping leaders at FORTUNE 500 companies achieve peak performance.",
+  "headline" => $lang["whoAreWe"]["title"], 
+  "tagline" => $lang["whoAreWe"]["tagline"],
   "links" => array(
-    array("icon-src" => "/src/assets/images/icons/supported.png", "icon-width" => "89", "icon-height" => "87", "title" => "Supported", "info" => "Part of a community of experts dedicated to growth and disruption"),
-    array("icon-src" => "/src/assets/images/icons/experienced.png", "icon-width" => "68", "icon-height" => "87", "title" => "Experienced", "info" => "Vetted and certified representatives of our proprietary frameworks"),
-    array("icon-src" => "/src/assets/images/icons/connected.png", "icon-width" => "76", "icon-height" => "87", "title" => "Connected", "info" => "Have access to a proven suite of tools for coaching, workshops, and more"),
+    array("icon-src" => "/src/assets/images/icons/supported.png", "icon-width" => "89", "icon-height" => "87", "title" => "Supported", "info" => $lang["whoAreWe"]["supported"]),
+    array("icon-src" => "/src/assets/images/icons/experienced.png", "icon-width" => "68", "icon-height" => "87", "title" => "Experienced", "info" => $lang["whoAreWe"]["experienced"]),
+    array("icon-src" => "/src/assets/images/icons/connected.png", "icon-width" => "76", "icon-height" => "87", "title" => "Connected", "info" => $lang["whoAreWe"]["connected"]),
   ),
   "spacing" => "mb-12",
   "info-width" => "w-[280px]"
 );
 $tabsOpts = array(
   "tabs" => array(
-    array("key" => "coaches", "label" => "Coaches", "content-src" => "template-parts/components/tabs/content/coaches"),
-    array("key" => "trainers", "label" => "Trainers", "content-src" => "template-parts/components/tabs/content/trainers"),
-    array("key" => "consultants", "label" => "Consultants", "content-src" => "template-parts/components/tabs/content/consultants")
+    array("key" => "coaches", "label" => $lang["coaches"]["title"], "content-src" => "template-parts/components/tabs/content/coaches"),
+    array("key" => "trainers", "label" => $lang["trainers"]["title"], "content-src" => "template-parts/components/tabs/content/trainers"),
+    array("key" => "consultants", "label" => $lang["consultants"]["title"], "content-src" => "template-parts/components/tabs/content/consultants")
   )
 );
 ?>
