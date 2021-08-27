@@ -7,7 +7,7 @@ add_theme_support('title-tag');
 
 // Add TailwindCSS Stylesheet to DOM
 function enqueue_scripts() {
-  $version = '2.1.0'; // Use this for cache busting the resources.
+  $version = '1.0.0'; // Use this for cache busting the resources.
   // Theme's Compiled TailwindCSS Styles
   wp_enqueue_style('whitneyjohnson-style', get_template_directory_uri() . '/dist/tailwind.css', array(), $version);
   // Theme's JavaScript Functionality
