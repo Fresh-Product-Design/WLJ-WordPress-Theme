@@ -53,7 +53,7 @@
       <div class="max-w-xs"><script async data-uid="97ad73f778" src="https://wlj-advisors-llc.ck.page/97ad73f778/index.js"></script></div>
     </div>
   </div>
-  <p class="text-center space-y-2 md:space-y-0 md:space-x-1 text-sm">
+  <p class="text-center space-y-2 md:space-y-0 md:space-x-1 text-sm mb-2">
     <span class="block md:inline">&copy; Disruption Advisors. All rights reserved</span>
     <span class="hidden md:inline">|</span>
     <a href="<?php esc_attr_e($LINKS["terms-of-use"]); ?>" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Terms of Use</a>
