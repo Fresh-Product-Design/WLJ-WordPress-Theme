@@ -14,7 +14,7 @@
         "quote" => "There is consistent hope, strength, compassion and humanity in everything you write."
       ),
       "third" => array(
-        "quote" => "Your newsletter is storytelling at tis best."
+        "quote" => "Your newsletter is storytelling at its best."
       ),
       "fourth" => array(
         "quote" => "Thank you for putting so much good into the world."
