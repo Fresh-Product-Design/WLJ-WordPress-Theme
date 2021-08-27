@@ -60,4 +60,8 @@
     <span class="hidden md:inline">|</span>
     <a href="<?php esc_attr_e($LINKS["privacy-policy"]); ?>" target="_blank" rel="noopener" class="block md:inline font-semibold text-[#017381] hover:underline">Privacy Policy</a>
   </p>
+  <p class="text-center text-sm">
+    <span>Site designed &amp; developed by</span>
+    <a class="block md:inline font-semibold text-[#017381] hover:underline" href="https://freshproductdesign.com/" target="_blank">Fresh</a>
+  </p>
 </footer>
