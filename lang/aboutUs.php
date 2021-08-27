@@ -24,7 +24,7 @@
 
     "testimonial" => array(
       "quote" => "Whitney Johnson's content and insights about personal disruption and learning curves are relevant and sticky. It resonates with individuals at all levels of leadership, and we have worked to bake it into our talent development practice. Her Train-the-Trainer enables us to ensure that all of our leaders are conversant in the S Curve of Learning framework. Whitney is also a superb coach–she offers on-point insights, inspires and empowers you to be more as a leader. She is our organization’s thought and accountability partner helping us move up our own S Curve of Learning.",
-      "name" => "Scott Pulsiopher",
+      "name" => "Scott Pulsipher",
       "title" => "President, WGU"
     ),
 
