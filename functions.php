@@ -7,14 +7,15 @@ add_theme_support('title-tag');
 
 // Add TailwindCSS Stylesheet to DOM
 function enqueue_scripts() {
+  $version = '2.1.0'; // Use this for cache busting the resources.
   // Theme's Compiled TailwindCSS Styles
-  wp_enqueue_style('whitneyjohnson-style', get_template_directory_uri() . '/dist/tailwind.css', array(), '2.0.0');
+  wp_enqueue_style('whitneyjohnson-style', get_template_directory_uri() . '/dist/tailwind.css', array(), $version);
   // Theme's JavaScript Functionality
-  wp_enqueue_script('whitneyjohnson-nav-js', get_template_directory_uri() . '/src/assets/js/navigationHandlers.js', array(), '2.0.0', false);
-  wp_enqueue_script('whitneyjohnson-modal-js', get_template_directory_uri() . '/src/assets/js/modalHandler.js', array(), '2.0.0', false);
-  wp_enqueue_script('whitneyjohnson-tabbedContent-js', get_template_directory_uri() . '/src/assets/js/tabbedContentHandler.js', array(), '2.0.0', false);
-  wp_enqueue_script('whitneyjohnson-quoteSlider-js', get_template_directory_uri() . '/src/assets/js/quoteSliderHandler.js', array(), '2.0.0', false);
-  wp_enqueue_script('whitneyjohnson-leadSubmit-js', get_template_directory_uri() . '/src/assets/js/leadSubmitHandler.js', array(), '2.0.0', false);
+  wp_enqueue_script('whitneyjohnson-nav-js', get_template_directory_uri() . '/src/assets/js/navigationHandlers.js', array(), $version, false);
+  wp_enqueue_script('whitneyjohnson-modal-js', get_template_directory_uri() . '/src/assets/js/modalHandler.js', array(), $version, false);
+  wp_enqueue_script('whitneyjohnson-tabbedContent-js', get_template_directory_uri() . '/src/assets/js/tabbedContentHandler.js', array(), $version, false);
+  wp_enqueue_script('whitneyjohnson-quoteSlider-js', get_template_directory_uri() . '/src/assets/js/quoteSliderHandler.js', array(), $version, false);
+  wp_enqueue_script('whitneyjohnson-leadSubmit-js', get_template_directory_uri() . '/src/assets/js/leadSubmitHandler.js', array(), $version, false);
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_scripts');
